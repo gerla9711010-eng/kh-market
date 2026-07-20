@@ -4,77 +4,78 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
 <title>高雄實價行情</title>
-<meta name="theme-color" content="#1B4B3A">
+<meta name="theme-color" content="#141317">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" href="icon-192.png">
 <style>
+/* 暗炭灰底 + 柔米白字，低對比不刺眼；字級較前版整體放大約 1.5 倍 */
 :root{
   color-scheme: dark;
-  --bg: #0F2420; --bg2:#0A1B18; --card:#16302B; --card2:#1C3A34;
-  --ink:#ECE7D8; --ink-soft:#B9C4B6; --muted:#7E9089;
-  --border: rgba(236,231,216,.12); --border2: rgba(236,231,216,.22);
-  --gold:#D9AE5C; --gold-ink:#3A2C0F;
-  --red:#E2707A; --green:#6FBF8F; --blue:#7FB8D9;
+  --bg: #1C1B20; --bg2:#141317; --card:#26252D; --card2:#302F38;
+  --ink:#ECEAF2; --ink-soft:#C6C4CF; --muted:#9896A3;
+  --border: rgba(236,234,242,.11); --border2: rgba(236,234,242,.20);
+  --gold:#E0B96A; --gold-ink:#33280E;
+  --red:#E68A93; --green:#82C79E; --blue:#8FC1DE;
 }
 *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
 html,body{height:100%; margin:0;}
 body{
-  background:linear-gradient(160deg,var(--bg),var(--bg2));
+  background:linear-gradient(165deg,var(--bg),var(--bg2));
   color:var(--ink); font-family:-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;
-  padding-bottom:78px; min-height:100%;
+  padding-bottom:96px; min-height:100%; font-size:21px; line-height:1.5; letter-spacing:.01em;
 }
 header{
-  padding:18px 16px 10px; display:flex; align-items:center; gap:10px;
+  padding:22px 18px 12px; display:flex; align-items:center; gap:13px;
 }
-header .dot{width:34px;height:34px;border-radius:9px;background:linear-gradient(160deg,#2A6E5C,#123A30);border:1px solid rgba(217,174,92,.4); flex:0 0 auto;}
-header b{font-size:17px; font-weight:800; display:block;}
-header small{color:var(--muted); font-size:11.5px; font-weight:600;}
+header .dot{width:46px;height:46px;border-radius:12px;background:linear-gradient(160deg,#E0B96A,#8A6D2C);border:1px solid rgba(224,185,106,.5); flex:0 0 auto;}
+header b{font-size:25px; font-weight:800; display:block; letter-spacing:.02em;}
+header small{color:var(--muted); font-size:17px; font-weight:600;}
 
-.wrap{padding:0 14px 20px;}
+.wrap{padding:0 16px 24px;}
 .panel{display:none;}
 .panel.active{display:block;}
 
-.card{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:14px; margin-bottom:12px;}
-.card h2{font-size:14.5px; margin:0 0 10px; font-weight:800; color:var(--gold);}
-.row{display:flex; gap:8px; flex-wrap:wrap;}
-.field{flex:1 1 120px; min-width:100px;}
-.field label{display:block; font-size:11px; color:var(--muted); font-weight:700; margin-bottom:4px;}
+.card{background:var(--card); border:1px solid var(--border); border-radius:16px; padding:18px 16px; margin-bottom:15px;}
+.card h2{font-size:22px; margin:0 0 13px; font-weight:800; color:var(--gold); letter-spacing:.02em;}
+.row{display:flex; gap:10px; flex-wrap:wrap;}
+.field{flex:1 1 140px; min-width:120px;}
+.field label{display:block; font-size:16px; color:var(--muted); font-weight:700; margin-bottom:6px;}
 select, input[type=text], input[type=number]{
   width:100%; background:var(--card2); border:1px solid var(--border2); color:var(--ink);
-  border-radius:9px; padding:9px 8px; font:inherit; font-size:14px;
+  border-radius:11px; padding:13px 11px; font:inherit; font-size:20px;
 }
-.chiprow{display:flex; flex-wrap:wrap; gap:6px; margin-top:4px;}
+.chiprow{display:flex; flex-wrap:wrap; gap:9px; margin-top:6px;}
 .chip{
   border:1px solid var(--border2); background:var(--card2); color:var(--ink-soft);
-  border-radius:999px; padding:6px 12px; font-size:12.5px; font-weight:700; cursor:pointer; user-select:none;
+  border-radius:999px; padding:9px 17px; font-size:18px; font-weight:700; cursor:pointer; user-select:none;
 }
 .chip.on{background:var(--gold); color:var(--gold-ink); border-color:var(--gold);}
-.statgrid{display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:8px;}
-.stat{background:var(--card2); border-radius:10px; padding:10px; text-align:center;}
-.stat b{display:block; font-size:19px; font-weight:800;}
-.stat span{font-size:11px; color:var(--muted); font-weight:700;}
-.warn{background:rgba(226,112,122,.14); border:1px solid rgba(226,112,122,.35); color:#F0AEB4; border-radius:10px; padding:9px 11px; font-size:12.5px; font-weight:600; margin-top:8px; line-height:1.5;}
+.statgrid{display:grid; grid-template-columns:1fr 1fr; gap:11px; margin-top:11px;}
+.stat{background:var(--card2); border-radius:13px; padding:15px 10px; text-align:center;}
+.stat b{display:block; font-size:29px; font-weight:800;}
+.stat span{font-size:16px; color:var(--muted); font-weight:700; margin-top:2px; display:block;}
+.warn{background:rgba(230,138,147,.14); border:1px solid rgba(230,138,147,.35); color:#F2B4BA; border-radius:12px; padding:13px 14px; font-size:18px; font-weight:600; margin-top:11px; line-height:1.55;}
 canvas{width:100%; display:block;}
-.list{margin-top:6px; max-height:340px; overflow-y:auto;}
-.row-item{border-bottom:1px solid var(--border); padding:9px 2px; font-size:13px;}
-.row-item .top{display:flex; justify-content:space-between; font-weight:700;}
-.row-item .sub{color:var(--muted); font-size:11.5px; margin-top:2px;}
-.tag{display:inline-block; background:var(--card2); border:1px solid var(--border2); color:var(--ink-soft); font-size:10.5px; padding:2px 7px; border-radius:999px; margin-right:4px; margin-top:3px;}
-.tag.warn2{color:#F0AEB4; border-color:rgba(226,112,122,.4);}
-.loadmore{width:100%; margin-top:10px; padding:10px; border-radius:10px; border:1px solid var(--border2); background:var(--card2); color:var(--gold); font:inherit; font-weight:700; font-size:13px;}
-.updated{font-size:11px; color:var(--muted); text-align:center; margin:4px 0 14px;}
+.list{margin-top:8px; max-height:460px; overflow-y:auto;}
+.row-item{border-bottom:1px solid var(--border); padding:13px 3px; font-size:19px;}
+.row-item .top{display:flex; justify-content:space-between; font-weight:700; gap:10px;}
+.row-item .sub{color:var(--muted); font-size:17px; margin-top:4px;}
+.tag{display:inline-block; background:var(--card2); border:1px solid var(--border2); color:var(--ink-soft); font-size:15px; padding:3px 10px; border-radius:999px; margin-right:6px; margin-top:5px;}
+.tag.warn2{color:#F2B4BA; border-color:rgba(230,138,147,.4);}
+.loadmore{width:100%; margin-top:13px; padding:14px; border-radius:12px; border:1px solid var(--border2); background:var(--card2); color:var(--gold); font:inherit; font-weight:700; font-size:19px;}
+.updated{font-size:16px; color:var(--muted); text-align:center; margin:6px 0 18px;}
 
 .tabbar{
-  position:fixed; left:0; right:0; bottom:0; display:flex; background:var(--bg2);
-  border-top:1px solid var(--border); padding:8px 6px calc(8px + env(safe-area-inset-bottom));
+  position:fixed; left:0; right:0; bottom:0; display:flex; background:rgba(20,19,23,.96); backdrop-filter:blur(8px);
+  border-top:1px solid var(--border); padding:10px 6px calc(10px + env(safe-area-inset-bottom));
 }
-.tabbtn{flex:1; text-align:center; background:none; border:none; color:var(--muted); font:inherit; font-size:11.5px; font-weight:700; padding:6px 2px;}
+.tabbtn{flex:1; text-align:center; background:none; border:none; color:var(--muted); font:inherit; font-size:16px; font-weight:700; padding:6px 2px;}
 .tabbtn.active{color:var(--gold);}
-.tabbtn .ic{display:block; font-size:18px; margin-bottom:2px;}
-p.lead{font-size:13px; line-height:1.7; color:var(--ink-soft); margin:0 0 6px;}
-ul.plain{margin:6px 0; padding-left:18px; font-size:12.8px; line-height:1.8; color:var(--ink-soft);}
-.spin{text-align:center; padding:30px 0; color:var(--muted); font-size:13px;}
+.tabbtn .ic{display:block; font-size:26px; margin-bottom:3px;}
+p.lead{font-size:19px; line-height:1.75; color:var(--ink-soft); margin:0 0 8px;}
+ul.plain{margin:8px 0; padding-left:22px; font-size:18.5px; line-height:1.85; color:var(--ink-soft);}
+.spin{text-align:center; padding:40px 0; color:var(--muted); font-size:19px;}
 </style>
 </head>
 <body>
