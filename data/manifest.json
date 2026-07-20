@@ -1,0 +1,1856 @@
+{
+ "generatedAt": "2026-07-20T20:44:36+08:00",
+ "seasonsOk": [
+  "110S1",
+  "110S2",
+  "110S3",
+  "110S4",
+  "111S1",
+  "111S2",
+  "111S3",
+  "111S4",
+  "112S1",
+  "112S2",
+  "112S3",
+  "112S4",
+  "113S1",
+  "113S2",
+  "113S3",
+  "113S4",
+  "114S1",
+  "114S2",
+  "114S3",
+  "114S4",
+  "115S1",
+  "115S2"
+ ],
+ "seasonsFailed": [],
+ "sixCities": [
+  "a",
+  "b",
+  "d",
+  "e",
+  "f",
+  "h"
+ ],
+ "cityNames": {
+  "a": "台北市",
+  "b": "台中市",
+  "c": "基隆市",
+  "d": "台南市",
+  "e": "高雄市",
+  "f": "新北市",
+  "g": "宜蘭縣",
+  "h": "桃園市",
+  "i": "嘉義市",
+  "j": "新竹縣",
+  "k": "苗栗縣",
+  "m": "南投縣",
+  "n": "彰化縣",
+  "o": "新竹市",
+  "p": "雲林縣",
+  "q": "嘉義縣",
+  "t": "屏東縣",
+  "u": "花蓮縣",
+  "v": "台東縣",
+  "w": "金門縣",
+  "x": "澎湖縣",
+  "z": "連江縣"
+ },
+ "districts": [
+  {
+   "district": "林園區",
+   "count": 3366,
+   "years": [
+    {
+     "year": 2019,
+     "count": 55,
+     "file": "kh/kh_林園區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 213,
+     "file": "kh/kh_林園區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 782,
+     "file": "kh/kh_林園區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 542,
+     "file": "kh/kh_林園區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 612,
+     "file": "kh/kh_林園區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 690,
+     "file": "kh/kh_林園區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 381,
+     "file": "kh/kh_林園區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 91,
+     "file": "kh/kh_林園區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "左營區",
+   "count": 17147,
+   "years": [
+    {
+     "year": 1996,
+     "count": 1,
+     "file": "kh/kh_左營區_1996.json"
+    },
+    {
+     "year": 2015,
+     "count": 1,
+     "file": "kh/kh_左營區_2015.json"
+    },
+    {
+     "year": 2016,
+     "count": 20,
+     "file": "kh/kh_左營區_2016.json"
+    },
+    {
+     "year": 2017,
+     "count": 302,
+     "file": "kh/kh_左營區_2017.json"
+    },
+    {
+     "year": 2018,
+     "count": 862,
+     "file": "kh/kh_左營區_2018.json"
+    },
+    {
+     "year": 2019,
+     "count": 309,
+     "file": "kh/kh_左營區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 747,
+     "file": "kh/kh_左營區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 4067,
+     "file": "kh/kh_左營區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 2515,
+     "file": "kh/kh_左營區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 2721,
+     "file": "kh/kh_左營區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 3824,
+     "file": "kh/kh_左營區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 1391,
+     "file": "kh/kh_左營區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 387,
+     "file": "kh/kh_左營區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "鳥松區",
+   "count": 2592,
+   "years": [
+    {
+     "year": 2019,
+     "count": 3,
+     "file": "kh/kh_鳥松區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 213,
+     "file": "kh/kh_鳥松區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 735,
+     "file": "kh/kh_鳥松區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 432,
+     "file": "kh/kh_鳥松區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 422,
+     "file": "kh/kh_鳥松區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 431,
+     "file": "kh/kh_鳥松區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 268,
+     "file": "kh/kh_鳥松區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 88,
+     "file": "kh/kh_鳥松區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "苓雅區",
+   "count": 15219,
+   "years": [
+    {
+     "year": 2014,
+     "count": 1,
+     "file": "kh/kh_苓雅區_2014.json"
+    },
+    {
+     "year": 2016,
+     "count": 1,
+     "file": "kh/kh_苓雅區_2016.json"
+    },
+    {
+     "year": 2017,
+     "count": 38,
+     "file": "kh/kh_苓雅區_2017.json"
+    },
+    {
+     "year": 2018,
+     "count": 311,
+     "file": "kh/kh_苓雅區_2018.json"
+    },
+    {
+     "year": 2019,
+     "count": 633,
+     "file": "kh/kh_苓雅區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 1449,
+     "file": "kh/kh_苓雅區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 3461,
+     "file": "kh/kh_苓雅區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 2306,
+     "file": "kh/kh_苓雅區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 2548,
+     "file": "kh/kh_苓雅區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 2619,
+     "file": "kh/kh_苓雅區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 1412,
+     "file": "kh/kh_苓雅區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 440,
+     "file": "kh/kh_苓雅區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "楠梓區",
+   "count": 22307,
+   "years": [
+    {
+     "year": 1974,
+     "count": 1,
+     "file": "kh/kh_楠梓區_1974.json"
+    },
+    {
+     "year": 2000,
+     "count": 1,
+     "file": "kh/kh_楠梓區_2000.json"
+    },
+    {
+     "year": 2011,
+     "count": 1,
+     "file": "kh/kh_楠梓區_2011.json"
+    },
+    {
+     "year": 2015,
+     "count": 1,
+     "file": "kh/kh_楠梓區_2015.json"
+    },
+    {
+     "year": 2017,
+     "count": 1,
+     "file": "kh/kh_楠梓區_2017.json"
+    },
+    {
+     "year": 2018,
+     "count": 242,
+     "file": "kh/kh_楠梓區_2018.json"
+    },
+    {
+     "year": 2019,
+     "count": 1019,
+     "file": "kh/kh_楠梓區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 2335,
+     "file": "kh/kh_楠梓區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 5470,
+     "file": "kh/kh_楠梓區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 2481,
+     "file": "kh/kh_楠梓區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 3558,
+     "file": "kh/kh_楠梓區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 4940,
+     "file": "kh/kh_楠梓區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 1711,
+     "file": "kh/kh_楠梓區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 546,
+     "file": "kh/kh_楠梓區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "三民區",
+   "count": 25452,
+   "years": [
+    {
+     "year": 1921,
+     "count": 1,
+     "file": "kh/kh_三民區_1921.json"
+    },
+    {
+     "year": 2016,
+     "count": 76,
+     "file": "kh/kh_三民區_2016.json"
+    },
+    {
+     "year": 2017,
+     "count": 125,
+     "file": "kh/kh_三民區_2017.json"
+    },
+    {
+     "year": 2018,
+     "count": 245,
+     "file": "kh/kh_三民區_2018.json"
+    },
+    {
+     "year": 2019,
+     "count": 1160,
+     "file": "kh/kh_三民區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 2955,
+     "file": "kh/kh_三民區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 5382,
+     "file": "kh/kh_三民區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 3585,
+     "file": "kh/kh_三民區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 3724,
+     "file": "kh/kh_三民區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 4910,
+     "file": "kh/kh_三民區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 2545,
+     "file": "kh/kh_三民區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 744,
+     "file": "kh/kh_三民區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "鳳山區",
+   "count": 21050,
+   "years": [
+    {
+     "year": 1922,
+     "count": 1,
+     "file": "kh/kh_鳳山區_1922.json"
+    },
+    {
+     "year": 2012,
+     "count": 1,
+     "file": "kh/kh_鳳山區_2012.json"
+    },
+    {
+     "year": 2016,
+     "count": 113,
+     "file": "kh/kh_鳳山區_2016.json"
+    },
+    {
+     "year": 2017,
+     "count": 174,
+     "file": "kh/kh_鳳山區_2017.json"
+    },
+    {
+     "year": 2018,
+     "count": 28,
+     "file": "kh/kh_鳳山區_2018.json"
+    },
+    {
+     "year": 2019,
+     "count": 709,
+     "file": "kh/kh_鳳山區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 1494,
+     "file": "kh/kh_鳳山區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 4704,
+     "file": "kh/kh_鳳山區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 3353,
+     "file": "kh/kh_鳳山區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 3596,
+     "file": "kh/kh_鳳山區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 4162,
+     "file": "kh/kh_鳳山區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 2120,
+     "file": "kh/kh_鳳山區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 595,
+     "file": "kh/kh_鳳山區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "大寮區",
+   "count": 6577,
+   "years": [
+    {
+     "year": 2019,
+     "count": 114,
+     "file": "kh/kh_大寮區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 582,
+     "file": "kh/kh_大寮區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 1521,
+     "file": "kh/kh_大寮區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 1093,
+     "file": "kh/kh_大寮區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 1268,
+     "file": "kh/kh_大寮區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 1173,
+     "file": "kh/kh_大寮區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 653,
+     "file": "kh/kh_大寮區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 173,
+     "file": "kh/kh_大寮區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "橋頭區",
+   "count": 6293,
+   "years": [
+    {
+     "year": 2017,
+     "count": 46,
+     "file": "kh/kh_橋頭區_2017.json"
+    },
+    {
+     "year": 2018,
+     "count": 252,
+     "file": "kh/kh_橋頭區_2018.json"
+    },
+    {
+     "year": 2019,
+     "count": 507,
+     "file": "kh/kh_橋頭區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 1041,
+     "file": "kh/kh_橋頭區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 967,
+     "file": "kh/kh_橋頭區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 651,
+     "file": "kh/kh_橋頭區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 1238,
+     "file": "kh/kh_橋頭區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 1136,
+     "file": "kh/kh_橋頭區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 327,
+     "file": "kh/kh_橋頭區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 128,
+     "file": "kh/kh_橋頭區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "湖內區",
+   "count": 1411,
+   "years": [
+    {
+     "year": 2020,
+     "count": 45,
+     "file": "kh/kh_湖內區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 350,
+     "file": "kh/kh_湖內區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 325,
+     "file": "kh/kh_湖內區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 261,
+     "file": "kh/kh_湖內區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 261,
+     "file": "kh/kh_湖內區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 124,
+     "file": "kh/kh_湖內區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 45,
+     "file": "kh/kh_湖內區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "小港區",
+   "count": 8783,
+   "years": [
+    {
+     "year": 2019,
+     "count": 174,
+     "file": "kh/kh_小港區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 451,
+     "file": "kh/kh_小港區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 1956,
+     "file": "kh/kh_小港區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 1220,
+     "file": "kh/kh_小港區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 1900,
+     "file": "kh/kh_小港區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 1806,
+     "file": "kh/kh_小港區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 987,
+     "file": "kh/kh_小港區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 289,
+     "file": "kh/kh_小港區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "新興區",
+   "count": 5313,
+   "years": [
+    {
+     "year": 2018,
+     "count": 13,
+     "file": "kh/kh_新興區_2018.json"
+    },
+    {
+     "year": 2019,
+     "count": 509,
+     "file": "kh/kh_新興區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 362,
+     "file": "kh/kh_新興區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 1262,
+     "file": "kh/kh_新興區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 705,
+     "file": "kh/kh_新興區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 695,
+     "file": "kh/kh_新興區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 1047,
+     "file": "kh/kh_新興區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 542,
+     "file": "kh/kh_新興區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 178,
+     "file": "kh/kh_新興區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "仁武區",
+   "count": 10279,
+   "years": [
+    {
+     "year": 2012,
+     "count": 1,
+     "file": "kh/kh_仁武區_2012.json"
+    },
+    {
+     "year": 2018,
+     "count": 56,
+     "file": "kh/kh_仁武區_2018.json"
+    },
+    {
+     "year": 2019,
+     "count": 315,
+     "file": "kh/kh_仁武區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 995,
+     "file": "kh/kh_仁武區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 2426,
+     "file": "kh/kh_仁武區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 1419,
+     "file": "kh/kh_仁武區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 2014,
+     "file": "kh/kh_仁武區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 2133,
+     "file": "kh/kh_仁武區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 688,
+     "file": "kh/kh_仁武區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 232,
+     "file": "kh/kh_仁武區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "鹽埕區",
+   "count": 1529,
+   "years": [
+    {
+     "year": 2018,
+     "count": 6,
+     "file": "kh/kh_鹽埕區_2018.json"
+    },
+    {
+     "year": 2019,
+     "count": 5,
+     "file": "kh/kh_鹽埕區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 140,
+     "file": "kh/kh_鹽埕區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 298,
+     "file": "kh/kh_鹽埕區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 273,
+     "file": "kh/kh_鹽埕區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 245,
+     "file": "kh/kh_鹽埕區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 302,
+     "file": "kh/kh_鹽埕區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 193,
+     "file": "kh/kh_鹽埕區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 67,
+     "file": "kh/kh_鹽埕區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "前鎮區",
+   "count": 10465,
+   "years": [
+    {
+     "year": 2017,
+     "count": 9,
+     "file": "kh/kh_前鎮區_2017.json"
+    },
+    {
+     "year": 2018,
+     "count": 1,
+     "file": "kh/kh_前鎮區_2018.json"
+    },
+    {
+     "year": 2019,
+     "count": 59,
+     "file": "kh/kh_前鎮區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 698,
+     "file": "kh/kh_前鎮區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 2455,
+     "file": "kh/kh_前鎮區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 1762,
+     "file": "kh/kh_前鎮區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 1726,
+     "file": "kh/kh_前鎮區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 2214,
+     "file": "kh/kh_前鎮區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 1222,
+     "file": "kh/kh_前鎮區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 319,
+     "file": "kh/kh_前鎮區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "岡山區",
+   "count": 4720,
+   "years": [
+    {
+     "year": 2007,
+     "count": 1,
+     "file": "kh/kh_岡山區_2007.json"
+    },
+    {
+     "year": 2018,
+     "count": 5,
+     "file": "kh/kh_岡山區_2018.json"
+    },
+    {
+     "year": 2019,
+     "count": 137,
+     "file": "kh/kh_岡山區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 662,
+     "file": "kh/kh_岡山區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 1038,
+     "file": "kh/kh_岡山區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 633,
+     "file": "kh/kh_岡山區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 876,
+     "file": "kh/kh_岡山區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 815,
+     "file": "kh/kh_岡山區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 435,
+     "file": "kh/kh_岡山區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 118,
+     "file": "kh/kh_岡山區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "旗山區",
+   "count": 911,
+   "years": [
+    {
+     "year": 2019,
+     "count": 15,
+     "file": "kh/kh_旗山區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 37,
+     "file": "kh/kh_旗山區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 201,
+     "file": "kh/kh_旗山區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 183,
+     "file": "kh/kh_旗山區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 157,
+     "file": "kh/kh_旗山區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 152,
+     "file": "kh/kh_旗山區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 128,
+     "file": "kh/kh_旗山區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 38,
+     "file": "kh/kh_旗山區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "鼓山區",
+   "count": 11579,
+   "years": [
+    {
+     "year": 1922,
+     "count": 1,
+     "file": "kh/kh_鼓山區_1922.json"
+    },
+    {
+     "year": 2017,
+     "count": 1,
+     "file": "kh/kh_鼓山區_2017.json"
+    },
+    {
+     "year": 2019,
+     "count": 113,
+     "file": "kh/kh_鼓山區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 1026,
+     "file": "kh/kh_鼓山區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 3236,
+     "file": "kh/kh_鼓山區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 1711,
+     "file": "kh/kh_鼓山區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 1914,
+     "file": "kh/kh_鼓山區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 2290,
+     "file": "kh/kh_鼓山區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 1015,
+     "file": "kh/kh_鼓山區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 272,
+     "file": "kh/kh_鼓山區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "前金區",
+   "count": 4753,
+   "years": [
+    {
+     "year": 2017,
+     "count": 266,
+     "file": "kh/kh_前金區_2017.json"
+    },
+    {
+     "year": 2018,
+     "count": 132,
+     "file": "kh/kh_前金區_2018.json"
+    },
+    {
+     "year": 2019,
+     "count": 251,
+     "file": "kh/kh_前金區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 623,
+     "file": "kh/kh_前金區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 1097,
+     "file": "kh/kh_前金區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 726,
+     "file": "kh/kh_前金區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 539,
+     "file": "kh/kh_前金區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 610,
+     "file": "kh/kh_前金區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 375,
+     "file": "kh/kh_前金區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 134,
+     "file": "kh/kh_前金區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "阿蓮區",
+   "count": 563,
+   "years": [
+    {
+     "year": 2019,
+     "count": 1,
+     "file": "kh/kh_阿蓮區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 19,
+     "file": "kh/kh_阿蓮區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 110,
+     "file": "kh/kh_阿蓮區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 74,
+     "file": "kh/kh_阿蓮區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 102,
+     "file": "kh/kh_阿蓮區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 154,
+     "file": "kh/kh_阿蓮區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 80,
+     "file": "kh/kh_阿蓮區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 23,
+     "file": "kh/kh_阿蓮區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "大社區",
+   "count": 1939,
+   "years": [
+    {
+     "year": 2019,
+     "count": 22,
+     "file": "kh/kh_大社區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 139,
+     "file": "kh/kh_大社區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 348,
+     "file": "kh/kh_大社區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 469,
+     "file": "kh/kh_大社區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 324,
+     "file": "kh/kh_大社區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 405,
+     "file": "kh/kh_大社區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 186,
+     "file": "kh/kh_大社區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 46,
+     "file": "kh/kh_大社區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "梓官區",
+   "count": 1564,
+   "years": [
+    {
+     "year": 2020,
+     "count": 55,
+     "file": "kh/kh_梓官區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 356,
+     "file": "kh/kh_梓官區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 333,
+     "file": "kh/kh_梓官區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 232,
+     "file": "kh/kh_梓官區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 387,
+     "file": "kh/kh_梓官區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 165,
+     "file": "kh/kh_梓官區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 36,
+     "file": "kh/kh_梓官區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "路竹區",
+   "count": 1034,
+   "years": [
+    {
+     "year": 2019,
+     "count": 3,
+     "file": "kh/kh_路竹區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 60,
+     "file": "kh/kh_路竹區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 281,
+     "file": "kh/kh_路竹區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 190,
+     "file": "kh/kh_路竹區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 135,
+     "file": "kh/kh_路竹區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 173,
+     "file": "kh/kh_路竹區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 157,
+     "file": "kh/kh_路竹區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 35,
+     "file": "kh/kh_路竹區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "燕巢區",
+   "count": 1305,
+   "years": [
+    {
+     "year": 2014,
+     "count": 1,
+     "file": "kh/kh_燕巢區_2014.json"
+    },
+    {
+     "year": 2015,
+     "count": 1,
+     "file": "kh/kh_燕巢區_2015.json"
+    },
+    {
+     "year": 2019,
+     "count": 10,
+     "file": "kh/kh_燕巢區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 111,
+     "file": "kh/kh_燕巢區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 269,
+     "file": "kh/kh_燕巢區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 223,
+     "file": "kh/kh_燕巢區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 207,
+     "file": "kh/kh_燕巢區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 346,
+     "file": "kh/kh_燕巢區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 110,
+     "file": "kh/kh_燕巢區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 27,
+     "file": "kh/kh_燕巢區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "大樹區",
+   "count": 1402,
+   "years": [
+    {
+     "year": 2011,
+     "count": 1,
+     "file": "kh/kh_大樹區_2011.json"
+    },
+    {
+     "year": 2019,
+     "count": 13,
+     "file": "kh/kh_大樹區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 89,
+     "file": "kh/kh_大樹區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 250,
+     "file": "kh/kh_大樹區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 201,
+     "file": "kh/kh_大樹區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 295,
+     "file": "kh/kh_大樹區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 348,
+     "file": "kh/kh_大樹區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 165,
+     "file": "kh/kh_大樹區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 40,
+     "file": "kh/kh_大樹區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "六龜區",
+   "count": 119,
+   "years": [
+    {
+     "year": 2020,
+     "count": 2,
+     "file": "kh/kh_六龜區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 21,
+     "file": "kh/kh_六龜區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 32,
+     "file": "kh/kh_六龜區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 15,
+     "file": "kh/kh_六龜區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 28,
+     "file": "kh/kh_六龜區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 17,
+     "file": "kh/kh_六龜區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 4,
+     "file": "kh/kh_六龜區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "美濃區",
+   "count": 698,
+   "years": [
+    {
+     "year": 2019,
+     "count": 15,
+     "file": "kh/kh_美濃區_2019.json"
+    },
+    {
+     "year": 2020,
+     "count": 37,
+     "file": "kh/kh_美濃區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 121,
+     "file": "kh/kh_美濃區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 151,
+     "file": "kh/kh_美濃區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 128,
+     "file": "kh/kh_美濃區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 161,
+     "file": "kh/kh_美濃區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 70,
+     "file": "kh/kh_美濃區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 15,
+     "file": "kh/kh_美濃區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "彌陀區",
+   "count": 222,
+   "years": [
+    {
+     "year": 2020,
+     "count": 12,
+     "file": "kh/kh_彌陀區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 44,
+     "file": "kh/kh_彌陀區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 59,
+     "file": "kh/kh_彌陀區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 35,
+     "file": "kh/kh_彌陀區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 34,
+     "file": "kh/kh_彌陀區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 31,
+     "file": "kh/kh_彌陀區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 7,
+     "file": "kh/kh_彌陀區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "永安區",
+   "count": 135,
+   "years": [
+    {
+     "year": 2020,
+     "count": 2,
+     "file": "kh/kh_永安區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 23,
+     "file": "kh/kh_永安區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 28,
+     "file": "kh/kh_永安區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 35,
+     "file": "kh/kh_永安區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 26,
+     "file": "kh/kh_永安區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 16,
+     "file": "kh/kh_永安區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 5,
+     "file": "kh/kh_永安區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "茄萣區",
+   "count": 539,
+   "years": [
+    {
+     "year": 2020,
+     "count": 46,
+     "file": "kh/kh_茄萣區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 117,
+     "file": "kh/kh_茄萣區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 98,
+     "file": "kh/kh_茄萣區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 95,
+     "file": "kh/kh_茄萣區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 85,
+     "file": "kh/kh_茄萣區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 65,
+     "file": "kh/kh_茄萣區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 33,
+     "file": "kh/kh_茄萣區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "內門區",
+   "count": 57,
+   "years": [
+    {
+     "year": 2021,
+     "count": 14,
+     "file": "kh/kh_內門區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 11,
+     "file": "kh/kh_內門區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 12,
+     "file": "kh/kh_內門區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 7,
+     "file": "kh/kh_內門區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 11,
+     "file": "kh/kh_內門區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 2,
+     "file": "kh/kh_內門區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "旗津區",
+   "count": 158,
+   "years": [
+    {
+     "year": 2020,
+     "count": 5,
+     "file": "kh/kh_旗津區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 31,
+     "file": "kh/kh_旗津區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 25,
+     "file": "kh/kh_旗津區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 30,
+     "file": "kh/kh_旗津區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 28,
+     "file": "kh/kh_旗津區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 28,
+     "file": "kh/kh_旗津區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 11,
+     "file": "kh/kh_旗津區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "杉林區",
+   "count": 77,
+   "years": [
+    {
+     "year": 2020,
+     "count": 10,
+     "file": "kh/kh_杉林區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 20,
+     "file": "kh/kh_杉林區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 18,
+     "file": "kh/kh_杉林區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 15,
+     "file": "kh/kh_杉林區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 5,
+     "file": "kh/kh_杉林區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 7,
+     "file": "kh/kh_杉林區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 2,
+     "file": "kh/kh_杉林區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "那瑪夏區",
+   "count": 3,
+   "years": [
+    {
+     "year": 2020,
+     "count": 1,
+     "file": "kh/kh_那瑪夏區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 1,
+     "file": "kh/kh_那瑪夏區_2021.json"
+    },
+    {
+     "year": 2026,
+     "count": 1,
+     "file": "kh/kh_那瑪夏區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "甲仙區",
+   "count": 93,
+   "years": [
+    {
+     "year": 2020,
+     "count": 1,
+     "file": "kh/kh_甲仙區_2020.json"
+    },
+    {
+     "year": 2021,
+     "count": 19,
+     "file": "kh/kh_甲仙區_2021.json"
+    },
+    {
+     "year": 2022,
+     "count": 21,
+     "file": "kh/kh_甲仙區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 17,
+     "file": "kh/kh_甲仙區_2023.json"
+    },
+    {
+     "year": 2024,
+     "count": 15,
+     "file": "kh/kh_甲仙區_2024.json"
+    },
+    {
+     "year": 2025,
+     "count": 15,
+     "file": "kh/kh_甲仙區_2025.json"
+    },
+    {
+     "year": 2026,
+     "count": 5,
+     "file": "kh/kh_甲仙區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "田寮區",
+   "count": 3,
+   "years": [
+    {
+     "year": 2021,
+     "count": 1,
+     "file": "kh/kh_田寮區_2021.json"
+    },
+    {
+     "year": 2025,
+     "count": 2,
+     "file": "kh/kh_田寮區_2025.json"
+    }
+   ]
+  },
+  {
+   "district": "桃源區",
+   "count": 4,
+   "years": [
+    {
+     "year": 2022,
+     "count": 1,
+     "file": "kh/kh_桃源區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 2,
+     "file": "kh/kh_桃源區_2023.json"
+    },
+    {
+     "year": 2026,
+     "count": 1,
+     "file": "kh/kh_桃源區_2026.json"
+    }
+   ]
+  },
+  {
+   "district": "茂林區",
+   "count": 4,
+   "years": [
+    {
+     "year": 2022,
+     "count": 1,
+     "file": "kh/kh_茂林區_2022.json"
+    },
+    {
+     "year": 2023,
+     "count": 2,
+     "file": "kh/kh_茂林區_2023.json"
+    },
+    {
+     "year": 2025,
+     "count": 1,
+     "file": "kh/kh_茂林區_2025.json"
+    }
+   ]
+  }
+ ],
+ "source": "內政部不動產交易實價查詢服務網 (plvr.land.moi.gov.tw)，官方開放資料批次下載"
+}
