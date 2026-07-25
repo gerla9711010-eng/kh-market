@@ -76,6 +76,8 @@ canvas{width:100%; display:block;}
 p.lead{font-size:19px; line-height:1.75; color:var(--ink-soft); margin:0 0 8px;}
 ul.plain{margin:8px 0; padding-left:22px; font-size:18.5px; line-height:1.85; color:var(--ink-soft);}
 .spin{text-align:center; padding:40px 0; color:var(--muted); font-size:19px;}
+.fieldhint{font-size:12px; color:var(--muted); font-weight:600; margin-top:5px; line-height:1.5;}
+.addr{font-size:13px; color:var(--gold); font-weight:700; margin-top:2px;}
 .spin.hint{
   padding:20px 18px; margin-top:4px; border-radius:14px;
   background:rgba(224,185,106,.10); border:1px solid rgba(224,185,106,.32);
@@ -136,9 +138,10 @@ ul.plain{margin:8px 0; padding-left:22px; font-size:18.5px; line-height:1.85; co
         </div>
       </div>
       <div class="row" style="margin-top:8px;">
-        <div class="field">
-          <label>路段關鍵字</label>
-          <input type="text" id="fRoad" placeholder="例：博愛路">
+        <div class="field" style="flex:1 1 100%;">
+          <label>門牌／路段搜尋</label>
+          <input type="text" id="fRoad" placeholder="例：博愛路　或　九如一路123號">
+          <div class="fieldhint">可只打路名，也可打到門牌號看單棟成交紀錄。巷弄可省略數字，例「興楠路73巷」。</div>
         </div>
         <div class="field">
           <label>時間區間（起）</label>
@@ -502,9 +505,16 @@ $('loadMoreYears').addEventListener('click', function(){
   });
 });
 
+// 全形數字轉半形，讓「１２３號」跟「123號」都搜得到
+function normQuery(s){
+  return (s||'').replace(/[０-９]/g, function(c){
+    return String.fromCharCode(c.charCodeAt(0) - 0xFEE0);
+  }).replace(/\s+/g,'').trim();
+}
+
 function applyFilters(){
   if(!state.khRecords.length && !$('fDistrict').value) return;
-  var road = $('fRoad').value.trim();
+  var road = normQuery($('fRoad').value);
   var yFrom = parseInt($('fYearFrom').value||'0',10);
   var yTo = parseInt($('fYearTo').value||'9999',10);
   var pMin = parseFloat($('fPriceMin').value), pMax = parseFloat($('fPriceMax').value);
@@ -514,7 +524,8 @@ function applyFilters(){
   var filtered = state.khRecords.filter(function(r){
     var year = parseInt(r.q.slice(0,4),10);
     if(year < yFrom || year > yTo) return false;
-    if(road && r.rd.indexOf(road) === -1) return false;
+    // 路段或門牌任一命中即算符合，打到「號」就等於只看那一棟
+    if(road && (r.rd||'').indexOf(road) === -1 && (r.ad||'').indexOf(road) === -1) return false;
     if(selectedTypes.size && !selectedTypes.has(r.ty)) return false;
     if(!isNaN(pMin) && r.tp < pMin) return false;
     if(!isNaN(pMax) && r.tp > pMax) return false;
@@ -590,6 +601,7 @@ function renderKhResults(list){
   $('txList').innerHTML = sorted.map(function(r){
     var flagsHtml = r.flags.map(function(f){ return '<span class="tag">'+f+'</span>'; }).join('');
     return '<div class="row-item"><div class="top"><span>'+r.d+' '+(r.rd||'')+'</span><span>'+fmt0(r.tp)+' 萬</span></div>' +
+      (r.ad ? '<div class="addr">'+r.ad+'</div>' : '') +
       '<div class="sub">'+r.q+'　'+r.ty+'（'+r.src+'）　'+fmt1(r.area)+'坪　'+fmt1(r.up)+'萬/坪'+(r.age!=null?'　屋齡'+r.age+'年':'')+'</div>' +
       (flagsHtml? '<div>'+flagsHtml+'</div>' : '') + '</div>';
   }).join('') || '<div class="row-item sub">無符合條件的交易紀錄</div>';
