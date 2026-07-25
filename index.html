@@ -505,6 +505,13 @@ $('loadMoreYears').addEventListener('click', function(){
   });
 });
 
+// 屋齡負數＝成交當下建物還沒完工（預售階段簽約），不要顯示成「屋齡-4年」
+function ageLabel(age){
+  if(age == null) return '';
+  if(age < 0) return '　成交時未完工';
+  return '　屋齡' + age + '年';
+}
+
 // 全形數字轉半形，讓「１２３號」跟「123號」都搜得到
 function normQuery(s){
   return (s||'').replace(/[０-９]/g, function(c){
@@ -602,7 +609,7 @@ function renderKhResults(list){
     var flagsHtml = r.flags.map(function(f){ return '<span class="tag">'+f+'</span>'; }).join('');
     return '<div class="row-item"><div class="top"><span>'+r.d+' '+(r.rd||'')+'</span><span>'+fmt0(r.tp)+' 萬</span></div>' +
       (r.ad ? '<div class="addr">'+r.ad+'</div>' : '') +
-      '<div class="sub">'+r.q+'　'+r.ty+'（'+r.src+'）　'+fmt1(r.area)+'坪　'+fmt1(r.up)+'萬/坪'+(r.age!=null?'　屋齡'+r.age+'年':'')+'</div>' +
+      '<div class="sub">'+r.q+'　'+r.ty+'（'+r.src+'）　'+fmt1(r.area)+'坪　'+fmt1(r.up)+'萬/坪'+ageLabel(r.age)+'</div>' +
       (flagsHtml? '<div>'+flagsHtml+'</div>' : '') + '</div>';
   }).join('') || '<div class="row-item sub">無符合條件的交易紀錄</div>';
 
