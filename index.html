@@ -76,6 +76,12 @@ canvas{width:100%; display:block;}
 p.lead{font-size:19px; line-height:1.75; color:var(--ink-soft); margin:0 0 8px;}
 ul.plain{margin:8px 0; padding-left:22px; font-size:18.5px; line-height:1.85; color:var(--ink-soft);}
 .spin{text-align:center; padding:40px 0; color:var(--muted); font-size:19px;}
+.spin.hint{
+  padding:20px 18px; margin-top:4px; border-radius:14px;
+  background:rgba(224,185,106,.10); border:1px solid rgba(224,185,106,.32);
+  color:var(--gold); font-size:18px; font-weight:700; line-height:1.6;
+}
+.spin.hint small{display:block; margin-top:6px; font-size:14px; font-weight:600; color:var(--ink-soft); opacity:.85;}
 </style>
 </head>
 <body>
@@ -168,7 +174,7 @@ ul.plain{margin:8px 0; padding-left:22px; font-size:18.5px; line-height:1.85; co
       </label>
     </div>
 
-    <div id="khLoading" class="spin">選擇行政區以載入資料…</div>
+    <div id="khLoading" class="spin hint">☝️ 請先在上方選擇「行政區」<small>選好之後，這裡就會出現統計摘要與成交案例</small></div>
     <div id="khResults" style="display:none;">
       <div class="card">
         <h2>統計摘要</h2>
@@ -449,9 +455,17 @@ $('fDistrict').addEventListener('change', function(){
   document.querySelectorAll('#fType .chip').forEach(function(c){ c.classList.remove('on'); });
   $('fRoad').value=''; $('fPriceMin').value=''; $('fPriceMax').value='';
   $('fAreaMin').value=''; $('fAreaMax').value=''; $('fExcludeParking').checked=false;
-  if(!d){ $('khResults').style.display='none'; $('khLoading').style.display='block'; $('khLoading').textContent='選擇行政區以載入資料…'; $('loadMoreYears').style.display='none'; return; }
+  if(!d){
+    $('khResults').style.display='none';
+    $('khLoading').style.display='block';
+    $('khLoading').classList.add('hint');
+    $('khLoading').innerHTML='☝️ 請先在上方選擇「行政區」<small>選好之後，這裡就會出現統計摘要與成交案例</small>';
+    $('loadMoreYears').style.display='none';
+    return;
+  }
   $('khResults').style.display='none';
   $('khLoading').style.display='block';
+  $('khLoading').classList.remove('hint');
   $('khLoading').textContent='載入 '+d+' 近2年資料中…';
   loadDistrictRecentYears(d, 2).then(function(recs){
     state.khRecords = recs;
@@ -468,6 +482,7 @@ $('fDistrict').addEventListener('change', function(){
     $('khResults').style.display='block';
     applyFilters();
   }).catch(function(e){
+    $('khLoading').classList.remove('hint');
     $('khLoading').textContent = '載入失敗，請檢查網路後重試。('+e.message+')';
   });
 });
