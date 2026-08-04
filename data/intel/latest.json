@@ -1,1212 +1,1167 @@
 {
- "generatedAt": "2026-07-28T20:40:18",
- "weekStart": "2026-07-20",
- "weekEnd": "2026-07-26",
+ "generatedAt": "2026-08-04T09:55:13",
+ "weekStart": "2026-07-27",
+ "weekEnd": "2026-08-02",
  "summary": {
-  "count": 127,
+  "count": 123,
   "wow": [
+   123,
    127,
-   167,
-   -40,
-   -23.952095808383234
+   -4,
+   -3.149606299212598
   ],
   "byType": {
-   "大樓": 65,
-   "透天": 25,
-   "公寓": 17,
-   "華廈": 14,
-   "土地": 6
+   "大樓": 72,
+   "透天": 17,
+   "公寓": 15,
+   "土地": 9,
+   "華廈": 9,
+   "廠房": 1
   },
   "byDistrict": {
-   "鳳山區": 17,
-   "三民區": 15,
-   "楠梓區": 13,
-   "鼓山區": 11,
+   "三民區": 21,
+   "苓雅區": 11,
+   "楠梓區": 11,
+   "鳳山區": 10,
+   "左營區": 10,
+   "仁武區": 10,
    "前鎮區": 10,
-   "左營區": 8,
-   "苓雅區": 8,
-   "小港區": 8,
-   "仁武區": 6,
-   "岡山區": 6,
-   "大寮區": 5,
+   "鼓山區": 8,
+   "新興區": 4,
    "前金區": 4,
-   "鹽埕區": 4,
-   "新興區": 3,
+   "大寮區": 3,
+   "林園區": 3,
+   "路竹區": 3,
+   "橋頭區": 3,
+   "小港區": 2,
    "鳥松區": 2,
-   "美濃區": 1,
-   "路竹區": 1,
-   "旗津區": 1,
-   "大社區": 1,
-   "大樹區": 1,
-   "橋頭區": 1,
-   "旗山區": 1
+   "鹽埕區": 2,
+   "茄萣區": 1,
+   "梓官區": 1,
+   "湖內區": 1,
+   "燕巢區": 1,
+   "岡山區": 1,
+   "旗津區": 1
   },
   "priceBuckets": [
    {
     "label": "<1000",
-    "n": 72
+    "n": 69
    },
    {
     "label": "1000-1500",
-    "n": 28
+    "n": 27
    },
    {
     "label": "1500-2000",
-    "n": 14
+    "n": 16
    },
    {
     "label": "2000-3000",
-    "n": 7
+    "n": 9
    },
    {
     "label": "3000-4000",
-    "n": 3
+    "n": 1
    },
    {
     "label": "4000+",
-    "n": 3
+    "n": 1
    }
   ]
  },
  "records": [
   {
-   "dealDate": "2026-07-20",
-   "district": "前鎮區",
-   "community": "光華雙星",
+   "dealDate": "2026-07-27",
+   "district": "三民區",
+   "community": "居禮",
    "ptype": "大樓",
-   "totalPrice": 775.0,
-   "years": 30.3,
-   "area": 37.64
+   "totalPrice": 846.0,
+   "years": 29.9,
+   "area": 32.64
   },
   {
-   "dealDate": "2026-07-20",
-   "district": "鼓山區",
-   "community": "印象巴黎",
-   "ptype": "大樓",
-   "totalPrice": 620.0,
-   "years": 17.3,
-   "area": 19.05
+   "dealDate": "2026-07-27",
+   "district": "三民區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 1675.0,
+   "years": 51.4,
+   "area": 44.87
   },
   {
-   "dealDate": "2026-07-20",
-   "district": "楠梓區",
-   "community": "城中星",
+   "dealDate": "2026-07-27",
+   "district": "鳳山區",
+   "community": "龍騰上河園",
    "ptype": "大樓",
    "totalPrice": 1030.0,
-   "years": 13.6,
-   "area": 44.65
+   "years": 11.6,
+   "area": 42.13
   },
   {
-   "dealDate": "2026-07-20",
-   "district": "仁武區",
-   "community": "大橘得悅",
-   "ptype": "大樓",
-   "totalPrice": 1800.0,
-   "years": 1.7,
-   "area": 61.3
-  },
-  {
-   "dealDate": "2026-07-20",
-   "district": "三民區",
-   "community": "安東桂冠宮庭",
-   "ptype": "大樓",
-   "totalPrice": 760.0,
-   "years": 36.6,
-   "area": 47.64
-  },
-  {
-   "dealDate": "2026-07-20",
-   "district": "鼓山區",
-   "community": "最上境",
-   "ptype": "大樓",
-   "totalPrice": 840.0,
-   "years": 20.5,
-   "area": 22.24
-  },
-  {
-   "dealDate": "2026-07-20",
-   "district": "三民區",
-   "community": "歐夏蕾",
-   "ptype": "大樓",
-   "totalPrice": 620.0,
-   "years": 20.1,
-   "area": 23.85
-  },
-  {
-   "dealDate": "2026-07-20",
-   "district": "三民區",
-   "community": "湖立方",
-   "ptype": "大樓",
-   "totalPrice": 2830.0,
-   "years": 13.5,
-   "area": 95.55
-  },
-  {
-   "dealDate": "2026-07-20",
-   "district": "左營區",
-   "community": "長谷2000大樓",
-   "ptype": "大樓",
-   "totalPrice": 1713.0,
-   "years": 26.3,
-   "area": 69.78
-  },
-  {
-   "dealDate": "2026-07-20",
-   "district": "左營區",
-   "community": "青曦流域",
-   "ptype": "大樓",
-   "totalPrice": 1000.0,
-   "years": 4.4,
-   "area": 32.36
-  },
-  {
-   "dealDate": "2026-07-20",
+   "dealDate": "2026-07-27",
    "district": "苓雅區",
-   "community": "高屋藍天",
+   "community": "台鳳帝門",
    "ptype": "大樓",
-   "totalPrice": 1205.0,
-   "years": 36.6,
-   "area": 59.6
+   "totalPrice": 485.0,
+   "years": 33.3,
+   "area": 22.27
   },
   {
-   "dealDate": "2026-07-20",
-   "district": "鼓山區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 319.0,
-   "years": 42.3,
-   "area": 19.96
-  },
-  {
-   "dealDate": "2026-07-20",
-   "district": "楠梓區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 410.0,
-   "years": 44.4,
-   "area": 24.73
-  },
-  {
-   "dealDate": "2026-07-20",
-   "district": "前鎮區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 265.0,
-   "years": 46.2,
-   "area": 20.8
-  },
-  {
-   "dealDate": "2026-07-20",
-   "district": "美濃區",
+   "dealDate": "2026-07-27",
+   "district": "大寮區",
    "community": null,
    "ptype": "土地",
-   "totalPrice": 298.0,
-   "area": 364.7
+   "totalPrice": 1200.0
   },
   {
-   "dealDate": "2026-07-20",
+   "dealDate": "2026-07-27",
+   "district": "左營區",
+   "community": "藝術第一家",
+   "ptype": "大樓",
+   "totalPrice": 1880.0,
+   "years": 33.1,
+   "area": 71.73
+  },
+  {
+   "dealDate": "2026-07-28",
+   "district": "三民區",
+   "community": null,
+   "ptype": "公寓",
+   "totalPrice": 300.0,
+   "years": 47.6,
+   "area": 21.52
+  },
+  {
+   "dealDate": "2026-07-28",
+   "district": "三民區",
+   "community": "雅舍小品",
+   "ptype": "大樓",
+   "totalPrice": 208.0,
+   "years": 33.0,
+   "area": 10.7
+  },
+  {
+   "dealDate": "2026-07-28",
+   "district": "前鎮區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 1900.0,
+   "years": 41.5,
+   "area": 75.15
+  },
+  {
+   "dealDate": "2026-07-28",
+   "district": "鳳山區",
+   "community": "翰京大廈",
+   "ptype": "華廈",
+   "totalPrice": 235.0,
+   "years": 34.8,
+   "area": 13.18
+  },
+  {
+   "dealDate": "2026-07-28",
+   "district": "仁武區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 420.0,
+   "years": 45.1,
+   "area": 43.02
+  },
+  {
+   "dealDate": "2026-07-28",
    "district": "路竹區",
    "community": null,
    "ptype": "土地",
-   "totalPrice": 2120.0,
-   "years": 13.0,
-   "area": 69.85
+   "totalPrice": 1361.0
   },
   {
-   "dealDate": "2026-07-20",
-   "district": "小港區",
+   "dealDate": "2026-07-28",
+   "district": "鳳山區",
    "community": null,
-   "ptype": "公寓",
-   "totalPrice": 398.0,
-   "years": 42.3,
-   "area": 30.57
+   "ptype": "透天",
+   "totalPrice": 830.0,
+   "years": 40.4,
+   "area": 29.61
   },
   {
-   "dealDate": "2026-07-20",
-   "district": "新興區",
-   "community": null,
+   "dealDate": "2026-07-28",
+   "district": "三民區",
+   "community": "河堤世界",
    "ptype": "大樓",
-   "totalPrice": 750.0,
-   "years": 43.7,
-   "area": 37.91
+   "totalPrice": 633.0,
+   "years": 1.8,
+   "area": 27.13
   },
   {
-   "dealDate": "2026-07-21",
-   "district": "鹽埕區",
-   "community": "金圓環大樓",
-   "ptype": "大樓",
-   "totalPrice": 200.0,
-   "years": 43.2,
-   "area": 11.72
+   "dealDate": "2026-07-28",
+   "district": "三民區",
+   "community": "珍珠",
+   "ptype": "華廈",
+   "totalPrice": 1368.0,
+   "years": 35.3,
+   "area": 49.66
   },
   {
-   "dealDate": "2026-07-21",
-   "district": "左營區",
-   "community": "太子市博",
+   "dealDate": "2026-07-28",
+   "district": "鼓山區",
+   "community": "前峰國宅東4,5棟",
    "ptype": "大樓",
-   "totalPrice": 2260.0,
+   "totalPrice": 420.0,
+   "years": 44.4,
+   "area": 22.26
+  },
+  {
+   "dealDate": "2026-07-28",
+   "district": "苓雅區",
+   "community": "灣見築",
+   "ptype": "大樓",
+   "totalPrice": 1650.0,
+   "years": 5.9,
+   "area": 42.0
+  },
+  {
+   "dealDate": "2026-07-28",
+   "district": "楠梓區",
+   "community": "未來玩城市",
+   "ptype": "大樓",
+   "totalPrice": 670.0,
    "years": 13.7,
-   "area": 63.48
+   "area": 24.97
   },
   {
-   "dealDate": "2026-07-21",
-   "district": "左營區",
-   "community": "水丰尚",
-   "ptype": "大樓",
-   "totalPrice": 1450.0,
-   "years": 11.7,
-   "area": 37.41
-  },
-  {
-   "dealDate": "2026-07-21",
+   "dealDate": "2026-07-28",
    "district": "苓雅區",
-   "community": "至善一品",
+   "community": "星玥灣",
    "ptype": "大樓",
-   "totalPrice": 1350.0,
-   "years": 19.4,
-   "area": 46.73
+   "totalPrice": 1288.0,
+   "years": 0.9,
+   "area": 43.44
   },
   {
-   "dealDate": "2026-07-21",
-   "district": "大寮區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 1100.0,
-   "years": 23.9,
-   "area": 53.95
-  },
-  {
-   "dealDate": "2026-07-21",
-   "district": "楠梓區",
-   "community": "國城MRT",
-   "ptype": "大樓",
-   "totalPrice": 850.0,
-   "years": 10.7,
-   "area": 26.62
-  },
-  {
-   "dealDate": "2026-07-21",
-   "district": "大寮區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 260.0,
-   "years": 42.4,
-   "area": 20.52
-  },
-  {
-   "dealDate": "2026-07-21",
-   "district": "楠梓區",
-   "community": "冠億本植",
-   "ptype": "大樓",
-   "totalPrice": 1540.0,
-   "years": 4.2,
-   "area": 49.64
-  },
-  {
-   "dealDate": "2026-07-21",
-   "district": "岡山區",
-   "community": null,
-   "ptype": "華廈",
-   "totalPrice": 320.0,
-   "years": 34.2,
-   "area": 35.92
-  },
-  {
-   "dealDate": "2026-07-21",
+   "dealDate": "2026-07-28",
    "district": "前鎮區",
-   "community": "英倫亞灣",
-   "ptype": "大樓",
-   "totalPrice": 1050.0,
-   "years": 2.7,
-   "area": 29.48
-  },
-  {
-   "dealDate": "2026-07-21",
-   "district": "新興區",
-   "community": "民生皇家大樓",
-   "ptype": "大樓",
-   "totalPrice": 1120.0,
-   "years": 37.8,
-   "area": 48.87
-  },
-  {
-   "dealDate": "2026-07-21",
-   "district": "仁武區",
-   "community": null,
-   "ptype": "土地",
-   "totalPrice": 2930.0
-  },
-  {
-   "dealDate": "2026-07-21",
-   "district": "岡山區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 3220.0,
-   "years": 5.8,
-   "area": 87.62
-  },
-  {
-   "dealDate": "2026-07-21",
-   "district": "前鎮區",
-   "community": null,
+   "community": "齊邦居Life",
    "ptype": "公寓",
-   "totalPrice": 425.0,
-   "years": 43.6,
-   "area": 31.32
+   "totalPrice": 825.0,
+   "years": 2.0,
+   "area": 25.77
   },
   {
-   "dealDate": "2026-07-21",
-   "district": "左營區",
-   "community": "浤圃星潮Style",
-   "ptype": "大樓",
-   "totalPrice": 1850.0,
-   "years": 4.5,
-   "area": 50.97
-  },
-  {
-   "dealDate": "2026-07-21",
-   "district": "三民區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 1160.0,
-   "years": 38.6,
-   "area": 46.69
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "前鎮區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 738.0,
-   "years": 49.3,
-   "area": 37.03
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "楠梓區",
-   "community": "菁英會館雄四",
-   "ptype": "大樓",
-   "totalPrice": 140.0,
-   "years": 19.2,
-   "area": 4.57
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "前鎮區",
-   "community": "寶成雙子星",
-   "ptype": "大樓",
-   "totalPrice": 4200.0,
-   "years": 34.8,
-   "area": 197.11
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "小港區",
-   "community": "常景錄",
-   "ptype": "大樓",
-   "totalPrice": 1060.0,
-   "years": 3.6,
-   "area": 44.16
-  },
-  {
-   "dealDate": "2026-07-22",
+   "dealDate": "2026-07-28",
    "district": "前金區",
-   "community": "文武雙星名廈",
-   "ptype": "華廈",
-   "totalPrice": 1135.0,
-   "years": 40.3,
-   "area": 44.84
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "三民區",
-   "community": null,
-   "ptype": "土地",
-   "totalPrice": 1575.0,
-   "years": 31.0,
-   "area": 76.02
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "小港區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 585.0,
-   "years": 51.3,
-   "area": 28.82
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "苓雅區",
-   "community": "寶成中正",
+   "community": "香榭麗庭大樓",
    "ptype": "大樓",
-   "totalPrice": 1688.0,
-   "years": 34.1,
-   "area": 82.42
+   "totalPrice": 350.0,
+   "years": 36.0,
+   "area": 8.47
   },
   {
-   "dealDate": "2026-07-22",
-   "district": "旗山區",
-   "community": "騰發江山",
-   "ptype": "大樓",
-   "totalPrice": 330.0,
-   "years": 30.6,
-   "area": 36.7
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "楠梓區",
-   "community": null,
-   "ptype": "土地",
-   "totalPrice": 1850.0,
-   "years": 17.5,
-   "area": 65.26
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "三民區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 4300.0,
-   "years": 16.0,
-   "area": 95.51
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "大寮區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 950.0,
-   "years": 33.1,
-   "area": 61.97
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "仁武區",
-   "community": "璟藏",
-   "ptype": "透天",
-   "totalPrice": 1858.0,
-   "years": 14.1,
-   "area": 60.98
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "鳳山區",
-   "community": "大禾敦品",
-   "ptype": "大樓",
-   "totalPrice": 880.0,
-   "years": 2.3,
-   "area": 28.27
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "三民區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 980.0,
-   "years": 55.1,
-   "area": 24.06
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "小港區",
-   "community": "宅里森",
-   "ptype": "透天",
-   "totalPrice": 1998.0,
-   "years": 1.0,
-   "area": 60.32
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "鼓山區",
-   "community": "人文首馥",
-   "ptype": "大樓",
-   "totalPrice": 4858.0,
-   "years": 18.1,
-   "area": 127.81
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "楠梓區",
-   "community": "新國代",
-   "ptype": "華廈",
-   "totalPrice": 458.0,
-   "years": 33.6,
-   "area": 34.04
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "大寮區",
-   "community": "富翔天廈",
-   "ptype": "大樓",
-   "totalPrice": 398.0,
-   "years": 32.2,
-   "area": 33.91
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "小港區",
-   "community": "日光YOUNG",
-   "ptype": "大樓",
-   "totalPrice": 800.0,
-   "years": 9.8,
-   "area": 42.45
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "鼓山區",
-   "community": "蘭園畫世紀",
-   "ptype": "大樓",
-   "totalPrice": 1039.0,
-   "years": 31.1,
-   "area": 33.78
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "鳳山區",
-   "community": "鳳山國富D型大廈/五甲國宅",
-   "ptype": "大樓",
-   "totalPrice": 760.0,
-   "years": 31.2,
-   "area": 47.22
-  },
-  {
-   "dealDate": "2026-07-22",
-   "district": "鼓山區",
-   "community": "蘭園畫世紀",
-   "ptype": "大樓",
-   "totalPrice": 1066.0,
-   "years": 31.1,
-   "area": 39.76
-  },
-  {
-   "dealDate": "2026-07-23",
-   "district": "苓雅區",
-   "community": "85大樓",
-   "ptype": "大樓",
-   "totalPrice": 199.0,
-   "years": 27.3,
-   "area": 13.65
-  },
-  {
-   "dealDate": "2026-07-23",
-   "district": "岡山區",
-   "community": null,
-   "ptype": "華廈",
-   "totalPrice": 490.0,
-   "years": 31.2,
-   "area": 26.63
-  },
-  {
-   "dealDate": "2026-07-23",
-   "district": "左營區",
-   "community": "綠茵小築",
-   "ptype": "華廈",
-   "totalPrice": 475.0,
-   "years": 35.4,
-   "area": 19.3
-  },
-  {
-   "dealDate": "2026-07-23",
-   "district": "左營區",
-   "community": "溫莎堡",
-   "ptype": "大樓",
-   "totalPrice": 750.0,
-   "years": 23.8,
-   "area": 23.73
-  },
-  {
-   "dealDate": "2026-07-23",
-   "district": "三民區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 800.0,
-   "years": 40.0,
-   "area": 31.3
-  },
-  {
-   "dealDate": "2026-07-23",
-   "district": "小港區",
-   "community": "福懋毓品",
-   "ptype": "大樓",
-   "totalPrice": 850.0,
-   "years": 10.7,
-   "area": 33.3
-  },
-  {
-   "dealDate": "2026-07-23",
-   "district": "鼓山區",
-   "community": "摩登國城",
-   "ptype": "大樓",
-   "totalPrice": 930.0,
-   "years": 20.0,
-   "area": 28.04
-  },
-  {
-   "dealDate": "2026-07-23",
-   "district": "左營區",
-   "community": "高邑一第期",
-   "ptype": "大樓",
-   "totalPrice": 725.0,
-   "years": 28.8,
-   "area": 32.26
-  },
-  {
-   "dealDate": "2026-07-23",
-   "district": "鳳山區",
-   "community": "奇蹟社區大樓",
-   "ptype": "大樓",
-   "totalPrice": 1680.0,
-   "years": 27.1,
-   "area": 64.33
-  },
-  {
-   "dealDate": "2026-07-23",
-   "district": "鳳山區",
-   "community": "天翔大廈",
-   "ptype": "大樓",
-   "totalPrice": 990.0,
-   "years": 29.7,
-   "area": 50.06
-  },
-  {
-   "dealDate": "2026-07-23",
-   "district": "鳥松區",
-   "community": "百立仁美",
-   "ptype": "土地",
-   "totalPrice": 3380.0,
-   "years": 6.0,
-   "area": 115.24
-  },
-  {
-   "dealDate": "2026-07-23",
-   "district": "前金區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 2650.0,
-   "years": 54.9,
-   "area": 105.92
-  },
-  {
-   "dealDate": "2026-07-23",
-   "district": "三民區",
-   "community": "國王花園廣場",
-   "ptype": "大樓",
-   "totalPrice": 1140.0,
-   "years": 31.9,
-   "area": 51.54
-  },
-  {
-   "dealDate": "2026-07-23",
-   "district": "鳳山區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 280.0,
-   "years": 45.4,
-   "area": 28.17
-  },
-  {
-   "dealDate": "2026-07-23",
-   "district": "小港區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 760.0,
-   "years": 46.5,
-   "area": 21.05
-  },
-  {
-   "dealDate": "2026-07-24",
-   "district": "鹽埕區",
-   "community": "大裕首席寶座大廈",
-   "ptype": "大樓",
-   "totalPrice": 1000.0,
-   "years": 34.5,
-   "area": 105.19
-  },
-  {
-   "dealDate": "2026-07-24",
-   "district": "橋頭區",
-   "community": "鳳凰冠",
-   "ptype": "大樓",
-   "totalPrice": 1160.0,
-   "years": 4.2,
-   "area": 40.2
-  },
-  {
-   "dealDate": "2026-07-24",
-   "district": "三民區",
-   "community": "高雄站前廣場",
-   "ptype": "大樓",
-   "totalPrice": 240.0,
-   "years": 31.1,
-   "area": 11.28
-  },
-  {
-   "dealDate": "2026-07-24",
-   "district": "鼓山區",
-   "community": "美廳苑",
-   "ptype": "大樓",
-   "totalPrice": 1800.0,
-   "years": 3.4,
-   "area": 41.79
-  },
-  {
-   "dealDate": "2026-07-24",
-   "district": "三民區",
-   "community": "凱悅峇里大樓",
-   "ptype": "大樓",
-   "totalPrice": 1800.0,
-   "years": 19.7,
-   "area": 68.81
-  },
-  {
-   "dealDate": "2026-07-24",
-   "district": "苓雅區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 345.0,
-   "years": 47.9,
-   "area": 16.29
-  },
-  {
-   "dealDate": "2026-07-24",
-   "district": "鳳山區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 808.0,
-   "years": 42.5,
-   "area": 30.94
-  },
-  {
-   "dealDate": "2026-07-24",
-   "district": "鳳山區",
-   "community": "棋琴19重奏",
-   "ptype": "大樓",
-   "totalPrice": 900.0,
-   "years": 7.8,
-   "area": 29.93
-  },
-  {
-   "dealDate": "2026-07-24",
-   "district": "鳳山區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 1275.0,
-   "years": 39.6,
-   "area": 54.96
-  },
-  {
-   "dealDate": "2026-07-24",
-   "district": "前金區",
-   "community": "普賢大樓",
-   "ptype": "大樓",
-   "totalPrice": 310.0,
-   "years": 43.3,
-   "area": 8.22
-  },
-  {
-   "dealDate": "2026-07-24",
-   "district": "岡山區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 720.0,
-   "years": 31.3,
-   "area": 52.07
-  },
-  {
-   "dealDate": "2026-07-24",
-   "district": "前鎮區",
-   "community": "遠境馳名",
-   "ptype": "大樓",
-   "totalPrice": 915.0,
-   "years": 30.1,
-   "area": 35.47
-  },
-  {
-   "dealDate": "2026-07-24",
-   "district": "鹽埕區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 625.0,
-   "years": 47.0,
-   "area": 23.68
-  },
-  {
-   "dealDate": "2026-07-24",
-   "district": "大寮區",
-   "community": "歡喜屋大廈",
-   "ptype": "華廈",
-   "totalPrice": 390.0,
-   "years": 31.2,
-   "area": 31.7
-  },
-  {
-   "dealDate": "2026-07-24",
-   "district": "仁武區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 770.0,
-   "years": 29.0,
-   "area": 59.59
-  },
-  {
-   "dealDate": "2026-07-24",
-   "district": "小港區",
-   "community": "常景錄",
-   "ptype": "大樓",
-   "totalPrice": 750.0,
-   "years": 3.6,
-   "area": 25.65
-  },
-  {
-   "dealDate": "2026-07-24",
-   "district": "楠梓區",
-   "community": "COME INN 康茵大樓",
-   "ptype": "大樓",
-   "totalPrice": 1110.0,
-   "years": 3.2,
-   "area": 31.11
-  },
-  {
-   "dealDate": "2026-07-24",
-   "district": "鼓山區",
-   "community": "市政總裁",
-   "ptype": "大樓",
-   "totalPrice": 2350.0,
-   "years": 17.7,
-   "area": 67.75
-  },
-  {
-   "dealDate": "2026-07-24",
-   "district": "鼓山區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 2450.0,
-   "years": 37.4,
-   "area": 77.96
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "前鎮區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 270.0,
-   "years": 47.8,
-   "area": 17.43
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "鳳山區",
-   "community": "夢享家",
-   "ptype": "大樓",
-   "totalPrice": 730.0,
-   "years": 30.8,
-   "area": 33.34
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "鹽埕區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 440.0,
-   "years": 44.8,
-   "area": 26.1
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "前鎮區",
-   "community": "柏克萊大樓",
-   "ptype": "華廈",
-   "totalPrice": 600.0,
-   "years": 30.8,
-   "area": 24.92
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "新興區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 1200.0,
-   "years": 39.6,
-   "area": 78.7
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "鳳山區",
-   "community": "理想家大廈",
-   "ptype": "大樓",
-   "totalPrice": 550.0,
-   "years": 29.2,
-   "area": 34.81
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "三民區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 1410.0,
-   "years": 38.9,
-   "area": 47.6
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "鳳山區",
-   "community": "微笑88",
-   "ptype": "大樓",
-   "totalPrice": 450.0,
-   "years": 7.7,
-   "area": 17.3
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "楠梓區",
-   "community": "萊茵清境第二期",
-   "ptype": "華廈",
-   "totalPrice": 560.0,
-   "years": 33.5,
-   "area": 21.23
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "岡山區",
-   "community": "鳳凰信義",
-   "ptype": "大樓",
-   "totalPrice": 1460.0,
-   "years": 1.2,
-   "area": 43.13
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "鳳山區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 460.0,
-   "years": 51.5,
-   "area": 20.46
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "苓雅區",
-   "community": null,
-   "ptype": "華廈",
-   "totalPrice": 625.0,
-   "years": 33.1,
-   "area": 37.76
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "鼓山區",
-   "community": "龍騰",
-   "ptype": "大樓",
-   "totalPrice": 3960.0,
-   "years": 7.8,
-   "area": 98.08
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "三民區",
-   "community": "陽明苑",
-   "ptype": "大樓",
-   "totalPrice": 1380.0,
-   "years": 29.2,
-   "area": 49.99
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "鳳山區",
-   "community": "松鶴",
-   "ptype": "透天",
-   "totalPrice": 1450.0,
-   "years": 22.2,
-   "area": 56.77
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "苓雅區",
-   "community": "ABC國際哈佛區康橋區",
-   "ptype": "大樓",
-   "totalPrice": 1080.0,
-   "years": 36.8,
-   "area": 63.56
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "楠梓區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 500.0,
-   "years": 45.3,
-   "area": 28.99
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "鳳山區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 1290.0,
-   "years": 23.1,
-   "area": 50.6
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "楠梓區",
-   "community": "日安高雄",
-   "ptype": "大樓",
-   "totalPrice": 590.0,
-   "years": 33.6,
-   "area": 32.72
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "鳥松區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 636.0,
-   "years": 34.3,
-   "area": 81.82
-  },
-  {
-   "dealDate": "2026-07-25",
-   "district": "大樹區",
-   "community": "澍之曜",
-   "ptype": "華廈",
-   "totalPrice": 456.0,
-   "years": 2.8,
-   "area": 18.28
-  },
-  {
-   "dealDate": "2026-07-26",
-   "district": "苓雅區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 510.0,
-   "years": 46.1,
-   "area": 28.59
-  },
-  {
-   "dealDate": "2026-07-26",
-   "district": "三民區",
-   "community": "菁英會館",
-   "ptype": "華廈",
-   "totalPrice": 188.0,
-   "years": 20.0,
-   "area": 6.64
-  },
-  {
-   "dealDate": "2026-07-26",
-   "district": "三民區",
-   "community": "菁英會館",
-   "ptype": "華廈",
-   "totalPrice": 155.0,
-   "years": 20.0,
-   "area": 4.84
-  },
-  {
-   "dealDate": "2026-07-26",
-   "district": "仁武區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 1658.0,
-   "years": 20.2,
-   "area": 56.53
-  },
-  {
-   "dealDate": "2026-07-26",
-   "district": "楠梓區",
-   "community": "成家立業",
-   "ptype": "華廈",
-   "totalPrice": 660.0,
-   "years": 33.2,
-   "area": 44.68
-  },
-  {
-   "dealDate": "2026-07-26",
+   "dealDate": "2026-07-28",
    "district": "旗津區",
    "community": null,
    "ptype": "公寓",
-   "totalPrice": 200.0,
-   "area": 15.41
+   "totalPrice": 180.0,
+   "area": 21.27
   },
   {
-   "dealDate": "2026-07-26",
+   "dealDate": "2026-07-28",
+   "district": "鹽埕區",
+   "community": "金圓環大樓",
+   "ptype": "大樓",
+   "totalPrice": 258.0,
+   "years": 43.2,
+   "area": 16.55
+  },
+  {
+   "dealDate": "2026-07-28",
+   "district": "三民區",
+   "community": "鑫空樹",
+   "ptype": "大樓",
+   "totalPrice": 1315.0,
+   "area": 40.68
+  },
+  {
+   "dealDate": "2026-07-28",
+   "district": "三民區",
+   "community": "荷蘭皇庭大樓",
+   "ptype": "大樓",
+   "totalPrice": 675.0,
+   "years": 31.3,
+   "area": 30.8
+  },
+  {
+   "dealDate": "2026-07-28",
+   "district": "鹽埕區",
+   "community": "馥寓",
+   "ptype": "大樓",
+   "totalPrice": 840.0,
+   "years": 7.7,
+   "area": 21.6
+  },
+  {
+   "dealDate": "2026-07-28",
+   "district": "鼓山區",
+   "community": "生活皇家",
+   "ptype": "大樓",
+   "totalPrice": 2420.0,
+   "years": 31.4,
+   "area": 61.85
+  },
+  {
+   "dealDate": "2026-07-28",
+   "district": "仁武區",
+   "community": "大麗城",
+   "ptype": "大樓",
+   "totalPrice": 950.0,
+   "years": 6.4,
+   "area": 35.32
+  },
+  {
+   "dealDate": "2026-07-28",
+   "district": "左營區",
+   "community": "生活大亨",
+   "ptype": "大樓",
+   "totalPrice": 870.0,
+   "years": 27.4,
+   "area": 38.1
+  },
+  {
+   "dealDate": "2026-07-28",
+   "district": "左營區",
+   "community": "夏都NO2",
+   "ptype": "大樓",
+   "totalPrice": 1960.0,
+   "years": 19.7,
+   "area": 61.74
+  },
+  {
+   "dealDate": "2026-07-28",
    "district": "前鎮區",
+   "community": "星海灣",
+   "ptype": "大樓",
+   "totalPrice": 2425.0,
+   "years": 12.1,
+   "area": 83.03
+  },
+  {
+   "dealDate": "2026-07-29",
+   "district": "鳳山區",
+   "community": "奔馳三星",
+   "ptype": "大樓",
+   "totalPrice": 730.0,
+   "years": 31.5,
+   "area": 50.08
+  },
+  {
+   "dealDate": "2026-07-29",
+   "district": "三民區",
    "community": null,
    "ptype": "公寓",
-   "totalPrice": 343.0,
-   "years": 43.2,
-   "area": 24.52
+   "totalPrice": 430.0,
+   "years": 42.7,
+   "area": 29.44
   },
   {
-   "dealDate": "2026-07-26",
-   "district": "前金區",
-   "community": "星河匯",
+   "dealDate": "2026-07-29",
+   "district": "三民區",
+   "community": "民族國宅",
    "ptype": "大樓",
-   "totalPrice": 1130.0,
-   "years": 11.5,
-   "area": 35.88
+   "totalPrice": 399.0,
+   "years": 47.7,
+   "area": 13.49
   },
   {
-   "dealDate": "2026-07-26",
-   "district": "鳳山區",
-   "community": "公園學府",
+   "dealDate": "2026-07-29",
+   "district": "三民區",
+   "community": "星帝標",
    "ptype": "大樓",
-   "totalPrice": 620.0,
-   "years": 30.8,
-   "area": 31.81
+   "totalPrice": 1950.0,
+   "years": 5.7,
+   "area": 54.16
   },
   {
-   "dealDate": "2026-07-26",
-   "district": "鳳山區",
-   "community": "新甲虹庭",
+   "dealDate": "2026-07-29",
+   "district": "楠梓區",
+   "community": "和紘捷運棧",
+   "ptype": "大樓",
+   "totalPrice": 775.0,
+   "years": 5.3,
+   "area": 24.09
+  },
+  {
+   "dealDate": "2026-07-29",
+   "district": "大寮區",
+   "community": null,
+   "ptype": "土地",
+   "totalPrice": 4630.0
+  },
+  {
+   "dealDate": "2026-07-29",
+   "district": "鳥松區",
+   "community": "中南海NO2",
    "ptype": "華廈",
-   "totalPrice": 928.0,
-   "years": 33.1,
-   "area": 44.22
+   "totalPrice": 686.0,
+   "years": 30.0,
+   "area": 28.82
   },
   {
-   "dealDate": "2026-07-26",
+   "dealDate": "2026-07-29",
    "district": "仁武區",
-   "community": "大橘世代",
-   "ptype": "大樓",
-   "totalPrice": 1258.0,
-   "years": 3.8,
-   "area": 44.63
-  },
-  {
-   "dealDate": "2026-07-26",
-   "district": "岡山區",
-   "community": "頂好商務大樓",
-   "ptype": "大樓",
-   "totalPrice": 270.0,
-   "years": 32.7,
-   "area": 13.52
-  },
-  {
-   "dealDate": "2026-07-26",
-   "district": "鳳山區",
-   "community": "京城熱帶嶼",
-   "ptype": "大樓",
-   "totalPrice": 1020.0,
-   "years": 25.1,
-   "area": 41.37
-  },
-  {
-   "dealDate": "2026-07-26",
-   "district": "大社區",
-   "community": "皇家旺博市6透天區",
+   "community": null,
    "ptype": "透天",
-   "totalPrice": 1815.0,
-   "years": 1.2,
-   "area": 55.53
+   "totalPrice": 2710.0,
+   "years": 13.0,
+   "area": 78.89
   },
   {
-   "dealDate": "2026-07-26",
+   "dealDate": "2026-07-29",
+   "district": "三民區",
+   "community": null,
+   "ptype": "公寓",
+   "totalPrice": 325.0,
+   "years": 44.1,
+   "area": 17.9
+  },
+  {
+   "dealDate": "2026-07-29",
+   "district": "楠梓區",
+   "community": "天天微笑",
+   "ptype": "大樓",
+   "totalPrice": 960.0,
+   "years": 9.5,
+   "area": 41.89
+  },
+  {
+   "dealDate": "2026-07-29",
+   "district": "三民區",
+   "community": "鑫空樹",
+   "ptype": "大樓",
+   "totalPrice": 935.0,
+   "area": 31.92
+  },
+  {
+   "dealDate": "2026-07-29",
+   "district": "仁武區",
+   "community": "華友聯秋紅谷",
+   "ptype": "大樓",
+   "totalPrice": 833.0,
+   "years": 5.4,
+   "area": 33.43
+  },
+  {
+   "dealDate": "2026-07-29",
+   "district": "前鎮區",
+   "community": "捷市旅",
+   "ptype": "大樓",
+   "totalPrice": 697.0,
+   "years": 15.6,
+   "area": 26.78
+  },
+  {
+   "dealDate": "2026-07-29",
+   "district": "橋頭區",
+   "community": "華雄交響樂",
+   "ptype": "大樓",
+   "totalPrice": 1230.0,
+   "years": 5.4,
+   "area": 45.81
+  },
+  {
+   "dealDate": "2026-07-29",
+   "district": "三民區",
+   "community": "和築豐光",
+   "ptype": "大樓",
+   "totalPrice": 1145.0,
+   "years": 1.1,
+   "area": 38.17
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "苓雅區",
+   "community": "羅馬大廈",
+   "ptype": "大樓",
+   "totalPrice": 285.0,
+   "years": 45.9,
+   "area": 12.91
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "小港區",
+   "community": "好豐景",
+   "ptype": "公寓",
+   "totalPrice": 940.0,
+   "years": 3.2,
+   "area": 35.65
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "仁武區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 1210.0,
+   "years": 25.2,
+   "area": 54.47
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "左營區",
+   "community": "BEST巨蛋核心城NO2",
+   "ptype": "大樓",
+   "totalPrice": 1680.0,
+   "years": 9.7,
+   "area": 48.75
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "仁武區",
+   "community": "高京舞揚",
+   "ptype": "公寓",
+   "totalPrice": 1120.0,
+   "years": 2.0,
+   "area": 29.76
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "鳳山區",
+   "community": "希望城市彩虹區",
+   "ptype": "大樓",
+   "totalPrice": 938.0,
+   "years": 29.7,
+   "area": 52.67
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "左營區",
+   "community": "時尚京城",
+   "ptype": "大樓",
+   "totalPrice": 2645.0,
+   "years": 7.7,
+   "area": 64.05
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "岡山區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 2800.0,
+   "years": 12.4,
+   "area": 97.7
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "前鎮區",
+   "community": "青春漾",
+   "ptype": "華廈",
+   "totalPrice": 860.0,
+   "years": 3.5,
+   "area": 22.45
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "鳳山區",
+   "community": "興仁大廈",
+   "ptype": "華廈",
+   "totalPrice": 678.2,
+   "years": 42.8,
+   "area": 38.3
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "路竹區",
+   "community": null,
+   "ptype": "土地",
+   "totalPrice": 565.0
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "楠梓區",
+   "community": "太子城-大樓",
+   "ptype": "大樓",
+   "totalPrice": 1750.0,
+   "years": 5.9,
+   "area": 60.49
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "鼓山區",
+   "community": "敦園",
+   "ptype": "大樓",
+   "totalPrice": 1950.0,
+   "years": 10.6,
+   "area": 60.58
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "鼓山區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 828.0,
+   "years": 58.3,
+   "area": 17.64
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "橋頭區",
+   "community": "祐陞橋科綻大樓區",
+   "ptype": "大樓",
+   "totalPrice": 850.0,
+   "years": 1.9,
+   "area": 33.87
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "前鎮區",
+   "community": "心灣LRT",
+   "ptype": "大樓",
+   "totalPrice": 838.0,
+   "years": 5.7,
+   "area": 23.83
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "林園區",
+   "community": "歡樂滿屋NO6",
+   "ptype": "公寓",
+   "totalPrice": 545.0,
+   "years": 5.4,
+   "area": 23.6
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "仁武區",
+   "community": "等露",
+   "ptype": "透天",
+   "totalPrice": 1950.0,
+   "years": 2.7,
+   "area": 54.7
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "前鎮區",
+   "community": "君毅正勤國宅",
+   "ptype": "大樓",
+   "totalPrice": 900.0,
+   "years": 32.0,
+   "area": 54.63
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "前金區",
+   "community": null,
+   "ptype": "公寓",
+   "totalPrice": 550.0,
+   "years": 50.6,
+   "area": 35.37
+  },
+  {
+   "dealDate": "2026-07-30",
+   "district": "前金區",
+   "community": null,
+   "ptype": "公寓",
+   "totalPrice": 568.0,
+   "years": 50.6,
+   "area": 35.37
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "橋頭區",
+   "community": "達麗未來市",
+   "ptype": "大樓",
+   "totalPrice": 815.0,
+   "years": 0.3,
+   "area": 28.19
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "梓官區",
+   "community": "小春日和",
+   "ptype": "土地",
+   "totalPrice": 1460.0,
+   "years": 5.7,
+   "area": 47.59
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "鼓山區",
+   "community": "羅浮宮大樓",
+   "ptype": "大樓",
+   "totalPrice": 1790.0,
+   "years": 23.8,
+   "area": 60.59
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "楠梓區",
+   "community": "悅讀天悅",
+   "ptype": "大樓",
+   "totalPrice": 936.0,
+   "years": 8.3,
+   "area": 33.23
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "楠梓區",
+   "community": "HAUS",
+   "ptype": "大樓",
+   "totalPrice": 650.0,
+   "years": 11.8,
+   "area": 22.81
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "楠梓區",
+   "community": "大河漾",
+   "ptype": "大樓",
+   "totalPrice": 1086.0,
+   "years": 11.7,
+   "area": 42.08
+  },
+  {
+   "dealDate": "2026-07-31",
    "district": "楠梓區",
    "community": null,
    "ptype": "公寓",
-   "totalPrice": 438.0,
-   "years": 45.3,
-   "area": 24.68
+   "totalPrice": 1410.0,
+   "years": 58.7,
+   "area": 20.59
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "三民區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 950.0,
+   "years": 47.8,
+   "area": 24.74
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "左營區",
+   "community": "聯上F1",
+   "ptype": "大樓",
+   "totalPrice": 1335.0,
+   "years": 12.4,
+   "area": 34.28
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "三民區",
+   "community": "棋琴22重奏",
+   "ptype": "大樓",
+   "totalPrice": 996.0,
+   "years": 4.4,
+   "area": 24.21
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "前鎮區",
+   "community": "名發晶閣",
+   "ptype": "大樓",
+   "totalPrice": 2300.0,
+   "years": 8.9,
+   "area": 64.6
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "鳳山區",
+   "community": null,
+   "ptype": "土地",
+   "totalPrice": 1320.0,
+   "years": 52.9,
+   "area": 32.53
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "鼓山區",
+   "community": "現代京城",
+   "ptype": "大樓",
+   "totalPrice": 862.0,
+   "years": 21.8,
+   "area": 26.84
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "仁武區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 1388.0,
+   "years": 26.4,
+   "area": 56.47
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "湖內區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 760.0,
+   "years": 50.1,
+   "area": 29.09
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "苓雅區",
+   "community": null,
+   "ptype": "公寓",
+   "totalPrice": 530.0,
+   "years": 45.9,
+   "area": 26.91
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "三民區",
+   "community": "鑫空樹",
+   "ptype": "大樓",
+   "totalPrice": 1230.0,
+   "area": 38.68
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "燕巢區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 638.0,
+   "years": 33.2,
+   "area": 51.35
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "前鎮區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 1550.0,
+   "years": 44.6,
+   "area": 68.78
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "三民區",
+   "community": null,
+   "ptype": "大樓",
+   "totalPrice": 3300.0,
+   "years": 0.0,
+   "area": 0.0
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "新興區",
+   "community": "香檳雙星名廈",
+   "ptype": "大樓",
+   "totalPrice": 253.0,
+   "years": 37.8,
+   "area": 11.74
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "鼓山區",
+   "community": null,
+   "ptype": "公寓",
+   "totalPrice": 410.0,
+   "years": 41.0,
+   "area": 28.98
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "三民區",
+   "community": null,
+   "ptype": "華廈",
+   "totalPrice": 688.0,
+   "years": 33.5,
+   "area": 38.14
+  },
+  {
+   "dealDate": "2026-07-31",
+   "district": "左營區",
+   "community": "新光CITY大樓",
+   "ptype": "大樓",
+   "totalPrice": 875.0,
+   "years": 15.1,
+   "area": 31.78
+  },
+  {
+   "dealDate": "2026-08-01",
+   "district": "鳳山區",
+   "community": "生活領袖",
+   "ptype": "大樓",
+   "totalPrice": 808.0,
+   "years": 32.1,
+   "area": 41.4
+  },
+  {
+   "dealDate": "2026-08-01",
+   "district": "苓雅區",
+   "community": "警察一村",
+   "ptype": "大樓",
+   "totalPrice": 880.0,
+   "years": 33.5,
+   "area": 40.11
+  },
+  {
+   "dealDate": "2026-08-01",
+   "district": "左營區",
+   "community": null,
+   "ptype": "廠房",
+   "totalPrice": 680.0,
+   "years": 52.2,
+   "area": 19.07
+  },
+  {
+   "dealDate": "2026-08-01",
+   "district": "鳳山區",
+   "community": "多城國際亞大樓",
+   "ptype": "大樓",
+   "totalPrice": 950.0,
+   "years": 13.1,
+   "area": 40.44
+  },
+  {
+   "dealDate": "2026-08-01",
+   "district": "仁武區",
+   "community": "陽光夏都",
+   "ptype": "透天",
+   "totalPrice": 1750.0,
+   "years": 8.5,
+   "area": 63.68
+  },
+  {
+   "dealDate": "2026-08-01",
+   "district": "新興區",
+   "community": "崑庭敦品",
+   "ptype": "大樓",
+   "totalPrice": 1645.0,
+   "years": 0.7,
+   "area": 40.33
+  },
+  {
+   "dealDate": "2026-08-01",
+   "district": "苓雅區",
+   "community": "名人新巷新銳樓",
+   "ptype": "華廈",
+   "totalPrice": 1738.0,
+   "years": 35.6,
+   "area": 73.34
+  },
+  {
+   "dealDate": "2026-08-01",
+   "district": "林園區",
+   "community": null,
+   "ptype": "土地",
+   "totalPrice": 400.0,
+   "years": 28.8,
+   "area": 59.49
+  },
+  {
+   "dealDate": "2026-08-01",
+   "district": "鳳山區",
+   "community": "聯上ME悅",
+   "ptype": "大樓",
+   "totalPrice": 1466.0,
+   "years": 1.1,
+   "area": 48.44
+  },
+  {
+   "dealDate": "2026-08-01",
+   "district": "新興區",
+   "community": "鳳凰鼎榭",
+   "ptype": "華廈",
+   "totalPrice": 2070.0,
+   "years": 37.2,
+   "area": 124.58
+  },
+  {
+   "dealDate": "2026-08-01",
+   "district": "三民區",
+   "community": "龍騰鑫天地",
+   "ptype": "大樓",
+   "totalPrice": 1245.0,
+   "years": 6.0,
+   "area": 42.57
+  },
+  {
+   "dealDate": "2026-08-01",
+   "district": "茄萣區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 680.0,
+   "years": 36.2,
+   "area": 46.29
+  },
+  {
+   "dealDate": "2026-08-01",
+   "district": "路竹區",
+   "community": null,
+   "ptype": "土地",
+   "totalPrice": 1600.0
+  },
+  {
+   "dealDate": "2026-08-01",
+   "district": "前鎮區",
+   "community": "中華經貿中心大樓",
+   "ptype": "大樓",
+   "totalPrice": 1030.0,
+   "years": 33.0,
+   "area": 51.54
+  },
+  {
+   "dealDate": "2026-08-01",
+   "district": "苓雅區",
+   "community": "紅樓貴族",
+   "ptype": "大樓",
+   "totalPrice": 240.0,
+   "years": 32.3,
+   "area": 10.81
+  },
+  {
+   "dealDate": "2026-08-02",
+   "district": "楠梓區",
+   "community": "Super one",
+   "ptype": "大樓",
+   "totalPrice": 1070.0,
+   "years": 13.2,
+   "area": 37.41
+  },
+  {
+   "dealDate": "2026-08-02",
+   "district": "大寮區",
+   "community": "谷泰學府廣場",
+   "ptype": "大樓",
+   "totalPrice": 545.0,
+   "years": 32.5,
+   "area": 32.01
+  },
+  {
+   "dealDate": "2026-08-02",
+   "district": "新興區",
+   "community": "寶成世紀大樓",
+   "ptype": "大樓",
+   "totalPrice": 805.0,
+   "years": 33.9,
+   "area": 40.27
+  },
+  {
+   "dealDate": "2026-08-02",
+   "district": "林園區",
+   "community": null,
+   "ptype": "土地",
+   "totalPrice": 810.0,
+   "years": 35.6,
+   "area": 48.7
+  },
+  {
+   "dealDate": "2026-08-02",
+   "district": "苓雅區",
+   "community": null,
+   "ptype": "公寓",
+   "totalPrice": 290.0,
+   "years": 41.7,
+   "area": 27.09
+  },
+  {
+   "dealDate": "2026-08-02",
+   "district": "苓雅區",
+   "community": "興富發大悅",
+   "ptype": "大樓",
+   "totalPrice": 1140.0,
+   "years": 7.9,
+   "area": 44.52
+  },
+  {
+   "dealDate": "2026-08-02",
+   "district": "小港區",
+   "community": "名發新境",
+   "ptype": "大樓",
+   "totalPrice": 1158.0,
+   "years": 12.3,
+   "area": 37.06
+  },
+  {
+   "dealDate": "2026-08-02",
+   "district": "鼓山區",
+   "community": "美術白天鵝",
+   "ptype": "大樓",
+   "totalPrice": 1080.0,
+   "years": 2.9,
+   "area": 29.28
+  },
+  {
+   "dealDate": "2026-08-02",
+   "district": "苓雅區",
+   "community": null,
+   "ptype": "公寓",
+   "totalPrice": 670.0,
+   "years": 40.3,
+   "area": 36.74
+  },
+  {
+   "dealDate": "2026-08-02",
+   "district": "楠梓區",
+   "community": "IG愛家",
+   "ptype": "大樓",
+   "totalPrice": 767.0,
+   "years": 8.3,
+   "area": 30.31
+  },
+  {
+   "dealDate": "2026-08-02",
+   "district": "鳥松區",
+   "community": "太普圓山",
+   "ptype": "透天",
+   "totalPrice": 2800.0,
+   "years": 22.0,
+   "area": 89.13
+  },
+  {
+   "dealDate": "2026-08-02",
+   "district": "前金區",
+   "community": "緯城上第",
+   "ptype": "大樓",
+   "totalPrice": 2450.0,
+   "years": 30.0,
+   "area": 78.09
+  },
+  {
+   "dealDate": "2026-08-02",
+   "district": "三民區",
+   "community": null,
+   "ptype": "大樓",
+   "totalPrice": 1250.0,
+   "area": 38.68
+  },
+  {
+   "dealDate": "2026-08-02",
+   "district": "左營區",
+   "community": "京城四季",
+   "ptype": "大樓",
+   "totalPrice": 1180.0,
+   "years": 14.9,
+   "area": 41.59
+  },
+  {
+   "dealDate": "2026-08-02",
+   "district": "左營區",
+   "community": "愛家計劃",
+   "ptype": "華廈",
+   "totalPrice": 970.0,
+   "years": 31.1,
+   "area": 43.63
+  },
+  {
+   "dealDate": "2026-08-02",
+   "district": "仁武區",
+   "community": "大麗城",
+   "ptype": "大樓",
+   "totalPrice": 860.0,
+   "years": 6.4,
+   "area": 34.78
+  },
+  {
+   "dealDate": "2026-08-02",
+   "district": "楠梓區",
+   "community": "和紘海科棧",
+   "ptype": "大樓",
+   "totalPrice": 1100.0,
+   "years": 8.2,
+   "area": 38.86
   }
  ]
 }
