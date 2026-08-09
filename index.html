@@ -172,6 +172,16 @@ ul.plain{margin:8px 0; padding-left:22px; font-size:18.5px; line-height:1.85; co
           <input type="number" id="fAreaMax" placeholder="不限">
         </div>
       </div>
+      <div class="row" style="margin-top:8px;">
+        <div class="field">
+          <label>屋齡下限</label>
+          <input type="number" id="fAgeMin" placeholder="不限">
+        </div>
+        <div class="field">
+          <label>屋齡上限</label>
+          <input type="number" id="fAgeMax" placeholder="不限">
+        </div>
+      </div>
       <label style="display:flex; align-items:center; gap:6px; margin-top:10px; font-size:12.5px; color:var(--ink-soft); font-weight:600;">
         <input type="checkbox" id="fExcludeParking" style="width:auto;"> 排除含車位交易
       </label>
@@ -412,7 +422,7 @@ function initKhFilters(){
     });
   });
 
-  ['fRoad','fYearFrom','fYearTo','fPriceMin','fPriceMax','fAreaMin','fAreaMax','fExcludeParking'].forEach(function(id){
+  ['fRoad','fYearFrom','fYearTo','fPriceMin','fPriceMax','fAreaMin','fAreaMax','fAgeMin','fAgeMax','fExcludeParking'].forEach(function(id){
     $(id).addEventListener('input', applyFilters);
     $(id).addEventListener('change', applyFilters);
   });
@@ -457,7 +467,8 @@ $('fDistrict').addEventListener('change', function(){
   selectedTypes.clear();
   document.querySelectorAll('#fType .chip').forEach(function(c){ c.classList.remove('on'); });
   $('fRoad').value=''; $('fPriceMin').value=''; $('fPriceMax').value='';
-  $('fAreaMin').value=''; $('fAreaMax').value=''; $('fExcludeParking').checked=false;
+  $('fAreaMin').value=''; $('fAreaMax').value=''; $('fAgeMin').value=''; $('fAgeMax').value='';
+  $('fExcludeParking').checked=false;
   if(!d){
     $('khResults').style.display='none';
     $('khLoading').style.display='block';
@@ -526,6 +537,7 @@ function applyFilters(){
   var yTo = parseInt($('fYearTo').value||'9999',10);
   var pMin = parseFloat($('fPriceMin').value), pMax = parseFloat($('fPriceMax').value);
   var aMin = parseFloat($('fAreaMin').value), aMax = parseFloat($('fAreaMax').value);
+  var ageMin = parseFloat($('fAgeMin').value), ageMax = parseFloat($('fAgeMax').value);
   var exclParking = $('fExcludeParking').checked;
 
   var filtered = state.khRecords.filter(function(r){
@@ -538,6 +550,13 @@ function applyFilters(){
     if(!isNaN(pMax) && r.tp > pMax) return false;
     if(!isNaN(aMin) && r.area < aMin) return false;
     if(!isNaN(aMax) && r.area > aMax) return false;
+    if(!isNaN(ageMin) || !isNaN(ageMax)){
+      // 設了屋齡篩選就排除沒有屋齡資料的樣本；預售未完工(負值)當屋齡0比對
+      if(r.age == null) return false;
+      var age = r.age < 0 ? 0 : r.age;
+      if(!isNaN(ageMin) && age < ageMin) return false;
+      if(!isNaN(ageMax) && age > ageMax) return false;
+    }
     if(exclParking && r.flags.indexOf('含車位') !== -1) return false;
     return true;
   });
