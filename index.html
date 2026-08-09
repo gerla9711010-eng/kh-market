@@ -626,9 +626,10 @@ function renderKhResults(list){
   var sorted = list.slice().sort(function(a,b){ return b.q.localeCompare(a.q); }).slice(0,60);
   $('txList').innerHTML = sorted.map(function(r){
     var flagsHtml = r.flags.map(function(f){ return '<span class="tag">'+f+'</span>'; }).join('');
+    var laTxt = (r.ty==='透天厝' && r.la) ? '　地坪'+fmt1(r.la)+'坪' : '';
     return '<div class="row-item"><div class="top"><span>'+r.d+' '+(r.rd||'')+'</span><span>'+fmt0(r.tp)+' 萬</span></div>' +
       (r.ad ? '<div class="addr">'+r.ad+'</div>' : '') +
-      '<div class="sub">'+r.q+'　'+r.ty+'（'+r.src+'）　'+fmt1(r.area)+'坪　'+fmt1(r.up)+'萬/坪'+ageLabel(r.age)+'</div>' +
+      '<div class="sub">'+r.q+'　'+r.ty+'（'+r.src+'）　'+fmt1(r.area)+'坪'+laTxt+'　'+fmt1(r.up)+'萬/坪'+ageLabel(r.age)+'</div>' +
       (flagsHtml? '<div>'+flagsHtml+'</div>' : '') + '</div>';
   }).join('') || '<div class="row-item sub">無符合條件的交易紀錄</div>';
 
