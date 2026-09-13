@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<title>高雄實價清單</title>
+<meta name="theme-color" content="#1C1B20">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="icon-192.png">
+<style>
+:root{
+  color-scheme: dark;
+  --bg:#1C1B20; --bg2:#141317; --card:#26252D; --card2:#302F38;
+  --ink:#ECEAF2; --ink-soft:#C6C4CF; --muted:#9896A3;
+  --border: rgba(236,234,242,.11); --border2: rgba(236,234,242,.22);
+  --gold:#E0B96A; --gold-ink:#33280E;
+  --red-bg: rgba(230,138,147,.16); --red-line: rgba(230,138,147,.55); --red-ink:#F0AEB5;
+}
+*{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+html,body{height:100%; margin:0;}
+body{
+  background:linear-gradient(165deg,var(--bg),var(--bg2));
+  color:var(--ink); font-family:-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;
+  min-height:100%; font-size:18px; line-height:1.5; letter-spacing:.01em;
+  padding-bottom:60px;
+}
+.wrap{max-width:640px; margin:0 auto; padding:0 14px 24px;}
+header{padding:20px 0 10px; display:flex; align-items:center; gap:12px;}
+header .dot{width:42px;height:42px;border-radius:11px;background:linear-gradient(160deg,#E0B96A,#8A6D2C); flex:0 0 auto;}
+header b{font-size:22px; font-weight:800; display:block;}
+header small{color:var(--muted); font-size:14px; font-weight:600;}
+
+.card{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:14px; margin-bottom:12px;}
+.card h2{font-size:16px; margin:0 0 10px; font-weight:800; color:var(--gold);}
+.muted{color:var(--muted); font-size:13px; line-height:1.6;}
+
+label.field{display:block; margin-bottom:10px;}
+label.field span{display:block; font-size:13px; color:var(--muted); margin-bottom:4px;}
+select, input[type=text]{
+  width:100%; background:var(--card2); color:var(--ink); border:1px solid var(--border2);
+  border-radius:10px; padding:10px 12px; font-size:16px; font-family:inherit;
+}
+.chips{display:flex; flex-wrap:wrap; gap:8px;}
+.chip{
+  border:1px solid var(--border2); background:var(--card2); color:var(--ink-soft);
+  border-radius:999px; padding:7px 13px; font-size:14px; font-weight:700; cursor:pointer; user-select:none;
+}
+.chip.on{background:var(--gold); color:var(--gold-ink); border-color:var(--gold);}
+.chip.quick{background:transparent; border-style:dashed;}
+.row2{display:flex; gap:8px; margin-bottom:10px;}
+.row2 .chip{flex:1; text-align:center;}
+
+.stat{display:flex; justify-content:space-between; align-items:baseline; margin-bottom:2px;}
+.stat b{color:var(--gold); font-size:15px;}
+
+.rowcard{
+  background:var(--card); border:1px solid var(--border); border-radius:12px;
+  padding:12px 13px; margin-bottom:9px;
+}
+.rowcard.special{background:var(--red-bg); border-color:var(--red-line);}
+.rc-top{display:flex; justify-content:space-between; font-size:13px; color:var(--muted); margin-bottom:4px;}
+.rc-addr{font-size:15px; font-weight:700; color:var(--ink); margin-bottom:4px;}
+.rc-nums{font-size:14px; color:var(--ink-soft); display:flex; flex-wrap:wrap; gap:2px 10px; margin-bottom:4px;}
+.rc-nums b{color:var(--gold); font-weight:800;}
+.rc-flags{display:flex; flex-wrap:wrap; gap:5px; margin-top:4px;}
+.flag{font-size:11px; padding:2px 7px; border-radius:6px; background:var(--card2); color:var(--ink-soft);}
+.flag.warn{background:var(--red-line); color:#3a1116; font-weight:700;}
+.rc-note{margin-top:8px; display:flex; align-items:center; gap:6px;}
+.rc-note input{flex:1; background:var(--card2); border:1px solid var(--border2); color:var(--ink);
+  border-radius:8px; padding:6px 9px; font-size:13px; font-family:inherit;}
+.rc-note span{font-size:12px; color:var(--muted); white-space:nowrap;}
+.rc-fp{font-size:12px; color:var(--muted); margin-top:4px;}
+
+.loadmore{width:100%; padding:13px; border-radius:12px; border:1px solid var(--border2);
+  background:var(--card2); color:var(--gold); font:inherit; font-weight:700; font-size:15px; margin-top:6px;}
+#empty{color:var(--muted); text-align:center; padding:30px 10px; font-size:14px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="dot"></div>
+    <div><b>高雄實價清單</b><small>內政部實價登錄・自用查詢</small></div>
+  </header>
+
+  <div class="card" id="freshCard">
+    <div class="stat"><span class="muted">資料統計到</span><b id="genAt">—</b></div>
+    <div class="muted" id="freshNote">載入中…</div>
+  </div>
+
+  <div class="card">
+    <h2>篩選</h2>
+    <label class="field">
+      <span>行政區</span>
+      <select id="districtSel"><option value="">全部區（第一次載入可能較久）</option></select>
+    </label>
+
+    <label class="field">
+      <span>建築型態</span>
+      <div class="row2">
+        <div class="chip quick" data-quick="all">全選</div>
+        <div class="chip quick" data-quick="building">大樓類</div>
+        <div class="chip quick" data-quick="house">透天</div>
+      </div>
+      <div class="chips" id="typeChips"></div>
+    </label>
+
+    <label class="field">
+      <span>交易來源</span>
+      <div class="chips" id="srcChips"></div>
+    </label>
+
+    <label class="field">
+      <span>門牌／路段關鍵字（選填，例如「中山一路」或「中山一路16號」）</span>
+      <input type="text" id="kw" placeholder="不輸入＝不篩選">
+    </label>
+
+    <div class="chips">
+      <div class="chip" id="onlySpecial">只看特殊交易（親友／關係人）</div>
+      <div class="chip" id="allYears">含更早年度（預設近2年）</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="stat"><span class="muted">符合筆數</span><b id="matchCount">0</b></div>
+    <div class="muted">淺紅底＝關係人交易（親友等特殊關係），數字仍照原始登錄，市場參考需自行排除</div>
+  </div>
+
+  <div id="list"></div>
+  <div id="empty" style="display:none;">選一個行政區，或直接看全部（資料量較大，載入會慢一點）</div>
+  <button class="loadmore" id="loadMoreBtn" style="display:none;">顯示更多</button>
+</div>
+
+<script>
+var DATA = "../data/";
+var ALL_TYPES = ["住宅大樓","華廈","公寓","透天厝","套房","店面","廠辦","其他"];
+var manifest = null;
+var records = [];      // 目前已載入(依篩選行政區/年度範圍)的原始資料
+var filtered = [];      // 篩選後、已排序
+var renderCount = 0;
+var PAGE = 150;
+
+var state = {
+  district: "",
+  types: new Set(ALL_TYPES),
+  sources: new Set(["中古","預售"]),
+  onlySpecial: false,
+  allYears: false,
+  kw: ""
+};
+
+function $(id){ return document.getElementById(id); }
+
+function getJSON(path){
+  return fetch(path).then(function(r){
+    if(!r.ok) throw new Error("fetch fail " + path);
+    return r.json();
+  });
+}
+
+function ageLabel(age){
+  if(age === null || age === undefined) return "成交時未完工";
+  return age + " 年";
+}
+
+function noteKey(id){ return "khlist_note_" + id; }
+function getNote(r){
+  if(r.cn) return r.cn;
+  try{ return localStorage.getItem(noteKey(r.id)) || ""; }catch(e){ return ""; }
+}
+function saveNote(id, val){
+  try{ localStorage.setItem(noteKey(id), val); }catch(e){}
+}
+
+function fmtAddr(r){
+  var a = r.d + (r.ad ? r.ad : (r.rd ? (r.rd + "（無完整門牌）") : "（地號/無門牌）"));
+  return a;
+}
+
+function buildTypeChips(){
+  var wrap = $("typeChips");
+  wrap.innerHTML = "";
+  ALL_TYPES.forEach(function(t){
+    var el = document.createElement("div");
+    el.className = "chip" + (state.types.has(t) ? " on" : "");
+    el.textContent = t;
+    el.addEventListener("click", function(){
+      if(state.types.has(t)) state.types.delete(t); else state.types.add(t);
+      buildTypeChips();
+      applyFilters();
+    });
+    wrap.appendChild(el);
+  });
+}
+
+function buildSrcChips(){
+  var wrap = $("srcChips");
+  wrap.innerHTML = "";
+  ["中古","預售"].forEach(function(s){
+    var el = document.createElement("div");
+    el.className = "chip" + (state.sources.has(s) ? " on" : "");
+    el.textContent = s + (s === "中古" ? "（成屋）" : "（預售）");
+    el.addEventListener("click", function(){
+      if(state.sources.has(s)) state.sources.delete(s); else state.sources.add(s);
+      buildSrcChips();
+      applyFilters();
+    });
+    wrap.appendChild(el);
+  });
+}
+
+document.querySelectorAll(".chip.quick").forEach(function(el){
+  el.addEventListener("click", function(){
+    var q = el.dataset.quick;
+    if(q === "all") state.types = new Set(ALL_TYPES);
+    if(q === "building") state.types = new Set(["住宅大樓","華廈"]);
+    if(q === "house") state.types = new Set(["透天厝"]);
+    buildTypeChips();
+    applyFilters();
+  });
+});
+
+$("onlySpecial").addEventListener("click", function(){
+  state.onlySpecial = !state.onlySpecial;
+  this.classList.toggle("on", state.onlySpecial);
+  applyFilters();
+});
+
+$("allYears").addEventListener("click", function(){
+  state.allYears = !state.allYears;
+  this.classList.toggle("on", state.allYears);
+  loadForDistrict(state.district);
+});
+
+var kwTimer = null;
+$("kw").addEventListener("input", function(){
+  var v = this.value;
+  clearTimeout(kwTimer);
+  kwTimer = setTimeout(function(){ state.kw = v.trim(); applyFilters(); }, 250);
+});
+
+$("districtSel").addEventListener("change", function(){
+  state.district = this.value;
+  loadForDistrict(state.district);
+});
+
+$("loadMoreBtn").addEventListener("click", function(){
+  renderMore();
+});
+
+function yearsToLoad(entry){
+  var ys = entry.years.map(function(y){ return y.year; }).sort();
+  if(state.allYears) return entry.years;
+  var recent = ys.slice(-2);
+  return entry.years.filter(function(y){ return recent.indexOf(y.year) >= 0; });
+}
+
+function loadForDistrict(district){
+  $("list").innerHTML = "";
+  $("empty").style.display = "none";
+  $("freshNote").textContent = "載入中…";
+  records = [];
+
+  var entries;
+  if(district === ""){
+    entries = manifest.districts;
+  }else{
+    entries = manifest.districts.filter(function(e){ return e.district === district; });
+  }
+
+  var files = [];
+  entries.forEach(function(e){
+    yearsToLoad(e).forEach(function(y){ files.push(DATA + y.file); });
+  });
+
+  Promise.all(files.map(function(f){ return getJSON(f).catch(function(){ return []; }); }))
+    .then(function(chunks){
+      chunks.forEach(function(c){ records = records.concat(c); });
+      $("freshNote").textContent = "已載入 " + records.length + " 筆" +
+        (district === "" ? "（全高雄" : "（" + district) +
+        (state.allYears ? "・全部年度）" : "・近2年，需要更早年度可勾上面那個選項）");
+      applyFilters();
+    })
+    .catch(function(e){
+      $("freshNote").textContent = "載入失敗：" + e.message;
+    });
+}
+
+function applyFilters(){
+  filtered = records.filter(function(r){
+    if(!state.types.has(r.ty)) return false;
+    if(!state.sources.has(r.src)) return false;
+    if(state.onlySpecial && r.flags.indexOf("關係人交易") < 0) return false;
+    if(state.kw){
+      var hay = (r.rd || "") + (r.ad || "");
+      if(hay.indexOf(state.kw) < 0) return false;
+    }
+    return true;
+  });
+  filtered.sort(function(a, b){ return a.dt < b.dt ? 1 : (a.dt > b.dt ? -1 : 0); });
+  $("matchCount").textContent = filtered.length;
+  renderCount = 0;
+  $("list").innerHTML = "";
+  if(filtered.length === 0){
+    $("empty").textContent = records.length === 0 ? "選一個行政區，或直接看全部（資料量較大，載入會慢一點）" : "沒有符合篩選條件的資料";
+    $("empty").style.display = "block";
+  }else{
+    $("empty").style.display = "none";
+  }
+  renderMore();
+}
+
+function renderMore(){
+  var next = filtered.slice(renderCount, renderCount + PAGE);
+  var frag = document.createDocumentFragment();
+  next.forEach(function(r){ frag.appendChild(renderCard(r)); });
+  $("list").appendChild(frag);
+  renderCount += next.length;
+  $("loadMoreBtn").style.display = (renderCount < filtered.length) ? "block" : "none";
+}
+
+function renderCard(r){
+  var special = r.flags.indexOf("關係人交易") >= 0;
+  var div = document.createElement("div");
+  div.className = "rowcard" + (special ? " special" : "");
+
+  var top = document.createElement("div");
+  top.className = "rc-top";
+  top.innerHTML = "<span>" + r.dt + "</span><span>" + r.ty + "・" + r.src + "</span>";
+  div.appendChild(top);
+
+  var addr = document.createElement("div");
+  addr.className = "rc-addr";
+  addr.textContent = fmtAddr(r);
+  div.appendChild(addr);
+
+  var nums = document.createElement("div");
+  nums.className = "rc-nums";
+  nums.innerHTML =
+    "<span><b>" + r.tp + "萬</b></span>" +
+    "<span>樓層 " + (r.fl || "-") + "／" + (r.tf || "-") + "</span>" +
+    "<span>建坪 " + r.area + " 坪</span>" +
+    "<span>地坪 " + (r.la != null ? r.la + " 坪" : "-") + "</span>" +
+    "<span>屋齡 " + ageLabel(r.age) + "</span>";
+  div.appendChild(nums);
+
+  if(r.flags && r.flags.length){
+    var flagsWrap = document.createElement("div");
+    flagsWrap.className = "rc-flags";
+    r.flags.forEach(function(f){
+      var s = document.createElement("span");
+      s.className = "flag" + (f === "關係人交易" ? " warn" : "");
+      s.textContent = f;
+      flagsWrap.appendChild(s);
+    });
+    div.appendChild(flagsWrap);
+  }
+
+  if(r.fp && r.fp > 1){
+    var fp = document.createElement("div");
+    fp.className = "rc-fp";
+    fp.textContent = "同路段＋同批完工年月＋同總樓層線索：共 " + r.fp + " 筆（非官方社區歸戶，僅供參考）";
+    div.appendChild(fp);
+  }
+
+  var noteWrap = document.createElement("div");
+  noteWrap.className = "rc-note";
+  var label = document.createElement("span");
+  label.textContent = "社區／建案";
+  var input = document.createElement("input");
+  input.type = "text";
+  input.placeholder = "自己備註社區名稱";
+  input.value = getNote(r);
+  if(r.cn){ input.readOnly = true; }
+  input.addEventListener("change", function(){ saveNote(r.id, input.value.trim()); });
+  noteWrap.appendChild(label);
+  noteWrap.appendChild(input);
+  div.appendChild(noteWrap);
+
+  return div;
+}
+
+// ---------- init ----------
+buildTypeChips();
+buildSrcChips();
+
+getJSON(DATA + "manifest.json").then(function(m){
+  manifest = m;
+  $("genAt").textContent = (m.generatedAt || "—").slice(0, 16).replace("T", " ");
+  $("freshNote").textContent =
+    "來源：內政部不動產交易實價查詢服務網（政府季度開放資料）。" +
+    "本站每天自動檢查一次：最新一季每天重抓（政府當季會持續增補，不是季底才一次到齊），" +
+    "已結案的季度不會再變動。選好行政區就會開始載入。";
+
+  var opts = manifest.districts.slice().sort(function(a, b){ return a.district.localeCompare(b.district, "zh-Hant"); });
+  var sel = $("districtSel");
+  opts.forEach(function(e){
+    var o = document.createElement("option");
+    o.value = e.district;
+    o.textContent = e.district + "（" + e.count + "筆）";
+    sel.appendChild(o);
+  });
+}).catch(function(e){
+  $("freshNote").textContent = "資料清單讀取失敗：" + e.message;
+});
+</script>
+</body>
+</html>
