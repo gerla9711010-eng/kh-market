@@ -37,10 +37,13 @@ header small{color:var(--muted); font-size:14px; font-weight:600;}
 
 label.field{display:block; margin-bottom:10px;}
 label.field span{display:block; font-size:13px; color:var(--muted); margin-bottom:4px;}
-select, input[type=text]{
+select, input[type=text], input[type=number]{
   width:100%; background:var(--card2); color:var(--ink); border:1px solid var(--border2);
   border-radius:10px; padding:10px 12px; font-size:16px; font-family:inherit;
 }
+.rangebox{display:flex; align-items:center; gap:8px;}
+.rangebox input{width:0; flex:1;}
+.rangebox span{color:var(--muted); flex:0 0 auto;}
 .chips{display:flex; flex-wrap:wrap; gap:8px;}
 .chip{
   border:1px solid var(--border2); background:var(--card2); color:var(--ink-soft);
@@ -115,6 +118,24 @@ select, input[type=text]{
       <input type="text" id="kw" placeholder="不輸入＝不篩選">
     </label>
 
+    <label class="field">
+      <span>屋齡區間（年，選填）</span>
+      <div class="rangebox">
+        <input type="number" id="ageMin" placeholder="下限" min="0" step="1">
+        <span>～</span>
+        <input type="number" id="ageMax" placeholder="上限" min="0" step="1">
+      </div>
+    </label>
+
+    <label class="field">
+      <span>總建坪區間（坪，選填）</span>
+      <div class="rangebox">
+        <input type="number" id="areaMin" placeholder="下限" min="0" step="1">
+        <span>～</span>
+        <input type="number" id="areaMax" placeholder="上限" min="0" step="1">
+      </div>
+    </label>
+
     <div class="chips">
       <div class="chip" id="allYears">含更早年度（預設近2年）</div>
     </div>
@@ -146,7 +167,11 @@ var state = {
   types: new Set(ALL_TYPES),
   sources: new Set(["中古","預售"]),
   allYears: false,
-  kw: ""
+  kw: "",
+  ageMin: null,
+  ageMax: null,
+  areaMin: null,
+  areaMax: null
 };
 
 function $(id){ return document.getElementById(id); }
@@ -210,6 +235,18 @@ document.querySelectorAll(".chip.quick").forEach(function(el){
     applyFilters();
   });
 });
+
+function bindRangeInput(id, stateKey){
+  $(id).addEventListener("input", function(){
+    var v = this.value.trim();
+    state[stateKey] = v === "" ? null : Number(v);
+    applyFilters();
+  });
+}
+bindRangeInput("ageMin", "ageMin");
+bindRangeInput("ageMax", "ageMax");
+bindRangeInput("areaMin", "areaMin");
+bindRangeInput("areaMax", "areaMax");
 
 $("allYears").addEventListener("click", function(){
   state.allYears = !state.allYears;
@@ -279,6 +316,13 @@ function applyFilters(){
       var hay = (r.rd || "") + (r.ad || "");
       if(hay.indexOf(state.kw) < 0) return false;
     }
+    if(state.ageMin !== null || state.ageMax !== null){
+      if(r.age === null || r.age === undefined) return false;  // 未完工無屋齡，設了區間就排除
+      if(state.ageMin !== null && r.age < state.ageMin) return false;
+      if(state.ageMax !== null && r.age > state.ageMax) return false;
+    }
+    if(state.areaMin !== null && r.area < state.areaMin) return false;
+    if(state.areaMax !== null && r.area > state.areaMax) return false;
     return true;
   });
   filtered.sort(function(a, b){ return a.dt < b.dt ? 1 : (a.dt > b.dt ? -1 : 0); });
@@ -326,9 +370,12 @@ function renderCard(r){
     "<span>建坪 " + r.area + " 坪</span>" +
     "<span>地坪 " + (r.la != null ? r.la + " 坪" : "-") + "</span>" +
     "<span>屋齡 " + ageLabel(r.age) + "</span>";
+  if(r.lyt){
+    nums.innerHTML += "<span>格局 " + r.lyt + "</span>";
+  }
   if(LAND_VALUE_TYPES.indexOf(r.ty) >= 0 && r.la){
     var lup = (r.tp / r.la).toFixed(2);
-    nums.innerHTML += "<span>地坪單價約 " + lup + " 萬/坪（總價÷地坪概算，非精算）</span>";
+    nums.innerHTML += "<span>地坪單價約 " + lup + " 萬/坪</span>";
   }
   div.appendChild(nums);
 
