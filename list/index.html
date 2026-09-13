@@ -389,8 +389,8 @@ getJSON(DATA + "manifest.json").then(function(m){
   manifest = m;
   $("genAt").textContent = (m.generatedAt || "—").slice(0, 16).replace("T", " ");
   $("freshNote").textContent =
-    "來源：內政部不動產交易實價查詢服務網（政府季度開放資料）。" +
-    "本站每天自動檢查一次：最新一季每天重抓（政府當季會持續增補，不是季底才一次到齊），" +
+    "來源：內政部不動產交易實價查詢服務網。政府官方公告：當期資料每月1、11、21日更新（約每10天一次）。" +
+    "本站每天自動檢查一次、最新一季每天重抓，最慢隔天就會跟上政府那三次更新。" +
     "已結案的季度不會再變動。選好行政區就會開始載入。";
 
   var opts = manifest.districts.slice().sort(function(a, b){ return a.district.localeCompare(b.district, "zh-Hant"); });
