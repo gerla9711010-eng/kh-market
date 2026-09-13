@@ -66,10 +66,9 @@ select, input[type=text]{
 .rc-flags{display:flex; flex-wrap:wrap; gap:5px; margin-top:4px;}
 .flag{font-size:11px; padding:2px 7px; border-radius:6px; background:var(--card2); color:var(--ink-soft);}
 .flag.warn{background:var(--red-line); color:#3a1116; font-weight:700;}
-.rc-note{margin-top:8px; display:flex; align-items:center; gap:6px;}
-.rc-note input{flex:1; background:var(--card2); border:1px solid var(--border2); color:var(--ink);
-  border-radius:8px; padding:6px 9px; font-size:13px; font-family:inherit;}
+.rc-note{margin-top:8px; display:flex; align-items:center; gap:6px; font-size:13px;}
 .rc-note span{font-size:12px; color:var(--muted); white-space:nowrap;}
+.rc-note b{color:var(--gold);}
 .rc-fp{font-size:12px; color:var(--muted); margin-top:4px;}
 
 .loadmore{width:100%; padding:13px; border-radius:12px; border:1px solid var(--border2);
@@ -117,7 +116,6 @@ select, input[type=text]{
     </label>
 
     <div class="chips">
-      <div class="chip" id="onlySpecial">只看特殊交易（親友／關係人）</div>
       <div class="chip" id="allYears">含更早年度（預設近2年）</div>
     </div>
   </div>
@@ -141,11 +139,12 @@ var filtered = [];      // 篩選後、已排序
 var renderCount = 0;
 var PAGE = 150;
 
+var LAND_VALUE_TYPES = ["透天厝","廠辦","其他"];  // 這幾類地坪才是主要價值來源，多顯示地坪單價
+
 var state = {
   district: "",
   types: new Set(ALL_TYPES),
   sources: new Set(["中古","預售"]),
-  onlySpecial: false,
   allYears: false,
   kw: ""
 };
@@ -162,15 +161,6 @@ function getJSON(path){
 function ageLabel(age){
   if(age === null || age === undefined) return "成交時未完工";
   return age + " 年";
-}
-
-function noteKey(id){ return "khlist_note_" + id; }
-function getNote(r){
-  if(r.cn) return r.cn;
-  try{ return localStorage.getItem(noteKey(r.id)) || ""; }catch(e){ return ""; }
-}
-function saveNote(id, val){
-  try{ localStorage.setItem(noteKey(id), val); }catch(e){}
 }
 
 function fmtAddr(r){
@@ -219,12 +209,6 @@ document.querySelectorAll(".chip.quick").forEach(function(el){
     buildTypeChips();
     applyFilters();
   });
-});
-
-$("onlySpecial").addEventListener("click", function(){
-  state.onlySpecial = !state.onlySpecial;
-  this.classList.toggle("on", state.onlySpecial);
-  applyFilters();
 });
 
 $("allYears").addEventListener("click", function(){
@@ -291,7 +275,6 @@ function applyFilters(){
   filtered = records.filter(function(r){
     if(!state.types.has(r.ty)) return false;
     if(!state.sources.has(r.src)) return false;
-    if(state.onlySpecial && r.flags.indexOf("關係人交易") < 0) return false;
     if(state.kw){
       var hay = (r.rd || "") + (r.ad || "");
       if(hay.indexOf(state.kw) < 0) return false;
@@ -338,11 +321,15 @@ function renderCard(r){
   var nums = document.createElement("div");
   nums.className = "rc-nums";
   nums.innerHTML =
-    "<span><b>" + r.tp + "萬</b></span>" +
+    "<span><b>" + r.tp + "萬</b>（" + r.up + "萬/坪）</span>" +
     "<span>樓層 " + (r.fl || "-") + "／" + (r.tf || "-") + "</span>" +
     "<span>建坪 " + r.area + " 坪</span>" +
     "<span>地坪 " + (r.la != null ? r.la + " 坪" : "-") + "</span>" +
     "<span>屋齡 " + ageLabel(r.age) + "</span>";
+  if(LAND_VALUE_TYPES.indexOf(r.ty) >= 0 && r.la){
+    var lup = (r.tp / r.la).toFixed(2);
+    nums.innerHTML += "<span>地坪單價約 " + lup + " 萬/坪（總價÷地坪概算，非精算）</span>";
+  }
   div.appendChild(nums);
 
   if(r.flags && r.flags.length){
@@ -364,19 +351,17 @@ function renderCard(r){
     div.appendChild(fp);
   }
 
-  var noteWrap = document.createElement("div");
-  noteWrap.className = "rc-note";
-  var label = document.createElement("span");
-  label.textContent = "社區／建案";
-  var input = document.createElement("input");
-  input.type = "text";
-  input.placeholder = "自己備註社區名稱";
-  input.value = getNote(r);
-  if(r.cn){ input.readOnly = true; }
-  input.addEventListener("change", function(){ saveNote(r.id, input.value.trim()); });
-  noteWrap.appendChild(label);
-  noteWrap.appendChild(input);
-  div.appendChild(noteWrap);
+  if(r.cn){
+    var noteWrap = document.createElement("div");
+    noteWrap.className = "rc-note";
+    var label = document.createElement("span");
+    label.textContent = "社區／建案";
+    var val = document.createElement("b");
+    val.textContent = r.cn;
+    noteWrap.appendChild(label);
+    noteWrap.appendChild(val);
+    div.appendChild(noteWrap);
+  }
 
   return div;
 }
