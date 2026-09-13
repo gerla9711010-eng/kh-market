@@ -189,8 +189,9 @@ function ageLabel(age){
 }
 
 function fmtAddr(r){
-  var a = r.d + (r.ad ? r.ad : (r.rd ? (r.rd + "（無完整門牌）") : "（地號/無門牌）"));
-  return a;
+  // 用fa(完整地址，含樓層/之N戶別)顯示，不要用ad(只到門牌號，同棟不同戶會顯示成同一個地址)
+  var addr = r.fa || r.ad;
+  return r.d + (addr ? addr : (r.rd ? (r.rd + "（無完整門牌）") : "（地號/無門牌）"));
 }
 
 function buildTypeChips(){
