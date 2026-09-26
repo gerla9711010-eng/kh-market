@@ -1,6 +1,6 @@
 // 高雄實價行情 離線快取
 // 資料每月更新，CACHE_NAME 版號要跟著資料批次一起跳，避免手機卡在舊行情
-const CACHE_NAME = 'khm-2026-09-25';
+const CACHE_NAME = 'khm-2026-09-26';
 const CORE_FILES = [
   './',
   './index.html',
