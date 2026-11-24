@@ -1,1455 +1,1216 @@
 {
- "generatedAt": "2026-11-20T07:36:20",
- "weekStart": "2026-11-09",
- "weekEnd": "2026-11-15",
+ "generatedAt": "2026-11-24T09:55:12",
+ "weekStart": "2026-11-16",
+ "weekEnd": "2026-11-22",
  "summary": {
-  "count": 139,
+  "count": 116,
   "wow": [
+   116,
    139,
-   128,
-   11,
-   8.59375
+   -23,
+   -16.546762589928058
   ],
   "byType": {
-   "大樓": 78,
-   "透天": 29,
-   "公寓": 19,
-   "土地": 8,
-   "華廈": 5
+   "大樓": 53,
+   "透天": 26,
+   "公寓": 15,
+   "土地": 12,
+   "華廈": 9,
+   "廠房": 1
   },
   "byDistrict": {
-   "三民區": 26,
-   "鳳山區": 15,
-   "左營區": 14,
-   "苓雅區": 13,
-   "楠梓區": 10,
-   "前鎮區": 10,
-   "小港區": 7,
+   "三民區": 19,
+   "左營區": 16,
+   "前鎮區": 11,
+   "鳳山區": 11,
+   "仁武區": 10,
+   "苓雅區": 10,
+   "楠梓區": 9,
    "鼓山區": 6,
-   "岡山區": 5,
-   "橋頭區": 4,
-   "大寮區": 4,
-   "湖內區": 4,
-   "前金區": 4,
-   "鳥松區": 3,
-   "新興區": 3,
-   "仁武區": 3,
-   "燕巢區": 2,
-   "大社區": 2,
-   "鹽埕區": 1,
-   "茄萣區": 1,
-   "美濃區": 1,
-   "路竹區": 1
+   "小港區": 5,
+   "岡山區": 3,
+   "湖內區": 2,
+   "橋頭區": 2,
+   "大寮區": 2,
+   "前金區": 2,
+   "鹽埕區": 2,
+   "路竹區": 2,
+   "大樹區": 1,
+   "杉林區": 1,
+   "彌陀區": 1,
+   "鳥松區": 1
   },
   "priceBuckets": [
    {
     "label": "<1000",
-    "n": 70
+    "n": 66
    },
    {
     "label": "1000-1500",
-    "n": 39
+    "n": 26
    },
    {
     "label": "1500-2000",
-    "n": 14
+    "n": 12
    },
    {
     "label": "2000-3000",
-    "n": 3
+    "n": 6
    },
    {
     "label": "3000-4000",
-    "n": 9
+    "n": 3
    },
    {
     "label": "4000+",
-    "n": 4
+    "n": 3
    }
   ]
  },
  "records": [
   {
-   "dealDate": "2026-11-09",
-   "district": "楠梓區",
-   "community": "龍騰鑫時代",
-   "ptype": "大樓",
-   "totalPrice": 760.0,
-   "location": "龍騰鑫時代 | 高雄市楠梓區楠陽路63巷001-049號 成交單價 27.97萬 成交總價 760萬",
-   "years": 0.4,
-   "area": 27.17
+   "dealDate": "2026-11-16",
+   "district": "鼓山區",
+   "community": "鳳凰大廈",
+   "ptype": "華廈",
+   "totalPrice": 638.0,
+   "location": "鳳凰大廈 | 高雄市鼓山區中華一路001-049號 成交單價 9.27萬 成交總價 638萬",
+   "years": 44.5,
+   "area": 68.82
   },
   {
-   "dealDate": "2026-11-09",
-   "district": "橋頭區",
-   "community": "欣橋之心",
-   "ptype": "大樓",
-   "totalPrice": 1220.0,
-   "location": "欣橋之心 | 高雄市橋頭區橋新二路851-899號 成交單價 27.66萬 成交總價 1220萬",
-   "years": 6.2,
-   "area": 44.11
-  },
-  {
-   "dealDate": "2026-11-09",
+   "dealDate": "2026-11-16",
    "district": "前鎮區",
-   "community": "貝拉莫里大樓",
+   "community": "皇家貴賓",
    "ptype": "大樓",
-   "totalPrice": 3050.0,
-   "location": "貝拉莫里大樓 | 高雄市前鎮區中華五路752-800號 成交單價 0萬 成交總價 3050萬",
-   "years": 15.4,
-   "area": 98.0
+   "totalPrice": 830.0,
+   "location": "皇家貴賓 | 高雄市前鎮區民權二路220巷001-049號 成交單價 20.99萬 成交總價 830萬",
+   "years": 29.5,
+   "area": 39.54
   },
   {
-   "dealDate": "2026-11-10",
-   "district": "燕巢區",
+   "dealDate": "2026-11-16",
+   "district": "左營區",
+   "community": "陽光大樓",
+   "ptype": "大樓",
+   "totalPrice": 530.0,
+   "location": "陽光大樓 | 高雄市左營區大中二路602-650號 成交單價 29.81萬 成交總價 530萬",
+   "years": 31.1,
+   "area": 17.78
+  },
+  {
+   "dealDate": "2026-11-16",
+   "district": "仁武區",
    "community": null,
    "ptype": "土地",
-   "totalPrice": 1575.0,
-   "location": "高雄市燕巢區角宿路001-049號 成交單價 24.29萬 成交總價 1575萬",
-   "years": 31.9,
-   "area": 64.84
+   "totalPrice": 1280.0,
+   "location": "高雄市仁武區仁營段安樂小段 成交單價 0萬 成交總價 1280萬"
   },
   {
-   "dealDate": "2026-11-10",
-   "district": "苓雅區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 780.0,
-   "location": "高雄市苓雅區憲政路65巷002-050號 成交單價 33.43萬 成交總價 780萬",
-   "years": 46.9,
-   "area": 23.33
-  },
-  {
-   "dealDate": "2026-11-10",
-   "district": "鼓山區",
-   "community": "美術1號院",
-   "ptype": "大樓",
-   "totalPrice": 1516.0,
-   "location": "美術1號院 | 高雄市鼓山區美術東二路 成交單價 0萬 成交總價 1516萬",
-   "area": 38.39
-  },
-  {
-   "dealDate": "2026-11-10",
-   "district": "湖內區",
+   "dealDate": "2026-11-16",
+   "district": "前鎮區",
    "community": null,
    "ptype": "透天",
-   "totalPrice": 1290.0,
-   "location": "高雄市湖內區中山路一段461巷7弄001-049號 成交單價 17.82萬 成交總價 1290萬",
-   "years": 13.3,
-   "area": 72.4
+   "totalPrice": 2300.0,
+   "location": "高雄市前鎮區鄭和路052-100號 成交單價 34.77萬 成交總價 2300萬",
+   "years": 38.8,
+   "area": 66.15
   },
   {
-   "dealDate": "2026-11-10",
-   "district": "仁武區",
-   "community": "太子雲",
+   "dealDate": "2026-11-16",
+   "district": "三民區",
+   "community": "卡第亞",
    "ptype": "大樓",
-   "totalPrice": 1268.0,
-   "location": "太子雲 | 高雄市仁武區霞海中街001-049號 成交單價 25.45萬 成交總價 1268萬",
-   "years": 8.0,
-   "area": 49.83
+   "totalPrice": 760.0,
+   "location": "卡第亞 | 高雄市三民區義華路421巷001-049號 成交單價 22.77萬 成交總價 760萬",
+   "years": 25.7,
+   "area": 33.38
   },
   {
-   "dealDate": "2026-11-10",
+   "dealDate": "2026-11-16",
+   "district": "仁武區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 1080.0,
+   "location": "高雄市仁武區八德西路126巷002-050號 成交單價 17.82萬 成交總價 1080萬",
+   "years": 31.2,
+   "area": 60.61
+  },
+  {
+   "dealDate": "2026-11-16",
+   "district": "仁武區",
+   "community": "谷樹向陽",
+   "ptype": "大樓",
+   "totalPrice": 1360.0,
+   "location": "谷樹向陽 | 高雄市仁武區霞海南二街002-050號 成交單價 0萬 成交總價 1360萬",
+   "years": 6.3,
+   "area": 50.51
+  },
+  {
+   "dealDate": "2026-11-17",
+   "district": "鳳山區",
+   "community": "鳳凰Young",
+   "ptype": "大樓",
+   "totalPrice": 566.0,
+   "location": "鳳凰Young | 高雄市鳳山區鳳頂路201-249號 成交單價 26.34萬 成交總價 566萬",
+   "years": 7.3,
+   "area": 21.49
+  },
+  {
+   "dealDate": "2026-11-17",
+   "district": "苓雅區",
+   "community": "頂洲好鄰居",
+   "ptype": "華廈",
+   "totalPrice": 380.0,
+   "location": "頂洲好鄰居 | 高雄市苓雅區苓中路151-199號 成交單價 22.99萬 成交總價 380萬",
+   "years": 32.5,
+   "area": 16.53
+  },
+  {
+   "dealDate": "2026-11-17",
+   "district": "三民區",
+   "community": "棋琴七重奏",
+   "ptype": "大樓",
+   "totalPrice": 700.0,
+   "location": "棋琴七重奏 | 高雄市三民區民族巷002-050號 成交單價 31.06萬 成交總價 700萬",
+   "years": 19.5,
+   "area": 22.54
+  },
+  {
+   "dealDate": "2026-11-17",
+   "district": "左營區",
+   "community": "甜蜜生活",
+   "ptype": "大樓",
+   "totalPrice": 1150.0,
+   "location": "甜蜜生活 | 高雄市左營區重仁路50巷001-049號 成交單價 0萬 成交總價 1150萬",
+   "years": 23.8,
+   "area": 39.44
+  },
+  {
+   "dealDate": "2026-11-17",
+   "district": "三民區",
+   "community": "聖羅蘭花園大廈",
+   "ptype": "大樓",
+   "totalPrice": 1323.0,
+   "location": "聖羅蘭花園大廈 | 高雄市三民區大昌二路101-149號 成交單價 20.08萬 成交總價 1323萬",
+   "years": 36.4,
+   "area": 65.88
+  },
+  {
+   "dealDate": "2026-11-17",
+   "district": "鼓山區",
+   "community": null,
+   "ptype": "公寓",
+   "totalPrice": 668.0,
+   "location": "高雄市鼓山區明倫路102-150號 成交單價 18.04萬 成交總價 668萬",
+   "years": 39.6,
+   "area": 37.02
+  },
+  {
+   "dealDate": "2026-11-17",
+   "district": "前鎮區",
+   "community": "萬年大樓",
+   "ptype": "華廈",
+   "totalPrice": 216.0,
+   "location": "萬年大樓 | 高雄市前鎮區三多二路451-499號 成交單價 18.6萬 成交總價 216萬",
+   "years": 45.9,
+   "area": 11.61
+  },
+  {
+   "dealDate": "2026-11-17",
+   "district": "左營區",
+   "community": "富國大街",
+   "ptype": "大樓",
+   "totalPrice": 1230.0,
+   "location": "富國大街 | 高雄市左營區嘉慶街002-050號 成交單價 0萬 成交總價 1230萬",
+   "years": 25.2,
+   "area": 40.53
+  },
+  {
+   "dealDate": "2026-11-17",
+   "district": "前鎮區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 785.0,
+   "location": "高雄市前鎮區和昌街051-099號 成交單價 17.83萬 成交總價 785萬",
+   "years": 52.5,
+   "area": 44.02
+  },
+  {
+   "dealDate": "2026-11-17",
+   "district": "仁武區",
+   "community": "磐京御璽",
+   "ptype": "土地",
+   "totalPrice": 3180.0,
+   "location": "磐京御璽 | 高雄市仁武區名山九街001-049號 成交單價 34.79萬 成交總價 3180萬",
+   "years": 4.0,
+   "area": 91.41
+  },
+  {
+   "dealDate": "2026-11-17",
+   "district": "鳳山區",
+   "community": "太子茵夢湖",
+   "ptype": "大樓",
+   "totalPrice": 1570.0,
+   "location": "太子茵夢湖 | 高雄市鳳山區八德路二段102-150號 成交單價 0萬 成交總價 1570萬",
+   "years": 27.7,
+   "area": 78.29
+  },
+  {
+   "dealDate": "2026-11-17",
+   "district": "鳳山區",
+   "community": "唯超華廈",
+   "ptype": "華廈",
+   "totalPrice": 775.0,
+   "location": "唯超華廈 | 高雄市鳳山區南成街002-050號 成交單價 0萬 成交總價 775萬",
+   "years": 29.6,
+   "area": 38.4
+  },
+  {
+   "dealDate": "2026-11-17",
+   "district": "鼓山區",
+   "community": null,
+   "ptype": "公寓",
+   "totalPrice": 1050.0,
+   "location": "高雄市鼓山區龍德路275巷001-049號 成交單價 29.27萬 成交總價 1050萬",
+   "years": 39.6,
+   "area": 35.87
+  },
+  {
+   "dealDate": "2026-11-17",
+   "district": "左營區",
+   "community": "浪琴嶼",
+   "ptype": "大樓",
+   "totalPrice": 738.0,
+   "location": "浪琴嶼 | 高雄市左營區城峰路002-050號 成交單價 29.73萬 成交總價 738萬",
+   "years": 18.6,
+   "area": 24.82
+  },
+  {
+   "dealDate": "2026-11-17",
+   "district": "三民區",
+   "community": "維也納DC",
+   "ptype": "大樓",
+   "totalPrice": 880.0,
+   "location": "維也納DC | 高雄市三民區明哲路001-049號 成交單價 15.42萬 成交總價 880萬",
+   "years": 33.0,
+   "area": 57.06
+  },
+  {
+   "dealDate": "2026-11-17",
+   "district": "仁武區",
+   "community": "可麗都",
+   "ptype": "大樓",
+   "totalPrice": 1206.0,
+   "location": "可麗都 | 高雄市仁武區京吉三路002-050號 成交單價 0萬 成交總價 1206萬",
+   "years": 4.1,
+   "area": 44.16
+  },
+  {
+   "dealDate": "2026-11-17",
+   "district": "苓雅區",
+   "community": "友利園",
+   "ptype": "大樓",
+   "totalPrice": 500.0,
+   "location": "友利園 | 高雄市苓雅區忠孝二路35巷001-049號 成交單價 18.33萬 成交總價 500萬",
+   "years": 43.6,
+   "area": 27.28
+  },
+  {
+   "dealDate": "2026-11-18",
+   "district": "楠梓區",
+   "community": "聯上峰景",
+   "ptype": "大樓",
+   "totalPrice": 1150.0,
+   "location": "聯上峰景 | 高雄市楠梓區卓越路151-199號 成交單價 0萬 成交總價 1150萬",
+   "years": 11.2,
+   "area": 46.14
+  },
+  {
+   "dealDate": "2026-11-18",
+   "district": "楠梓區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 2080.0,
+   "location": "高雄市楠梓區德中路502-550號 成交單價 31.69萬 成交總價 2080萬",
+   "years": 21.5,
+   "area": 65.64
+  },
+  {
+   "dealDate": "2026-11-18",
+   "district": "前鎮區",
+   "community": "愛瑰蘭",
+   "ptype": "大樓",
+   "totalPrice": 582.0,
+   "location": "愛瑰蘭 | 高雄市前鎮區林森三路051-099號 成交單價 21.52萬 成交總價 582萬",
+   "years": 47.3,
+   "area": 27.04
+  },
+  {
+   "dealDate": "2026-11-18",
+   "district": "三民區",
+   "community": null,
+   "ptype": "公寓",
+   "totalPrice": 350.0,
+   "location": "高雄市三民區立志街126巷002-050號 成交單價 17.17萬 成交總價 350萬",
+   "years": 46.2,
+   "area": 20.39
+  },
+  {
+   "dealDate": "2026-11-18",
+   "district": "苓雅區",
+   "community": "繽海",
+   "ptype": "大樓",
+   "totalPrice": 1566.0,
+   "location": "繽海 | 高雄市苓雅區三多四路102-150號 成交單價 0萬 成交總價 1566萬",
+   "years": 3.0,
+   "area": 44.59
+  },
+  {
+   "dealDate": "2026-11-18",
+   "district": "三民區",
+   "community": "南港大樓",
+   "ptype": "華廈",
+   "totalPrice": 555.0,
+   "location": "南港大樓 | 高雄市三民區建國二路002-050號 成交單價 20.09萬 成交總價 555萬",
+   "years": 46.9,
+   "area": 27.62
+  },
+  {
+   "dealDate": "2026-11-18",
+   "district": "三民區",
+   "community": "湖水映",
+   "ptype": "透天",
+   "totalPrice": 1650.0,
+   "location": "湖水映 | 高雄市三民區鼎貴路31巷6弄002-050號 成交單價 27.42萬 成交總價 1650萬",
+   "years": 23.0,
+   "area": 60.17
+  },
+  {
+   "dealDate": "2026-11-18",
    "district": "大寮區",
    "community": null,
    "ptype": "透天",
-   "totalPrice": 499.0,
-   "location": "高雄市大寮區鳳林三路001-049號 成交單價 24.73萬 成交總價 499萬",
-   "years": 47.1,
-   "area": 20.18
+   "totalPrice": 1800.0,
+   "location": "高雄市大寮區巷尾路001-049號 成交單價 26.74萬 成交總價 1800萬",
+   "years": 2.5,
+   "area": 67.32
   },
   {
-   "dealDate": "2026-11-10",
+   "dealDate": "2026-11-18",
+   "district": "橋頭區",
+   "community": null,
+   "ptype": "土地",
+   "totalPrice": 795.0,
+   "location": "高雄市橋頭區五林路惠明巷001-049號 成交單價 29.75萬 成交總價 795萬",
+   "years": 50.4,
+   "area": 26.72
+  },
+  {
+   "dealDate": "2026-11-18",
+   "district": "三民區",
+   "community": null,
+   "ptype": "廠房",
+   "totalPrice": 11646.0,
+   "location": "高雄市三民區灣內段 成交單價 85.56萬 成交總價 11646萬"
+  },
+  {
+   "dealDate": "2026-11-18",
+   "district": "鳥松區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 598.0,
+   "location": "高雄市鳥松區仁美路27巷001-049號 成交單價 13.03萬 成交總價 598萬",
+   "years": 28.7,
+   "area": 45.91
+  },
+  {
+   "dealDate": "2026-11-18",
+   "district": "仁武區",
+   "community": "芳崗澄品",
+   "ptype": "大樓",
+   "totalPrice": 1638.0,
+   "location": "芳崗澄品 | 高雄市仁武區仁勇路502-550號 成交單價 0萬 成交總價 1638萬",
+   "years": 9.0,
+   "area": 59.03
+  },
+  {
+   "dealDate": "2026-11-18",
+   "district": "路竹區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 863.0,
+   "location": "高雄市路竹區仁愛路69巷052-100號 成交單價 34.62萬 成交總價 863萬",
+   "years": 49.3,
+   "area": 24.93
+  },
+  {
+   "dealDate": "2026-11-19",
+   "district": "鳳山區",
+   "community": "鳳山中崙第一標公寓大廈",
+   "ptype": "華廈",
+   "totalPrice": 670.0,
+   "location": "鳳山中崙第一標公寓大廈 | 高雄市鳳山區中崙二路574巷001-049號 成交單價 17.84萬 成交總價 670萬",
+   "years": 30.9,
+   "area": 37.55
+  },
+  {
+   "dealDate": "2026-11-19",
+   "district": "鹽埕區",
+   "community": "瑞士鄉廈",
+   "ptype": "大樓",
+   "totalPrice": 800.0,
+   "location": "瑞士鄉廈 | 高雄市鹽埕區河西路001-049號 成交單價 22.65萬 成交總價 800萬",
+   "years": 37.6,
+   "area": 35.32
+  },
+  {
+   "dealDate": "2026-11-19",
+   "district": "前金區",
+   "community": "國揚天河大樓",
+   "ptype": "大樓",
+   "totalPrice": 490.0,
+   "location": "國揚天河大樓 | 高雄市前金區市中一路051-099號 成交單價 26.46萬 成交總價 490萬",
+   "years": 24.5,
+   "area": 18.52
+  },
+  {
+   "dealDate": "2026-11-19",
+   "district": "三民區",
+   "community": "美麗人生大樓",
+   "ptype": "大樓",
+   "totalPrice": 838.0,
+   "location": "美麗人生大樓 | 高雄市三民區鼎和街001-049號 成交單價 0萬 成交總價 838萬",
+   "years": 27.5,
+   "area": 42.99
+  },
+  {
+   "dealDate": "2026-11-19",
+   "district": "鳳山區",
+   "community": "鳳山中崙第二標",
+   "ptype": "華廈",
+   "totalPrice": 680.0,
+   "location": "鳳山中崙第二標 | 高雄市鳳山區中崙二路580巷001-049號 成交單價 18.23萬 成交總價 680萬",
+   "years": 32.3,
+   "area": 37.31
+  },
+  {
+   "dealDate": "2026-11-19",
+   "district": "三民區",
+   "community": "學府庭園",
+   "ptype": "華廈",
+   "totalPrice": 660.0,
+   "location": "學府庭園 | 高雄市三民區黃興路152-200號 成交單價 18.33萬 成交總價 660萬",
+   "years": 32.6,
+   "area": 36.0
+  },
+  {
+   "dealDate": "2026-11-19",
+   "district": "鼓山區",
+   "community": "飛揚",
+   "ptype": "大樓",
+   "totalPrice": 1060.0,
+   "location": "飛揚 | 高雄市鼓山區龍勝路052-100號 成交單價 32.65萬 成交總價 1060萬",
+   "years": 21.0,
+   "area": 32.47
+  },
+  {
+   "dealDate": "2026-11-19",
+   "district": "仁武區",
+   "community": "谷樹向陽",
+   "ptype": "大樓",
+   "totalPrice": 1010.0,
+   "location": "谷樹向陽 | 高雄市仁武區霞海南二街002-050號 成交單價 28.86萬 成交總價 1010萬",
+   "years": 6.4,
+   "area": 35.0
+  },
+  {
+   "dealDate": "2026-11-19",
    "district": "仁武區",
    "community": null,
    "ptype": "透天",
-   "totalPrice": 1175.0,
-   "location": "高雄市仁武區仁勇路178巷052-100號 成交單價 20.74萬 成交總價 1175萬",
-   "years": 33.4,
-   "area": 56.65
+   "totalPrice": 1280.0,
+   "location": "高雄市仁武區仁怡二街151-199號 成交單價 49.59萬 成交總價 1280萬",
+   "years": 47.3,
+   "area": 25.81
   },
   {
-   "dealDate": "2026-11-10",
-   "district": "小港區",
-   "community": "吉松哲園",
+   "dealDate": "2026-11-19",
+   "district": "左營區",
+   "community": "當代Smile",
    "ptype": "大樓",
-   "totalPrice": 1268.0,
-   "location": "吉松哲園 | 高雄市小港區中安路902-950號 成交單價 0萬 成交總價 1268萬",
-   "years": 12.0,
-   "area": 51.55
+   "totalPrice": 1350.0,
+   "location": "當代Smile | 高雄市左營區文奇路201-249號 成交單價 0萬 成交總價 1350萬",
+   "years": 19.5,
+   "area": 45.49
   },
   {
-   "dealDate": "2026-11-10",
-   "district": "楠梓區",
-   "community": "佛羅里達",
+   "dealDate": "2026-11-19",
+   "district": "小港區",
+   "community": null,
+   "ptype": "公寓",
+   "totalPrice": 200.0,
+   "location": "高雄市小港區宮仁街002-050號 成交單價 7.86萬 成交總價 200萬",
+   "years": 46.5,
+   "area": 25.46
+  },
+  {
+   "dealDate": "2026-11-20",
+   "district": "前金區",
+   "community": "統帥大廈",
+   "ptype": "大樓",
+   "totalPrice": 660.0,
+   "location": "統帥大廈 | 高雄市前金區中華三路001-049號 成交單價 16.96萬 成交總價 660萬",
+   "years": 42.8,
+   "area": 38.91
+  },
+  {
+   "dealDate": "2026-11-20",
+   "district": "鹽埕區",
+   "community": null,
    "ptype": "透天",
-   "totalPrice": 1920.0,
-   "location": "佛羅里達 | 高雄市楠梓區德民路18巷001-049號 成交單價 31.24萬 成交總價 1920萬",
-   "years": 21.1,
-   "area": 61.45
+   "totalPrice": 820.0,
+   "location": "高雄市鹽埕區府北路21巷001-049號 成交單價 12.2萬 成交總價 820萬",
+   "years": 38.7,
+   "area": 67.22
   },
   {
-   "dealDate": "2026-11-10",
-   "district": "大社區",
+   "dealDate": "2026-11-20",
+   "district": "楠梓區",
+   "community": "亞太新紀元",
+   "ptype": "大樓",
+   "totalPrice": 580.0,
+   "location": "亞太新紀元 | 高雄市楠梓區楠梓新路261巷002-050號 成交單價 16.44萬 成交總價 580萬",
+   "years": 32.4,
+   "area": 35.29
+  },
+  {
+   "dealDate": "2026-11-20",
+   "district": "左營區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 2400.0,
+   "location": "高雄市左營區文自路952-000號 成交單價 22.28萬 成交總價 2400萬",
+   "years": 32.9,
+   "area": 107.74
+  },
+  {
+   "dealDate": "2026-11-20",
+   "district": "左營區",
    "community": null,
    "ptype": "土地",
-   "totalPrice": 900.0,
-   "location": "高雄市大社區民生路002-050號 成交單價 19.22萬 成交總價 900萬",
-   "years": 48.4,
-   "area": 46.83
+   "totalPrice": 377.34,
+   "location": "高雄市左營區興隆段 成交單價 0萬 成交總價 377.34萬"
   },
   {
-   "dealDate": "2026-11-10",
-   "district": "大社區",
+   "dealDate": "2026-11-20",
+   "district": "杉林區",
    "community": null,
    "ptype": "土地",
-   "totalPrice": 300.0,
-   "location": "高雄市大社區興工段 成交單價 0萬 成交總價 300萬"
+   "totalPrice": 100.0,
+   "location": "高雄市杉林區司馬段 成交單價 0萬 成交總價 100萬"
   },
   {
-   "dealDate": "2026-11-10",
+   "dealDate": "2026-11-20",
+   "district": "小港區",
+   "community": "小港二期國宅社區",
+   "ptype": "公寓",
+   "totalPrice": 500.0,
+   "location": "小港二期國宅社區 | 高雄市小港區鋼平街176巷001-049號 成交單價 10.85萬 成交總價 500萬",
+   "years": 32.8,
+   "area": 46.09
+  },
+  {
+   "dealDate": "2026-11-20",
+   "district": "三民區",
+   "community": "揚名天廈",
+   "ptype": "大樓",
+   "totalPrice": 595.0,
+   "location": "揚名天廈 | 高雄市三民區義光街002-050號 成交單價 20.94萬 成交總價 595萬",
+   "years": 30.7,
+   "area": 28.42
+  },
+  {
+   "dealDate": "2026-11-20",
+   "district": "苓雅區",
+   "community": null,
+   "ptype": "公寓",
+   "totalPrice": 530.0,
+   "location": "高雄市苓雅區正大路051-099號 成交單價 17.19萬 成交總價 530萬",
+   "years": 42.2,
+   "area": 30.83
+  },
+  {
+   "dealDate": "2026-11-20",
+   "district": "前鎮區",
+   "community": null,
+   "ptype": "土地",
+   "totalPrice": 13287.84,
+   "location": "高雄市前鎮區瑞北路201-249號 成交單價 55.82萬 成交總價 13287.84萬",
+   "years": 47.8,
+   "area": 238.03
+  },
+  {
+   "dealDate": "2026-11-20",
+   "district": "三民區",
+   "community": "億居御墅6",
+   "ptype": "透天",
+   "totalPrice": 7700.0,
+   "location": "億居御墅6 | 高雄市三民區美都路300巷001-049號 成交單價 46.93萬 成交總價 7700萬",
+   "years": 0.9,
+   "area": 164.08
+  },
+  {
+   "dealDate": "2026-11-20",
+   "district": "彌陀區",
+   "community": null,
+   "ptype": "土地",
+   "totalPrice": 148.0,
+   "location": "高雄市彌陀區安港段 成交單價 0萬 成交總價 148萬"
+  },
+  {
+   "dealDate": "2026-11-20",
+   "district": "小港區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 3000.0,
+   "location": "高雄市小港區廠新街052-100號 成交單價 30.95萬 成交總價 3000萬",
+   "years": 12.7,
+   "area": 96.93
+  },
+  {
+   "dealDate": "2026-11-20",
+   "district": "楠梓區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 1300.0,
+   "location": "高雄市楠梓區青埔街151-199號 成交單價 27.21萬 成交總價 1300萬",
+   "years": 40.0,
+   "area": 47.77
+  },
+  {
+   "dealDate": "2026-11-20",
+   "district": "仁武區",
+   "community": null,
+   "ptype": "土地",
+   "totalPrice": 3750.0,
+   "location": "高雄市仁武區八德中路552-600號 成交單價 32.93萬 成交總價 3750萬",
+   "years": 11.2,
+   "area": 113.88
+  },
+  {
+   "dealDate": "2026-11-20",
+   "district": "前鎮區",
+   "community": "君毅正勤國宅",
+   "ptype": "大樓",
+   "totalPrice": 736.0,
+   "location": "君毅正勤國宅 | 高雄市前鎮區中華五路991巷001-049號 成交單價 18.78萬 成交總價 736萬",
+   "years": 32.3,
+   "area": 39.2
+  },
+  {
+   "dealDate": "2026-11-20",
+   "district": "鼓山區",
+   "community": "京城康橋",
+   "ptype": "大樓",
+   "totalPrice": 1588.0,
+   "location": "京城康橋 | 高雄市鼓山區美術東二路052-100號 成交單價 37.57萬 成交總價 1588萬",
+   "years": 22.0,
+   "area": 42.27
+  },
+  {
+   "dealDate": "2026-11-20",
+   "district": "路竹區",
+   "community": null,
+   "ptype": "土地",
+   "totalPrice": 820.0,
+   "location": "高雄市路竹區倫理街102-150號 成交單價 19.08萬 成交總價 820萬",
+   "years": 38.9,
+   "area": 42.98
+  },
+  {
+   "dealDate": "2026-11-21",
+   "district": "左營區",
+   "community": "i-home",
+   "ptype": "大樓",
+   "totalPrice": 835.0,
+   "location": "i-home | 高雄市左營區正心街051-099號 成交單價 32.02萬 成交總價 835萬",
+   "years": 15.1,
+   "area": 26.08
+  },
+  {
+   "dealDate": "2026-11-21",
+   "district": "鳳山區",
+   "community": null,
+   "ptype": "公寓",
+   "totalPrice": 342.0,
+   "location": "高雄市鳳山區文東街202-250號 成交單價 25.02萬 成交總價 342萬",
+   "years": 44.1,
+   "area": 13.67
+  },
+  {
+   "dealDate": "2026-11-21",
+   "district": "岡山區",
+   "community": null,
+   "ptype": "土地",
+   "totalPrice": 620.0,
+   "location": "高雄市岡山區為隨段 成交單價 0萬 成交總價 620萬"
+  },
+  {
+   "dealDate": "2026-11-21",
+   "district": "楠梓區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 1520.0,
+   "location": "高雄市楠梓區惠昌街125巷001-049號 成交單價 28.75萬 成交總價 1520萬",
+   "years": 24.1,
+   "area": 52.87
+  },
+  {
+   "dealDate": "2026-11-21",
+   "district": "苓雅區",
+   "community": "亞曼大樓",
+   "ptype": "大樓",
+   "totalPrice": 690.0,
+   "location": "亞曼大樓 | 高雄市苓雅區武廟路201-249號 成交單價 26.06萬 成交總價 690萬",
+   "years": 20.9,
+   "area": 26.48
+  },
+  {
+   "dealDate": "2026-11-21",
+   "district": "前鎮區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 1750.0,
+   "location": "高雄市前鎮區隆斌街27巷002-050號 成交單價 33.42萬 成交總價 1750萬",
+   "years": 22.2,
+   "area": 52.36
+  },
+  {
+   "dealDate": "2026-11-21",
+   "district": "鼓山區",
+   "community": "森美術",
+   "ptype": "大樓",
+   "totalPrice": 1080.0,
+   "location": "森美術 | 高雄市鼓山區美術東八街002-050號 成交單價 38.92萬 成交總價 1080萬",
+   "years": 14.4,
+   "area": 27.75
+  },
+  {
+   "dealDate": "2026-11-21",
+   "district": "鳳山區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 1530.0,
+   "location": "高雄市鳳山區埤頂街160巷001-049號 成交單價 23.47萬 成交總價 1530萬",
+   "years": 36.4,
+   "area": 65.19
+  },
+  {
+   "dealDate": "2026-11-21",
+   "district": "苓雅區",
+   "community": "繽海",
+   "ptype": "大樓",
+   "totalPrice": 608.0,
+   "location": "繽海 | 高雄市苓雅區三多四路102-150號 成交單價 35.21萬 成交總價 608萬",
+   "years": 3.0,
+   "area": 17.27
+  },
+  {
+   "dealDate": "2026-11-21",
+   "district": "小港區",
+   "community": null,
+   "ptype": "公寓",
+   "totalPrice": 355.0,
+   "location": "高雄市小港區康莊路002-050號 成交單價 16.25萬 成交總價 355萬",
+   "years": 43.0,
+   "area": 21.85
+  },
+  {
+   "dealDate": "2026-11-21",
+   "district": "大寮區",
+   "community": "公園新家大廈",
+   "ptype": "大樓",
+   "totalPrice": 650.0,
+   "location": "公園新家大廈 | 高雄市大寮區明德路001-049號 成交單價 14.87萬 成交總價 650萬",
+   "years": 34.0,
+   "area": 43.71
+  },
+  {
+   "dealDate": "2026-11-21",
+   "district": "左營區",
+   "community": "美麗夏威夷",
+   "ptype": "大樓",
+   "totalPrice": 1225.0,
+   "location": "美麗夏威夷 | 高雄市左營區民族一路102-150號 成交單價 0萬 成交總價 1225萬",
+   "years": 19.3,
+   "area": 45.6
+  },
+  {
+   "dealDate": "2026-11-21",
+   "district": "左營區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 2250.0,
+   "location": "高雄市左營區民族一路051-099號 成交單價 23.07萬 成交總價 2250萬",
+   "years": 27.1,
+   "area": 97.55
+  },
+  {
+   "dealDate": "2026-11-21",
    "district": "楠梓區",
    "community": null,
    "ptype": "公寓",
-   "totalPrice": 250.0,
-   "location": "高雄市楠梓區壽民路002-050號 成交單價 9.05萬 成交總價 250萬",
+   "totalPrice": 470.0,
+   "location": "高雄市楠梓區壽民路002-050號 成交單價 17.01萬 成交總價 470萬",
    "years": 43.3,
    "area": 27.63
   },
   {
-   "dealDate": "2026-11-10",
-   "district": "三民區",
-   "community": "興富發博愛",
+   "dealDate": "2026-11-21",
+   "district": "左營區",
+   "community": "鑫巨蛋",
    "ptype": "大樓",
-   "totalPrice": 1228.0,
-   "location": "興富發博愛 | 高雄市三民區博愛一路151-199號 成交單價 0萬 成交總價 1228萬",
-   "years": 1.6,
-   "area": 35.23
+   "totalPrice": 1308.0,
+   "location": "鑫巨蛋 | 高雄市左營區文直路001-049號 成交單價 42.1萬 成交總價 1308萬",
+   "years": 8.1,
+   "area": 31.07
   },
   {
-   "dealDate": "2026-11-10",
+   "dealDate": "2026-11-21",
+   "district": "鳳山區",
+   "community": "觀悅行館",
+   "ptype": "透天",
+   "totalPrice": 1280.0,
+   "location": "觀悅行館 | 高雄市鳳山區過雄街112巷15弄001-049號 成交單價 23.97萬 成交總價 1280萬",
+   "years": 16.6,
+   "area": 53.4
+  },
+  {
+   "dealDate": "2026-11-21",
+   "district": "苓雅區",
+   "community": "貴族儷舍",
+   "ptype": "大樓",
+   "totalPrice": 255.0,
+   "location": "貴族儷舍 | 高雄市苓雅區永泰路052-100號 成交單價 22.17萬 成交總價 255萬",
+   "years": 36.0,
+   "area": 11.5
+  },
+  {
+   "dealDate": "2026-11-21",
+   "district": "三民區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 2765.0,
+   "location": "高雄市三民區水源路199巷001-049號 成交單價 33.37萬 成交總價 2765萬",
+   "years": 18.9,
+   "area": 82.87
+  },
+  {
+   "dealDate": "2026-11-21",
    "district": "前鎮區",
    "community": null,
-   "ptype": "透天",
-   "totalPrice": 750.0,
-   "location": "高雄市前鎮區鎮州路252-300號 成交單價 25.08萬 成交總價 750萬",
-   "years": 59.4,
-   "area": 29.91
-  },
-  {
-   "dealDate": "2026-11-10",
-   "district": "三民區",
-   "community": "達麗上東京",
-   "ptype": "大樓",
-   "totalPrice": 1360.0,
-   "location": "達麗上東京 | 高雄市三民區鼎強街052-100號 成交單價 33.61萬 成交總價 1360萬",
-   "years": 3.5,
-   "area": 40.47
-  },
-  {
-   "dealDate": "2026-11-10",
-   "district": "三民區",
-   "community": "陽光歐鄉",
-   "ptype": "大樓",
-   "totalPrice": 777.0,
-   "location": "陽光歐鄉 | 高雄市三民區大豐一路001-049號 成交單價 23.52萬 成交總價 777萬",
-   "years": 31.3,
-   "area": 33.04
-  },
-  {
-   "dealDate": "2026-11-10",
-   "district": "小港區",
-   "community": "江山萬里大廈",
-   "ptype": "大樓",
-   "totalPrice": 740.0,
-   "location": "江山萬里大廈 | 高雄市小港區德仁路052-100號 成交單價 17.38萬 成交總價 740萬",
-   "years": 32.6,
-   "area": 42.58
-  },
-  {
-   "dealDate": "2026-11-10",
-   "district": "鳥松區",
-   "community": "南統湖畔城堡",
-   "ptype": "透天",
-   "totalPrice": 3880.0,
-   "location": "南統湖畔城堡 | 高雄市鳥松區明湖路052-100號 成交單價 29.07萬 成交總價 3880萬",
-   "years": 22.8,
-   "area": 133.46
-  },
-  {
-   "dealDate": "2026-11-10",
-   "district": "鳳山區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 1480.0,
-   "location": "高雄市鳳山區凱旋路201-249號 成交單價 52.5萬 成交總價 1480萬",
-   "years": 52.3,
-   "area": 28.19
-  },
-  {
-   "dealDate": "2026-11-10",
-   "district": "鼓山區",
-   "community": "美麗 Party二期",
-   "ptype": "大樓",
-   "totalPrice": 1098.0,
-   "location": "美麗 Party二期 | 高雄市鼓山區明倫路151-199號 成交單價 0萬 成交總價 1098萬",
-   "years": 19.8,
-   "area": 31.37
-  },
-  {
-   "dealDate": "2026-11-10",
-   "district": "鳳山區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 1960.0,
-   "location": "高雄市鳳山區大東二路052-100號 成交單價 28.15萬 成交總價 1960萬",
-   "years": 49.9,
-   "area": 69.63
-  },
-  {
-   "dealDate": "2026-11-10",
-   "district": "鳥松區",
-   "community": "碧澄湖畔",
    "ptype": "公寓",
-   "totalPrice": 1060.0,
-   "location": "碧澄湖畔 | 高雄市鳥松區中正路153巷002-050號 成交單價 0萬 成交總價 1060萬",
-   "years": 3.6,
-   "area": 38.55
+   "totalPrice": 568.0,
+   "location": "高雄市前鎮區三多三路151-199號 成交單價 20.5萬 成交總價 568萬",
+   "years": 51.6,
+   "area": 27.71
   },
   {
-   "dealDate": "2026-11-10",
-   "district": "左營區",
-   "community": "清景麟幸福城",
-   "ptype": "大樓",
-   "totalPrice": 710.0,
-   "location": "清景麟幸福城 | 高雄市左營區海富路051-099號 成交單價 21.91萬 成交總價 710萬",
-   "years": 1.2,
-   "area": 32.4
-  },
-  {
-   "dealDate": "2026-11-10",
-   "district": "新興區",
-   "community": "民生一號院/民生1號院",
-   "ptype": "大樓",
-   "totalPrice": 1750.0,
-   "location": "民生一號院/民生1號院 | 高雄市新興區中山一路002-050號 成交單價 0萬 成交總價 1750萬",
-   "years": 0.8,
-   "area": 50.3
-  },
-  {
-   "dealDate": "2026-11-10",
-   "district": "楠梓區",
-   "community": "和紘捷運棧",
-   "ptype": "大樓",
-   "totalPrice": 860.0,
-   "location": "和紘捷運棧 | 高雄市楠梓區金和街168巷052-100號 成交單價 29.77萬 成交總價 860萬",
-   "years": 5.6,
-   "area": 28.89
-  },
-  {
-   "dealDate": "2026-11-10",
+   "dealDate": "2026-11-21",
    "district": "三民區",
-   "community": "太普美樹苑",
+   "community": "愛上巨蛋",
    "ptype": "大樓",
-   "totalPrice": 1010.0,
-   "location": "太普美樹苑 | 高雄市三民區鼎文街052-100號 成交單價 0萬 成交總價 1010萬",
-   "years": 26.2,
-   "area": 41.7
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "橋頭區",
-   "community": "高雄大地",
-   "ptype": "大樓",
-   "totalPrice": 520.0,
-   "location": "高雄大地 | 高雄市橋頭區南溝路金福二巷001-049號 成交單價 16.49萬 成交總價 520萬",
-   "years": 32.0,
-   "area": 31.53
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "岡山區",
-   "community": "勵志新城-乙區",
-   "ptype": "大樓",
-   "totalPrice": 1260.0,
-   "location": "勵志新城-乙區 | 高雄市岡山區仁義路002-050號 成交單價 20.48萬 成交總價 1260萬",
-   "years": 20.7,
-   "area": 61.52
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "前金區",
-   "community": "中正美麗殿",
-   "ptype": "大樓",
-   "totalPrice": 1590.0,
-   "location": "中正美麗殿 | 高雄市前金區新盛二街052-100號 成交單價 0萬 成交總價 1590萬",
-   "years": 20.7,
-   "area": 47.0
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "岡山區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 1368.0,
-   "location": "高雄市岡山區大仁路051-099號 成交單價 16.28萬 成交總價 1368萬",
-   "years": 34.4,
-   "area": 84.01
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "苓雅區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 580.0,
-   "location": "高雄市苓雅區福德三路051-099號 成交單價 20.95萬 成交總價 580萬",
-   "years": 41.5,
-   "area": 27.68
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "左營區",
-   "community": "悅讀風情",
-   "ptype": "大樓",
-   "totalPrice": 828.0,
-   "location": "悅讀風情 | 高雄市左營區民族一路002-050號 成交單價 0萬 成交總價 828萬",
-   "years": 20.2,
-   "area": 27.8
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "苓雅區",
-   "community": "中山大廈",
-   "ptype": "大樓",
-   "totalPrice": 120.0,
-   "location": "中山大廈 | 高雄市苓雅區中山二路451-499號 成交單價 21.39萬 成交總價 120萬",
-   "years": 46.9,
-   "area": 5.61
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "三民區",
-   "community": "和春香檳",
-   "ptype": "華廈",
-   "totalPrice": 550.0,
-   "location": "和春香檳 | 高雄市三民區建興路352-400號 成交單價 15.43萬 成交總價 550萬",
-   "years": 46.5,
-   "area": 35.65
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "楠梓區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 800.0,
-   "location": "高雄市楠梓區樂群路98巷002-050號 成交單價 30.31萬 成交總價 800萬",
-   "years": 42.0,
-   "area": 26.39
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "楠梓區",
-   "community": "GO協勝發",
-   "ptype": "大樓",
-   "totalPrice": 1245.0,
-   "location": "GO協勝發 | 高雄市楠梓區藍田路152-200號 成交單價 0萬 成交總價 1245萬",
-   "years": 6.0,
-   "area": 48.0
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "左營區",
-   "community": "喜悅",
-   "ptype": "大樓",
-   "totalPrice": 1150.0,
-   "location": "喜悅 | 高雄市左營區文學路651-699號 成交單價 23.12萬 成交總價 1150萬",
-   "years": 23.9,
-   "area": 49.73
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "鼓山區",
-   "community": "河歌山",
-   "ptype": "大樓",
-   "totalPrice": 1585.0,
-   "location": "河歌山 | 高雄市鼓山區美術南二路052-100號 成交單價 0萬 成交總價 1585萬",
-   "years": 18.1,
-   "area": 42.07
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "前金區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 1855.0,
-   "location": "高雄市前金區榮安街052-100號 成交單價 24.09萬 成交總價 1855萬",
-   "years": 27.6,
-   "area": 77.0
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "三民區",
-   "community": "京城世界一期",
-   "ptype": "大樓",
-   "totalPrice": 1060.0,
-   "location": "京城世界一期 | 高雄市三民區河堤路502-550號 成交單價 25.01萬 成交總價 1060萬",
-   "years": 29.4,
-   "area": 42.38
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "鳳山區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 266.0,
-   "location": "高雄市鳳山區經武路196巷002-050號 成交單價 15.27萬 成交總價 266萬",
-   "years": 45.5,
-   "area": 17.42
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "左營區",
-   "community": null,
-   "ptype": "土地",
-   "totalPrice": 150.0,
-   "location": "高雄市左營區左營大路715巷001-049號 成交單價 19.06萬 成交總價 150萬",
-   "area": 7.87
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "橋頭區",
-   "community": "全民萬歲",
-   "ptype": "大樓",
-   "totalPrice": 1340.0,
-   "location": "全民萬歲 | 高雄市橋頭區經武路052-100號 成交單價 26.76萬 成交總價 1340萬",
-   "years": 7.9,
-   "area": 50.08
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "三民區",
-   "community": "仰德悅",
-   "ptype": "大樓",
-   "totalPrice": 3200.0,
-   "location": "仰德悅 | 高雄市三民區十全一路251-299號 成交單價 0萬 成交總價 3200萬",
-   "years": 6.5,
-   "area": 66.16
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "新興區",
-   "community": "聯上V1",
-   "ptype": "大樓",
-   "totalPrice": 800.0,
-   "location": "聯上V1 | 高雄市新興區七賢二路051-099號 成交單價 33.29萬 成交總價 800萬",
-   "years": 9.6,
-   "area": 24.03
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "苓雅區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 858.0,
-   "location": "高雄市苓雅區自強三路79巷002-050號 成交單價 28.65萬 成交總價 858萬",
-   "years": 58.8,
-   "area": 29.95
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "前鎮區",
-   "community": "光華甲區國宅社區",
-   "ptype": "大樓",
-   "totalPrice": 915.0,
-   "location": "光華甲區國宅社區 | 高雄市前鎮區嘉陵街002-050號 成交單價 18.51萬 成交總價 915萬",
-   "years": 30.9,
-   "area": 49.42
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "鳳山區",
-   "community": "微笑88",
-   "ptype": "大樓",
-   "totalPrice": 530.0,
-   "location": "微笑88 | 高雄市鳳山區過埤路651-699號 成交單價 0萬 成交總價 530萬",
-   "years": 8.0,
-   "area": 27.44
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "左營區",
-   "community": "翡翠流域",
-   "ptype": "大樓",
-   "totalPrice": 1100.0,
-   "location": "翡翠流域 | 高雄市左營區桃子園路051-099號 成交單價 0萬 成交總價 1100萬",
-   "years": 6.3,
-   "area": 35.79
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "苓雅區",
-   "community": "觀海大廈",
-   "ptype": "大樓",
-   "totalPrice": 828.0,
-   "location": "觀海大廈 | 高雄市苓雅區海邊路052-100號 成交單價 19.79萬 成交總價 828萬",
-   "years": 39.6,
-   "area": 41.84
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "橋頭區",
-   "community": "幸福居8",
-   "ptype": "華廈",
-   "totalPrice": 870.0,
-   "location": "幸福居8 | 高雄市橋頭區社邊路002-050號 成交單價 0萬 成交總價 870萬",
-   "years": 2.8,
-   "area": 31.58
-  },
-  {
-   "dealDate": "2026-11-11",
-   "district": "苓雅區",
-   "community": "如意",
-   "ptype": "大樓",
-   "totalPrice": 2500.0,
-   "location": "如意 | 高雄市苓雅區正言路051-099號 成交單價 0萬 成交總價 2500萬",
+   "totalPrice": 888.0,
+   "location": "愛上巨蛋 | 高雄市三民區鼎力路152-200號 成交單價 0萬 成交總價 888萬",
    "years": 12.0,
-   "area": 73.23
+   "area": 28.21
   },
   {
-   "dealDate": "2026-11-12",
-   "district": "三民區",
-   "community": "菁英會館",
-   "ptype": "華廈",
-   "totalPrice": 149.0,
-   "location": "菁英會館 | 高雄市三民區愛國路051-099號 成交單價 31.37萬 成交總價 149萬",
-   "years": 20.3,
-   "area": 4.75
-  },
-  {
-   "dealDate": "2026-11-12",
-   "district": "三民區",
-   "community": "東泰花園廣場第三期",
+   "dealDate": "2026-11-21",
+   "district": "岡山區",
+   "community": "岡山勵志新城-甲區",
    "ptype": "大樓",
-   "totalPrice": 950.0,
-   "location": "東泰花園廣場第三期 | 高雄市三民區興隆街002-050號 成交單價 24.72萬 成交總價 950萬",
-   "years": 30.8,
-   "area": 38.43
+   "totalPrice": 1050.0,
+   "location": "岡山勵志新城-甲區 | 高雄市岡山區岡山路89巷002-050號 成交單價 19.32萬 成交總價 1050萬",
+   "years": 20.6,
+   "area": 54.36
   },
   {
-   "dealDate": "2026-11-12",
+   "dealDate": "2026-11-21",
    "district": "三民區",
-   "community": "悅讀綠森活II",
-   "ptype": "大樓",
-   "totalPrice": 1350.0,
-   "location": "悅讀綠森活II | 高雄市三民區遼寧三街101-149號 成交單價 0萬 成交總價 1350萬",
-   "years": 5.9,
-   "area": 33.7
-  },
-  {
-   "dealDate": "2026-11-12",
-   "district": "燕巢區",
-   "community": "象富邑",
-   "ptype": "華廈",
-   "totalPrice": 400.0,
-   "location": "象富邑 | 高雄市燕巢區瓊招路175巷002-050號 成交單價 10.82萬 成交總價 400萬",
-   "years": 33.0,
-   "area": 36.97
-  },
-  {
-   "dealDate": "2026-11-12",
-   "district": "鳳山區",
-   "community": "緯城世界觀",
+   "community": "龍鄉十二代",
    "ptype": "大樓",
    "totalPrice": 660.0,
-   "location": "緯城世界觀 | 高雄市鳳山區西湖街051-099號 成交單價 20.48萬 成交總價 660萬",
-   "years": 32.5,
-   "area": 32.23
+   "location": "龍鄉十二代 | 高雄市三民區大中一路101-149號 成交單價 18.89萬 成交總價 660萬",
+   "years": 30.4,
+   "area": 34.94
   },
   {
-   "dealDate": "2026-11-12",
-   "district": "鼓山區",
-   "community": "皇苑御之苑",
-   "ptype": "大樓",
-   "totalPrice": 3686.0,
-   "location": "皇苑御之苑 | 高雄市鼓山區馬卡道路051-099號 成交單價 0萬 成交總價 3686萬",
-   "years": 3.5,
-   "area": 76.74
-  },
-  {
-   "dealDate": "2026-11-12",
-   "district": "湖內區",
-   "community": "東方大地",
-   "ptype": "華廈",
-   "totalPrice": 473.0,
-   "location": "東方大地 | 高雄市湖內區東方路001-049號 成交單價 12.69萬 成交總價 473萬",
-   "years": 32.9,
-   "area": 37.27
-  },
-  {
-   "dealDate": "2026-11-12",
-   "district": "楠梓區",
-   "community": "泰嘉大學-水悦集",
-   "ptype": "大樓",
-   "totalPrice": 1168.0,
-   "location": "泰嘉大學-水悦集 | 高雄市楠梓區大學十八街102-150號 成交單價 0萬 成交總價 1168萬",
-   "years": 7.9,
-   "area": 44.13
-  },
-  {
-   "dealDate": "2026-11-12",
+   "dealDate": "2026-11-21",
    "district": "三民區",
-   "community": "太普明日匯A",
+   "community": "遠雄琢蘊",
    "ptype": "大樓",
-   "totalPrice": 3680.0,
-   "location": "太普明日匯A | 高雄市三民區康平街001-049號 成交單價 0萬 成交總價 3680萬",
-   "years": 5.9,
-   "area": 82.11
+   "totalPrice": 2430.0,
+   "location": "遠雄琢蘊 | 高雄市三民區延慶街002-050號 成交單價 0萬 成交總價 2430萬",
+   "years": 0.4,
+   "area": 59.29
   },
   {
-   "dealDate": "2026-11-12",
-   "district": "鳳山區",
+   "dealDate": "2026-11-21",
+   "district": "苓雅區",
+   "community": null,
+   "ptype": "公寓",
+   "totalPrice": 438.0,
+   "location": "高雄市苓雅區英義街102-150號 成交單價 20.75萬 成交總價 438萬",
+   "years": 48.1,
+   "area": 21.11
+  },
+  {
+   "dealDate": "2026-11-22",
+   "district": "左營區",
+   "community": "棋琴十一重奏",
+   "ptype": "大樓",
+   "totalPrice": 1208.0,
+   "location": "棋琴十一重奏 | 高雄市左營區新南街052-100號 成交單價 0萬 成交總價 1208萬",
+   "years": 15.2,
+   "area": 35.28
+  },
+  {
+   "dealDate": "2026-11-22",
+   "district": "左營區",
+   "community": null,
+   "ptype": "大樓",
+   "totalPrice": 990.0,
+   "location": "高雄市左營區榮總路183巷002-050號 成交單價 0萬 成交總價 990萬",
+   "years": 20.4,
+   "area": 34.35
+  },
+  {
+   "dealDate": "2026-11-22",
+   "district": "左營區",
+   "community": "美麗夏威夷",
+   "ptype": "大樓",
+   "totalPrice": 988.0,
+   "location": "美麗夏威夷 | 高雄市左營區民族一路102-150號 成交單價 0萬 成交總價 988萬",
+   "years": 19.3,
+   "area": 35.08
+  },
+  {
+   "dealDate": "2026-11-22",
+   "district": "苓雅區",
+   "community": "美麗Party",
+   "ptype": "大樓",
+   "totalPrice": 800.0,
+   "location": "美麗Party | 高雄市苓雅區仁義街001-049號 成交單價 29.88萬 成交總價 800萬",
+   "years": 22.7,
+   "area": 26.77
+  },
+  {
+   "dealDate": "2026-11-22",
+   "district": "前鎮區",
    "community": null,
    "ptype": "公寓",
    "totalPrice": 430.0,
-   "location": "高雄市鳳山區澄清路155巷002-050號 成交單價 12.86萬 成交總價 430萬",
-   "years": 47.0,
-   "area": 33.45
+   "location": "高雄市前鎮區瑞義街152-200號 成交單價 14.38萬 成交總價 430萬",
+   "years": 41.6,
+   "area": 29.91
   },
   {
-   "dealDate": "2026-11-13",
-   "district": "三民區",
-   "community": "文山麗馳",
-   "ptype": "大樓",
-   "totalPrice": 3380.0,
-   "location": "文山麗馳 | 高雄市三民區褒揚東街001-049號 成交單價 35.24萬 成交總價 3380萬",
-   "years": 12.0,
-   "area": 95.91
-  },
-  {
-   "dealDate": "2026-11-13",
+   "dealDate": "2026-11-22",
    "district": "小港區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 1500.0,
-   "location": "高雄市小港區大鵬路101-149號 成交單價 34.59萬 成交總價 1500萬",
-   "years": 41.7,
-   "area": 43.36
+   "community": "和築港心",
+   "ptype": "大樓",
+   "totalPrice": 1058.0,
+   "location": "和築港心 | 高雄市小港區港信路052-100號 成交單價 23.52萬 成交總價 1058萬",
+   "years": 5.1,
+   "area": 44.99
   },
   {
-   "dealDate": "2026-11-13",
+   "dealDate": "2026-11-22",
+   "district": "鳳山區",
+   "community": "微笑城堡",
+   "ptype": "大樓",
+   "totalPrice": 1521.0,
+   "location": "微笑城堡 | 高雄市鳳山區經武路151-199號 成交單價 0萬 成交總價 1521萬",
+   "years": 2.8,
+   "area": 45.06
+  },
+  {
+   "dealDate": "2026-11-22",
+   "district": "苓雅區",
+   "community": "仰德森",
+   "ptype": "大樓",
+   "totalPrice": 1120.0,
+   "location": "仰德森 | 高雄市苓雅區中正二路002-050號 成交單價 43.72萬 成交總價 1120萬",
+   "years": 4.9,
+   "area": 25.62
+  },
+  {
+   "dealDate": "2026-11-22",
+   "district": "前鎮區",
+   "community": "佛公國宅",
+   "ptype": "大樓",
+   "totalPrice": 590.0,
+   "location": "佛公國宅 | 高雄市前鎮區佛西街001-049號 成交單價 13.17萬 成交總價 590萬",
+   "years": 32.1,
+   "area": 44.81
+  },
+  {
+   "dealDate": "2026-11-22",
    "district": "湖內區",
    "community": null,
-   "ptype": "土地",
-   "totalPrice": 6279.0,
-   "location": "高雄市湖內區正義段 成交單價 0萬 成交總價 6279萬"
+   "ptype": "透天",
+   "totalPrice": 610.0,
+   "location": "高雄市湖內區正義一路216巷26弄001-049號 成交單價 9.84萬 成交總價 610萬",
+   "years": 32.0,
+   "area": 62.02
   },
   {
-   "dealDate": "2026-11-13",
-   "district": "三民區",
+   "dealDate": "2026-11-22",
+   "district": "楠梓區",
    "community": null,
-   "ptype": "公寓",
-   "totalPrice": 485.0,
-   "location": "高雄市三民區延吉街3巷001-049號 成交單價 27.2萬 成交總價 485萬",
-   "years": 48.0,
-   "area": 17.83
+   "ptype": "透天",
+   "totalPrice": 970.0,
+   "location": "高雄市楠梓區藍昌路119巷002-050號 成交單價 17.71萬 成交總價 970萬",
+   "years": 38.0,
+   "area": 54.78
   },
   {
-   "dealDate": "2026-11-13",
-   "district": "前金區",
-   "community": "愛情河左岸",
-   "ptype": "大樓",
+   "dealDate": "2026-11-22",
+   "district": "橋頭區",
+   "community": null,
+   "ptype": "土地",
    "totalPrice": 850.0,
-   "location": "愛情河左岸 | 高雄市前金區河東路102-150號 成交單價 37.02萬 成交總價 850萬",
-   "years": 2.3,
-   "area": 22.96
+   "location": "高雄市橋頭區橋南段 成交單價 0萬 成交總價 850萬"
   },
   {
-   "dealDate": "2026-11-13",
-   "district": "鳳山區",
-   "community": "中山新城社區",
-   "ptype": "大樓",
-   "totalPrice": 842.0,
-   "location": "中山新城社區 | 高雄市鳳山區四維街152-200號 成交單價 15.25萬 成交總價 842萬",
-   "years": 26.3,
-   "area": 55.23
+   "dealDate": "2026-11-22",
+   "district": "楠梓區",
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 1120.0,
+   "location": "高雄市楠梓區新昌街78巷002-050號 成交單價 53.01萬 成交總價 1120萬",
+   "years": 47.6,
+   "area": 21.13
   },
   {
-   "dealDate": "2026-11-13",
-   "district": "小港區",
-   "community": "POWER CITY/森呼吸",
-   "ptype": "大樓",
-   "totalPrice": 1550.0,
-   "location": "POWER CITY/森呼吸 | 高雄市小港區高松路001-049號 成交單價 28.86萬 成交總價 1550萬",
-   "years": 1.6,
-   "area": 53.7
-  },
-  {
-   "dealDate": "2026-11-13",
-   "district": "小港區",
-   "community": "捷靜A+",
-   "ptype": "大樓",
-   "totalPrice": 1142.0,
-   "location": "捷靜A+ | 高雄市小港區店仔後街051-099號 成交單價 0萬 成交總價 1142萬",
-   "years": 8.5,
-   "area": 53.51
-  },
-  {
-   "dealDate": "2026-11-13",
-   "district": "前鎮區",
-   "community": "太普D&G",
-   "ptype": "大樓",
-   "totalPrice": 838.0,
-   "location": "太普D&G | 高雄市前鎮區管仲南路352-400號 成交單價 30.74萬 成交總價 838萬",
-   "years": 20.9,
-   "area": 27.26
-  },
-  {
-   "dealDate": "2026-11-13",
-   "district": "苓雅區",
-   "community": "仰德漾",
-   "ptype": "大樓",
-   "totalPrice": 720.0,
-   "location": "仰德漾 | 高雄市苓雅區中正二路152-200號 成交單價 42.06萬 成交總價 720萬",
-   "years": 5.8,
-   "area": 17.12
-  },
-  {
-   "dealDate": "2026-11-13",
-   "district": "鳳山區",
-   "community": "浤圃星PARK",
-   "ptype": "大樓",
-   "totalPrice": 1510.0,
-   "location": "浤圃星PARK | 高雄市鳳山區鳳學路002-050號 成交單價 0萬 成交總價 1510萬",
-   "years": 2.4,
-   "area": 39.87
-  },
-  {
-   "dealDate": "2026-11-13",
-   "district": "左營區",
-   "community": "遠見麗景",
-   "ptype": "大樓",
-   "totalPrice": 1200.0,
-   "location": "遠見麗景 | 高雄市左營區新正路002-050號 成交單價 0萬 成交總價 1200萬",
-   "years": 28.9,
-   "area": 39.93
-  },
-  {
-   "dealDate": "2026-11-13",
-   "district": "三民區",
-   "community": "帝凡妮",
-   "ptype": "大樓",
-   "totalPrice": 1788.0,
-   "location": "帝凡妮 | 高雄市三民區澄清路652-700號 成交單價 30.2萬 成交總價 1788萬",
-   "years": 14.8,
-   "area": 59.21
-  },
-  {
-   "dealDate": "2026-11-13",
+   "dealDate": "2026-11-22",
    "district": "三民區",
    "community": null,
    "ptype": "公寓",
    "totalPrice": 360.0,
-   "location": "高雄市三民區建國一路402巷5弄002-050號 成交單價 16.51萬 成交總價 360萬",
-   "years": 57.5,
-   "area": 21.8
+   "location": "高雄市三民區延吉街1巷052-100號 成交單價 21.67萬 成交總價 360萬",
+   "years": 48.0,
+   "area": 16.61
   },
   {
-   "dealDate": "2026-11-13",
-   "district": "路竹區",
-   "community": null,
-   "ptype": "土地",
-   "totalPrice": 480.0,
-   "location": "高雄市路竹區立德段 成交單價 0萬 成交總價 480萬"
-  },
-  {
-   "dealDate": "2026-11-13",
-   "district": "前鎮區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 315.0,
-   "location": "高雄市前鎮區一心二路32巷2弄001-049號 成交單價 11.29萬 成交總價 315萬",
-   "years": 43.3,
-   "area": 27.91
-  },
-  {
-   "dealDate": "2026-11-13",
-   "district": "三民區",
-   "community": "悅讀綠森活II",
-   "ptype": "大樓",
-   "totalPrice": 800.0,
-   "location": "悅讀綠森活II | 高雄市三民區遼寧三街051-099號 成交單價 35.21萬 成交總價 800萬",
-   "years": 5.9,
-   "area": 22.72
-  },
-  {
-   "dealDate": "2026-11-14",
-   "district": "前金區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 380.0,
-   "location": "高雄市前金區鼎盛街051-099號 成交單價 15.98萬 成交總價 380萬",
-   "years": 39.2,
-   "area": 23.78
-  },
-  {
-   "dealDate": "2026-11-14",
-   "district": "三民區",
-   "community": "達麗河美",
-   "ptype": "大樓",
-   "totalPrice": 2210.0,
-   "location": "達麗河美 | 高雄市三民區河堤路552-600號 成交單價 0萬 成交總價 2210萬",
-   "years": 11.2,
-   "area": 77.27
-  },
-  {
-   "dealDate": "2026-11-14",
-   "district": "左營區",
-   "community": "陽光大樓",
-   "ptype": "大樓",
-   "totalPrice": 650.0,
-   "location": "陽光大樓 | 高雄市左營區大中二路624巷001-049號 成交單價 21.03萬 成交總價 650萬",
-   "years": 31.1,
-   "area": 30.91
-  },
-  {
-   "dealDate": "2026-11-14",
-   "district": "鳳山區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 1220.0,
-   "location": "高雄市鳳山區龍成路175巷30弄001-049號 成交單價 60.01萬 成交總價 1220萬",
-   "years": 50.4,
-   "area": 20.33
-  },
-  {
-   "dealDate": "2026-11-14",
-   "district": "左營區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 468.0,
-   "location": "高雄市左營區左營大路002-050號 成交單價 14.52萬 成交總價 468萬",
-   "years": 40.7,
-   "area": 32.24
-  },
-  {
-   "dealDate": "2026-11-14",
-   "district": "鳳山區",
-   "community": "聯上ME悅",
-   "ptype": "大樓",
-   "totalPrice": 900.0,
-   "location": "聯上ME悅 | 高雄市鳳山區錦田路001-049號 成交單價 0萬 成交總價 900萬",
-   "years": 1.4,
-   "area": 31.34
-  },
-  {
-   "dealDate": "2026-11-14",
+   "dealDate": "2026-11-22",
    "district": "楠梓區",
-   "community": "楠梓瀚",
+   "community": "鐘愛一生",
    "ptype": "大樓",
-   "totalPrice": 2700.0,
-   "location": "楠梓瀚 | 高雄市楠梓區東寧路101-149號 成交單價 0萬 成交總價 2700萬",
-   "years": 11.7,
-   "area": 97.99
+   "totalPrice": 1210.0,
+   "location": "鐘愛一生 | 高雄市楠梓區德惠路052-100號 成交單價 29.61萬 成交總價 1210萬",
+   "years": 31.3,
+   "area": 40.86
   },
   {
-   "dealDate": "2026-11-14",
-   "district": "苓雅區",
-   "community": "道明書香",
-   "ptype": "大樓",
-   "totalPrice": 825.0,
-   "location": "道明書香 | 高雄市苓雅區行信路001-049號 成交單價 25.76萬 成交總價 825萬",
-   "years": 33.5,
-   "area": 32.03
-  },
-  {
-   "dealDate": "2026-11-14",
-   "district": "三民區",
-   "community": "京城之戀",
-   "ptype": "大樓",
-   "totalPrice": 665.0,
-   "location": "京城之戀 | 高雄市三民區春陽街052-100號 成交單價 26.58萬 成交總價 665萬",
-   "years": 25.0,
-   "area": 25.02
-  },
-  {
-   "dealDate": "2026-11-14",
-   "district": "三民區",
-   "community": "甲六園淳白A棟",
-   "ptype": "大樓",
-   "totalPrice": 3000.0,
-   "location": "甲六園淳白A棟 | 高雄市三民區大連街351-399號 成交單價 0萬 成交總價 3000萬",
-   "years": 5.4,
-   "area": 70.4
-  },
-  {
-   "dealDate": "2026-11-14",
-   "district": "三民區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 1830.0,
-   "location": "高雄市三民區中華二路052-100號 成交單價 25.48萬 成交總價 1830萬",
-   "years": 39.6,
-   "area": 71.83
-  },
-  {
-   "dealDate": "2026-11-14",
-   "district": "鳳山區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 1300.0,
-   "location": "高雄市鳳山區南華一路196巷001-049號 成交單價 24.78萬 成交總價 1300萬",
-   "years": 24.2,
-   "area": 52.47
-  },
-  {
-   "dealDate": "2026-11-14",
-   "district": "苓雅區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 320.0,
-   "location": "高雄市苓雅區武廟路116巷002-050號 成交單價 13.34萬 成交總價 320萬",
-   "years": 45.2,
-   "area": 23.99
-  },
-  {
-   "dealDate": "2026-11-14",
-   "district": "三民區",
-   "community": "生活王牌",
-   "ptype": "大樓",
-   "totalPrice": 850.0,
-   "location": "生活王牌 | 高雄市三民區大順二路601-649號 成交單價 21.9萬 成交總價 850萬",
-   "years": 30.4,
-   "area": 38.82
-  },
-  {
-   "dealDate": "2026-11-14",
-   "district": "大寮區",
-   "community": "翡翠山林",
-   "ptype": "透天",
-   "totalPrice": 1390.0,
-   "location": "翡翠山林 | 高雄市大寮區仁忠路252-300號 成交單價 24.63萬 成交總價 1390萬",
-   "years": 22.3,
-   "area": 56.43
-  },
-  {
-   "dealDate": "2026-11-14",
-   "district": "大寮區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 1295.0,
-   "location": "高雄市大寮區鳳屏一路151-199號 成交單價 21.15萬 成交總價 1295萬",
-   "years": 21.7,
-   "area": 61.24
-  },
-  {
-   "dealDate": "2026-11-14",
-   "district": "三民區",
-   "community": "長谷威尼斯",
-   "ptype": "大樓",
-   "totalPrice": 930.0,
-   "location": "長谷威尼斯 | 高雄市三民區同盟三路252-300號 成交單價 19.86萬 成交總價 930萬",
-   "years": 32.3,
-   "area": 46.83
-  },
-  {
-   "dealDate": "2026-11-14",
-   "district": "小港區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 1270.0,
-   "location": "高雄市小港區鳳福路051-099號 成交單價 46.03萬 成交總價 1270萬",
-   "years": 47.1,
-   "area": 27.59
-  },
-  {
-   "dealDate": "2026-11-14",
-   "district": "新興區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 5150.0,
-   "location": "高雄市新興區六合一路051-099號 成交單價 133.98萬 成交總價 5150萬",
-   "years": 68.7,
-   "area": 38.44
-  },
-  {
-   "dealDate": "2026-11-14",
-   "district": "仁武區",
-   "community": "欣澄",
-   "ptype": "大樓",
-   "totalPrice": 1200.0,
-   "location": "欣澄 | 高雄市仁武區京中四街252-300號 成交單價 31.47萬 成交總價 1200萬",
-   "years": 2.8,
-   "area": 38.13
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "鹽埕區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 910.0,
-   "location": "高雄市鹽埕區大智路141巷002-050號 成交單價 16.18萬 成交總價 910萬",
-   "years": 61.0,
-   "area": 56.24
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "前鎮區",
-   "community": "瑞隆松下",
-   "ptype": "大樓",
-   "totalPrice": 1080.0,
-   "location": "瑞隆松下 | 高雄市前鎮區瑞隆路551-599號 成交單價 28.62萬 成交總價 1080萬",
-   "years": 1.0,
-   "area": 37.73
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "茄萣區",
-   "community": "日東昇恆美NO3",
-   "ptype": "土地",
-   "totalPrice": 1470.0,
-   "location": "日東昇恆美NO3 | 高雄市茄萣區尚義街101-149號 成交單價 28.53萬 成交總價 1470萬",
-   "years": 6.3,
-   "area": 51.52
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "三民區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 500.0,
-   "location": "高雄市三民區民族一路201-249號 成交單價 7.98萬 成交總價 500萬",
-   "years": 45.7,
-   "area": 62.68
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "三民區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 980.0,
-   "location": "高雄市三民區鼎金中街8巷002-050號 成交單價 23.38萬 成交總價 980萬",
-   "years": 47.3,
-   "area": 41.91
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "前鎮區",
-   "community": "獅甲國宅",
-   "ptype": "大樓",
-   "totalPrice": 930.0,
-   "location": "獅甲國宅 | 高雄市前鎮區中華五路1007巷001-049號 成交單價 21.52萬 成交總價 930萬",
-   "years": 24.4,
-   "area": 43.22
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "鳥松區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 800.0,
-   "location": "高雄市鳥松區美山路36巷001-049號 成交單價 10.21萬 成交總價 800萬",
-   "years": 33.0,
-   "area": 78.38
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "苓雅區",
-   "community": "都廳苑",
-   "ptype": "大樓",
-   "totalPrice": 3950.0,
-   "location": "都廳苑 | 高雄市苓雅區四維三路001-049號 成交單價 25.62萬 成交總價 3950萬",
-   "years": 17.0,
-   "area": 154.2
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "三民區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 390.0,
-   "location": "高雄市三民區民業路002-050號 成交單價 16.02萬 成交總價 390萬",
-   "years": 42.6,
-   "area": 24.34
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "小港區",
-   "community": "永信藍帶",
-   "ptype": "大樓",
-   "totalPrice": 1398.0,
-   "location": "永信藍帶 | 高雄市小港區敬業路001-049號 成交單價 0萬 成交總價 1398萬",
-   "years": 11.0,
-   "area": 54.05
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "鼓山區",
-   "community": "中山龍門",
-   "ptype": "公寓",
-   "totalPrice": 500.0,
-   "location": "中山龍門 | 高雄市鼓山區濱海二路002-050號 成交單價 21.95萬 成交總價 500萬",
-   "years": 40.3,
-   "area": 22.78
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "鳳山區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 800.0,
-   "location": "高雄市鳳山區老爺四街002-050號 成交單價 30.85萬 成交總價 800萬",
-   "years": 52.4,
-   "area": 25.93
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "左營區",
-   "community": "白玉岸",
-   "ptype": "大樓",
-   "totalPrice": 4580.0,
-   "location": "白玉岸 | 高雄市左營區孟子路501-549號 成交單價 0萬 成交總價 4580萬",
-   "years": 12.7,
-   "area": 154.73
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "鳳山區",
-   "community": "悅讀DNA",
-   "ptype": "大樓",
-   "totalPrice": 1480.0,
-   "location": "悅讀DNA | 高雄市鳳山區海涵路551-599號 成交單價 33.98萬 成交總價 1480萬",
-   "years": 4.6,
-   "area": 43.55
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "前鎮區",
-   "community": "瑞隆松下",
-   "ptype": "大樓",
-   "totalPrice": 1088.0,
-   "location": "瑞隆松下 | 高雄市前鎮區瑞隆路551-599號 成交單價 0萬 成交總價 1088萬",
-   "years": 1.0,
-   "area": 37.89
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "鳳山區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 1130.0,
-   "location": "高雄市鳳山區中和街002-050號 成交單價 19.1萬 成交總價 1130萬",
-   "years": 42.3,
-   "area": 59.15
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "左營區",
-   "community": "康乃爾大樓",
-   "ptype": "大樓",
-   "totalPrice": 710.0,
-   "location": "康乃爾大樓 | 高雄市左營區華夏路702-750號 成交單價 0萬 成交總價 710萬",
-   "years": 28.3,
-   "area": 26.92
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "左營區",
-   "community": "泰陽大樓",
-   "ptype": "大樓",
-   "totalPrice": 1435.0,
-   "location": "泰陽大樓 | 高雄市左營區重偉街051-099號 成交單價 29.04萬 成交總價 1435萬",
-   "years": 23.3,
-   "area": 49.41
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "苓雅區",
-   "community": "星玥灣",
-   "ptype": "大樓",
-   "totalPrice": 1400.0,
-   "location": "星玥灣 | 高雄市苓雅區三多四路052-100號 成交單價 0萬 成交總價 1400萬",
-   "years": 1.2,
-   "area": 42.75
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "大寮區",
+   "dealDate": "2026-11-22",
+   "district": "岡山區",
    "community": null,
    "ptype": "土地",
-   "totalPrice": 820.0,
-   "location": "高雄市大寮區進學路70巷002-050號 成交單價 27.36萬 成交總價 820萬",
-   "years": 48.6,
-   "area": 29.97
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "左營區",
-   "community": "京悅",
-   "ptype": "大樓",
-   "totalPrice": 3800.0,
-   "location": "京悅 | 高雄市左營區博愛二路202-250號 成交單價 32.46萬 成交總價 3800萬",
-   "years": 15.1,
-   "area": 117.06
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "美濃區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 450.0,
-   "location": "高雄市美濃區成功路265巷151-199號 成交單價 9.87萬 成交總價 450萬",
-   "years": 32.3,
-   "area": 45.61
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "岡山區",
-   "community": null,
-   "ptype": "透天",
-   "totalPrice": 615.0,
-   "location": "高雄市岡山區富貴路53巷21弄001-049號 成交單價 26.58萬 成交總價 615萬",
-   "years": 42.7,
-   "area": 23.14
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "鼓山區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 138.0,
-   "location": "高雄市鼓山區臨海二路56巷001-049號 成交單價 7.86萬 成交總價 138萬",
-   "years": 49.8,
-   "area": 17.55
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "苓雅區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 265.0,
-   "location": "高雄市苓雅區永泰路001-049號 成交單價 7.87萬 成交總價 265萬",
-   "years": 42.5,
-   "area": 33.68
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "岡山區",
-   "community": "岡山勵志新城-甲區",
-   "ptype": "大樓",
-   "totalPrice": 1100.0,
-   "location": "岡山勵志新城-甲區 | 高雄市岡山區勵志路102-150號 成交單價 19.61萬 成交總價 1100萬",
-   "years": 20.5,
-   "area": 56.08
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "楠梓區",
-   "community": "Super one",
-   "ptype": "大樓",
-   "totalPrice": 1050.0,
-   "location": "Super one | 高雄市楠梓區秀群路499巷7弄002-050號 成交單價 0萬 成交總價 1050萬",
-   "years": 13.5,
-   "area": 40.69
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "前鎮區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 226.0,
-   "location": "高雄市前鎮區鎮東一街395巷002-050號 成交單價 12.7萬 成交總價 226萬",
-   "years": 48.1,
-   "area": 17.8
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "左營區",
-   "community": "晶硯",
-   "ptype": "大樓",
-   "totalPrice": 4800.0,
-   "location": "晶硯 | 高雄市左營區新榮街051-099號 成交單價 0萬 成交總價 4800萬",
-   "years": 12.4,
-   "area": 109.62
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "鳳山區",
-   "community": null,
-   "ptype": "公寓",
-   "totalPrice": 550.0,
-   "location": "高雄市鳳山區杭州街002-050號 成交單價 31.96萬 成交總價 550萬",
-   "years": 39.7,
-   "area": 17.21
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "左營區",
-   "community": "棋琴26重奏",
-   "ptype": "大樓",
-   "totalPrice": 1280.0,
-   "location": "棋琴26重奏 | 高雄市左營區文川路451-499號 成交單價 0萬 成交總價 1280萬",
-   "years": 1.9,
-   "area": 31.49
-  },
-  {
-   "dealDate": "2026-11-15",
-   "district": "岡山區",
-   "community": "維崗荷蘭鎮",
-   "ptype": "透天",
    "totalPrice": 1750.0,
-   "location": "維崗荷蘭鎮 | 高雄市岡山區華園路32巷001-049號 成交單價 32.02萬 成交總價 1750萬",
-   "years": 8.4,
-   "area": 54.66
+   "location": "高雄市岡山區嘉興段 成交單價 0萬 成交總價 1750萬"
   },
   {
-   "dealDate": "2026-11-15",
+   "dealDate": "2026-11-22",
+   "district": "鳳山區",
+   "community": null,
+   "ptype": "公寓",
+   "totalPrice": 385.0,
+   "location": "高雄市鳳山區華泰街051-099號 成交單價 14.44萬 成交總價 385萬",
+   "years": 47.6,
+   "area": 26.67
+  },
+  {
+   "dealDate": "2026-11-22",
+   "district": "鳳山區",
+   "community": "京城熱帶嶼",
+   "ptype": "大樓",
+   "totalPrice": 990.0,
+   "location": "京城熱帶嶼 | 高雄市鳳山區鳳甲二街101-149號 成交單價 0萬 成交總價 990萬",
+   "years": 25.4,
+   "area": 40.93
+  },
+  {
+   "dealDate": "2026-11-22",
    "district": "湖內區",
    "community": null,
    "ptype": "透天",
-   "totalPrice": 538.0,
-   "location": "高雄市湖內區正義一路216巷8弄101-149號 成交單價 10.12萬 成交總價 538萬",
-   "years": 31.6,
-   "area": 53.14
+   "totalPrice": 680.0,
+   "location": "高雄市湖內區中正路一段401-449號 成交單價 20.77萬 成交總價 680萬",
+   "years": 56.4,
+   "area": 32.74
   },
   {
-   "dealDate": "2026-11-15",
-   "district": "苓雅區",
-   "community": null,
-   "ptype": "大樓",
-   "totalPrice": 358.0,
-   "location": "高雄市苓雅區六合路102-150號 成交單價 23.01萬 成交總價 358萬",
-   "years": 35.2,
-   "area": 15.56
-  },
-  {
-   "dealDate": "2026-11-15",
+   "dealDate": "2026-11-22",
    "district": "三民區",
-   "community": "東方瑞士",
-   "ptype": "大樓",
-   "totalPrice": 800.0,
-   "location": "東方瑞士 | 高雄市三民區大豐一路101-149號 成交單價 19.92萬 成交總價 800萬",
-   "years": 33.5,
-   "area": 40.16
+   "community": null,
+   "ptype": "透天",
+   "totalPrice": 900.0,
+   "location": "高雄市三民區義華路229巷001-049號 成交單價 23.15萬 成交總價 900萬",
+   "years": 46.4,
+   "area": 38.88
   },
   {
-   "dealDate": "2026-11-15",
-   "district": "楠梓區",
-   "community": "和築捷市悅",
+   "dealDate": "2026-11-22",
+   "district": "左營區",
+   "community": "龍騰鑫高鐵",
    "ptype": "大樓",
-   "totalPrice": 930.0,
-   "location": "和築捷市悅 | 高雄市楠梓區加昌路88巷052-100號 成交單價 0萬 成交總價 930萬",
-   "years": 2.2,
-   "area": 31.92
+   "totalPrice": 1328.0,
+   "location": "龍騰鑫高鐵 | 高雄市左營區重平路051-099號 成交單價 0萬 成交總價 1328萬",
+   "years": 6.5,
+   "area": 41.9
   },
   {
-   "dealDate": "2026-11-15",
-   "district": "前鎮區",
-   "community": "美的 皇家",
+   "dealDate": "2026-11-22",
+   "district": "大樹區",
+   "community": "皇城御品",
+   "ptype": "華廈",
+   "totalPrice": 790.0,
+   "location": "皇城御品 | 高雄市大樹區實踐街85巷002-050號 成交單價 25.86萬 成交總價 790萬",
+   "years": 3.4,
+   "area": 30.55
+  },
+  {
+   "dealDate": "2026-11-22",
+   "district": "三民區",
+   "community": null,
+   "ptype": "公寓",
+   "totalPrice": 600.0,
+   "location": "高雄市三民區民信路002-050號 成交單價 19.89萬 成交總價 600萬",
+   "years": 40.3,
+   "area": 30.16
+  },
+  {
+   "dealDate": "2026-11-22",
+   "district": "仁武區",
+   "community": "18富B區B",
+   "ptype": "透天",
+   "totalPrice": 1780.0,
+   "location": "18富B區B | 高雄市仁武區同和路151-199號 成交單價 31.47萬 成交總價 1780萬",
+   "years": 8.0,
+   "area": 56.56
+  },
+  {
+   "dealDate": "2026-11-22",
+   "district": "左營區",
+   "community": "I世界",
    "ptype": "大樓",
-   "totalPrice": 880.0,
-   "location": "美的 皇家 | 高雄市前鎮區林森三路152-200號 成交單價 17.35萬 成交總價 880萬",
-   "years": 36.6,
-   "area": 50.71
+   "totalPrice": 1030.0,
+   "location": "I世界 | 高雄市左營區鼓山三路351-399號 成交單價 27.5萬 成交總價 1030萬",
+   "years": 4.7,
+   "area": 37.45
   }
  ]
 }
